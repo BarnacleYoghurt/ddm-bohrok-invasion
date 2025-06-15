@@ -1,0 +1,248 @@
+{
+    "toaBase": {
+        "card": [
+            { "Toa Mata Tahu": 2 },
+            { "Toa Mata Gali": 2 },
+            { "Toa Mata Onua": 2 },
+            { "Toa Mata Pohatu": 2 },
+            { "Toa Mata Kopaka": 2 },
+            { "Toa Mata Lewa": 2},
+            "Great Kanohi Hau",
+            "Great Kanohi Kaukau",
+            "Great Kanohi Pakari",
+            "Great Kanohi Kakama",
+            "Great Kanohi Akaku",
+            "Great Kanohi Miru",
+            { "Suva": 3 },
+            { "Suva Kaita": 3 },
+            { "Gift of the Shrine": 3 },
+            { "Call of the Toa Stones": 3 },
+            { "Coming of the Toa": 3 },
+            { "Quest for the Masks" : 3 },
+            { "The Great Temple, Kini-Nui": 3 }
+        ]
+    },
+    "fire": {
+        "card": [
+            "Toa Mata Tahu",
+            "Great Kanohi Hau",
+            { "Berlineth the Firestorm Vassal": 3 },
+            { "Infernoble Knight - Renaud": 3 },
+            { "\"Infernoble Arms - Durendal\"": 3 },
+            { "Super Quantum Red Layer": 3 },
+            { "Ha-Re the Sword Mikanko": 3 },
+            { "Mikanko Fire Dance": 3 },
+            { "Mikanko Water Arabesque": 3 },
+            { "Sublimation Knight": 3 },
+            { "Squeaknight": 3 },
+            { "Rekindling": 3 },
+            "Hiita the Fire Charmer, Ablaze",
+            "Knightmare Phoenix",
+            "Powercode Talker"
+        ]
+    },
+    "water": {
+        "card": [
+            ["Toa Mata Gali", "Toa Mata Kopaka"],
+            ["Great Kanohi Kaukau", "Great Kanohi Akaku"],
+            { "Majiosheldon": 3 },
+            "Kanzashi the Rikka Queen",
+            "Marincess Coral Anemone",
+            { "Steam Synchron": 3 },
+            "Ravenous Crocodragon Archethys",
+            { "Dupe Frog": 3 },
+            { "Swap Frog": 3 },
+            { "Ronintoadin": 3 },
+            "Cat Shark",
+            { "Deep Sea Diva": 3 },
+            "Paleozoic Opabinia",
+            { "Paleozoic Canadia": 3 },
+            { "Paleozoic Olenoides": 3 },
+            "Eria the Water Charmer, Gentle",
+            { "Salvage": 3 }
+        ]
+    },
+    "earth": {
+        "card": [
+            ["Toa Mata Onua", "Toa Mata Pohatu"],
+            ["Great Kanohi Pakari", "Great Kanohi Kakama"],
+            { "Samsara Kaiser": 3 },
+            { "SPYRAL Super Agent": 3 },
+            { "Grandsoil the Elemental Lord": 3 },
+            { "Junk Forward": 3 },
+            { "Adamancipator Researcher": 3 },
+            { "Nemeses Keystone": 3 },
+            "Knightmare Cerberus",
+            "Aussa the Earth Charmer, Immovable",
+            "Power Tool Dragon",
+            "Power Tool Braver Dragon",
+            "Goyo Guardian",
+            { "Rookie Warrior Lady": 3 },
+            { "Planet Pathfinder": 3 },
+            { "Landrobe the Rock Vassal": 3},
+            { "Revolution Synchron": 3 }
+        ]
+    },
+    "wind": {
+        "card": [
+            "Toa Mata Lewa",
+            "Great Kanohi Miru",
+            { "Legendary Six Samurai - Kageki": 3 },
+            { "Secret Six Samurai - Fuma": 3 },
+            { "Speedroid Terrortop": 3 },
+            { "Speedroid Taketomborg": 3 },
+            { "Speedroid CarTurbo": 3 },
+            "Virtual World Beast - Jiujiu",
+            "Stellar Wind Wolfrayet",
+            "Number 75: Bamboozling Gossip Shadow",
+            { "Garum the Storm Vassal": 3 },
+            { "Summon Storm": 3 }
+        ]
+    },
+    "bohrokBase": {
+        "card": [
+            { "Bohrok Tahnok": 3 },
+            { "Bohrok Gahlok": 3 },
+            { "Bohrok Nuhvok": 3 },
+            { "Bohrok Pahrak": 3 },
+            { "Bohrok Kohrak": 3 },
+            { "Bohrok Lehvak": 3 },
+            { "Krana Vu, Surveyor": 3 },
+            { "Krana Su, Worker": 3 },
+            { "Krana Za, Squad Leader": 3 },
+            { "Krana Bo, Sentinel": 3 },
+            { "Krana Xa, Swarm Commander": 3 },
+            { "Krana Yo, Mole": 3 },
+            { "Krana Ca, Clearance Worker": 3 },
+            { "Krana Ja, Scout": 3 },
+            { "Beware the Swarm": 3 },
+            { "Bohrok Tahnok Va": 3 },
+            { "Bohrok Gahlok Va": 3 },
+            { "Bohrok Nuhvok Va": 3 },
+            { "Bohrok Pahrak Va": 3 },
+            { "Bohrok Kohrak Va": 3 },
+            { "Bohrok Lehvak Va": 3 },
+            { "Bohrok Confrontation": 3 },
+            { "Bohrok Invasion": 3 },
+            { "Bohrok Nest": 3 },
+            { "If You Wake One...": 3 },
+            { "...You Wake Them All": 3 }
+        ]
+    },
+    "l4Bohrok": {
+        "card": [
+            { "Bohrok Tahnok": 3 },
+            { "Bohrok Gahlok": 3 },
+            { "Bohrok Nuhvok": 3 },
+            { "Bohrok Pahrak": 3 },
+            { "Bohrok Kohrak": 3 },
+            { "Bohrok Lehvak": 3 },
+            { "If You Wake One...": 3 },
+            { "...You Wake Them All": 3 },
+            "Gear Gigant X",
+            "Number 85: Crazy Box",
+            "Number 103: Ragnazero",
+            "Diamond Dire Wolf"
+        ]
+    },
+    "krana": {
+        "card": [
+            { "Krana Vu, Surveyor": 3 },
+            { "Krana Su, Worker": 3 },
+            { "Krana Za, Squad Leader": 3 },
+            { "Krana Bo, Sentinel": 3 },
+            { "Krana Xa, Swarm Commander": 3 },
+            { "Krana Yo, Mole": 3 },
+            { "Krana Ca, Clearance Worker": 3 },
+            { "Krana Ja, Scout": 3 },
+            { "Bohrok Confrontation": 3 }
+        ]
+    },
+    "bohrokVa": {
+        "card": [
+            { "Beware the Swarm": 3 },
+            { "Bohrok Tahnok Va": 3 },
+            { "Bohrok Gahlok Va": 3 },
+            { "Bohrok Nuhvok Va": 3 },
+            { "Bohrok Pahrak Va": 3 },
+            { "Bohrok Kohrak Va": 3 },
+            { "Bohrok Lehvak Va": 3 },
+            "Hi-Speedroid Kendama",
+            "Penguin Brave",
+            "Red Wyvern",
+            "Celestial Wolf Lord, Blue Sirius"
+        ]
+    },
+    "boxor": {
+        "card": [
+            { "Matoran Engineer Nuparu": 3 },
+            { "C.C. Matoran Taipu": 3 },
+            { "Empty Bohrok Shell": 3 },
+            { "The Boxor, Weapon of the Matoran": 3 },
+            { "Exo-Toa": 3 },
+            { "Exo Armaments": 3 }
+        ]
+    },
+    "toaKaita": {
+        "card": [
+            { "Toa Mata Combination - Magma": 3 },
+            { "Toa Mata Combination - Crystal": 3 },
+            { "Toa Mata Combination - Storm": 3 },
+            { "Suva Kaita": 3 },
+            "Akamai, Toa Kaita of Valor",
+            "Wairuha, Toa Kaita of Wisdom"
+        ]
+    },
+    "bahrag": {
+        "card": [
+            { "Bahrag Cahdok, Queen of the Bohrok": 3 },
+            { "Bahrag Gahdok, Queen of the Bohrok": 3 },
+            { "Queens' Illusion": 3 },
+            { "As It Was in the Before-Time": 3 }
+        ]
+    },
+    "bohrokKaita": {
+        "card": [
+            { "Bohrok Kaita Ja": 3 },
+            { "Bohrok Kaita Za": 3 },
+            { "Bohrok Va Kaita Ja": 3 },
+            { "Bohrok Va Kaita Za": 3 },
+            { "Bohrok Swarm Fusion": 3 },
+            { "Instant Fusion": 3 }
+        ]
+    },
+    "nuva": {
+        "card": [
+            "Toa Nuva Tahu",
+            "Toa Nuva Gali",
+            "Toa Nuva Onua",
+            "Toa Nuva Pohatu",
+            "Toa Nuva Kopaka",
+            "Toa Nuva Lewa",
+            { "Tales of the Nuva": 3 },
+            { "Nuva Emergence": 3 },
+            { "Nuva Overcharge": 3 }
+        ]
+    },
+    "kal": {
+        "card": [
+            "Bohrok Tahnok-Kal",
+            "Bohrok Gahlok-Kal",
+            "Bohrok Nuhvok-Kal",
+            "Bohrok Pahrak-Kal",
+            "Bohrok Kohrak-Kal",
+            "Bohrok Lehvak-Kal",
+            "Krana Xa-Kal, Liberator",
+            "Krana Ca-Kal, Seeker",
+            "Krana Vu-Kal, Transporter",
+            "Krana Ja-Kal, Tracker",
+            "Krana Bo-Kal, Visionary",
+            "Krana Za-Kal, Overseer",
+            "Krana Su-Kal, Demolisher",
+            "Krana Yo-Kal, Excavator",
+            { "Bohrok Kalifornication": 3 },
+            { "Bohrok Counterattack": 3 },
+            { "Bohrok-Kal Strategy": 3 }
+        ]
+    }
+}

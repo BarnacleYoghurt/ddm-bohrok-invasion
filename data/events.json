@@ -1,0 +1,783 @@
+{
+    "area": {
+        "START": {
+            "image": "faceoff.webp",
+            "mdata": [
+                ["text: introduction"]
+            ]
+        },
+        "toa1": {
+            "image": "kini-nui.webp",
+            "mdata": [
+                ["pack: toaBase"],
+                ["text: ta", "text: gako", "text: onupo", "text: le"],
+                ["pick: toaBase"],
+                ["text: toaDuel1"]
+            ],
+            "vars": {
+                "side": "toa"
+            }
+        },
+        "bohrok1": {
+            "image": "bohrok_nest.webp",
+            "mdata": [
+                ["pack: bohrokBase"],
+                ["text: gahdok", "text: krana", "text: cahdok"],
+                ["pick: bohrokBase"],
+                ["text: bohrokDuel1"]
+
+            ],
+            "vars": {
+                "side": "bohrok"
+            }
+        },
+        "toa2": {
+            "image": "cave.webp",
+            "mdata": [
+                ["text:boxor", "text:toaKaita"],
+                ["swap:toa2"],
+                ["text:toaDuel2"]
+            ]
+        },
+        "bohrok2": {
+            "image": "invasion.webp",
+            "mdata": [
+                ["text:bahrag", "text:bohrokKaita"],
+                ["swap:bohrok2"],
+                ["text:bohrokDuel2"]
+            ]
+        },
+        "toa3": {
+            "image": "ep.webp",
+            "mdata": [
+                ["text:emergence"],
+                ["swap:toa3"],
+                ["text:duel3"]
+            ]
+        },
+        "bohrok3": {
+            "image": "kal_hive.webp",
+            "mdata": [
+                ["text:kalifornication"],
+                ["swap:bohrok3"],
+                ["text:duel3"]
+            ]
+        }
+    },
+    "text": {
+        "introduction": {
+            "micon": "vs.webp",
+            "chain": "choice:faction",
+            "image": "black.webp",
+            "parts": [
+                {
+                    "char": "intro", "src": "introduction.webp", "name": "Introduction",
+                    "text": "Welcome to {{italic::Bohrok Invasion}}, a campaign utilizing the card pool of the Bionicle YGOPro Expansion."
+                },
+                {"text": "In the role of either the Toa or the Bohrok Swarms, the players will face off over the fate of the island of Mata Nui.\nFirst, choose which side to take."},
+                {"text": "(Both players can technically make the same choice, but be aware the lore won't make any sense if you do.)"}
+            ]
+        },
+        "toaIntro": {
+            "chain": "area:toa1",
+            "parts": [
+                {
+                    "char": "takua", "src": "takua.webp", "name": "Takua, the Chronicler",
+                    "text": "The defeat of Makuta at the hands of the Toa was supposed to bring an end to the dark times on Mata Nui ..."
+                },
+                { "text": "But with the sudden appearance of the Bohrok swarms pouring out from their nests deep beneath the ground, the island faces greater danger than ever." },
+                { "text": "To combat this new threat, the Toa have once more gathered at Kini-Nui." }
+            ]
+        },
+        "bohrokIntro": {
+            "chain": "area:bohrok1",
+            "parts": [
+                {
+                    "char": "gearhead", "src": "gearhead.webp", "name": "Gearhead Bohrok, the Royal Herald",
+                    "text": "The beacon has been received. The time of awakening draws close. Now, Mata Nui must be made as it was in the Before-Time."
+                },
+                { "text": "Huh? Me? You don't remember me from the chronicles?" },
+                { "text": "Of course not. I wrote at least some of those, and I don't unduly toot my own horn, unlike A CERTAIN COLLEAGUE OF MINE WHO ACTS LIKE HE'S THE PROTAGONIST AND -" },
+                { "text": "Ahem. Where was I? Yes, let us take a look at the preparations taking place in the Bohrok Nests." }
+            ]
+        },
+        "ta": {
+            "micon": "fire.webp",
+            "mdesc": "FIRE",
+            "chain": "pack:fire",
+            "parts": [
+                {
+                    "char": "tahu", "src": "tahu.webp", "name": "Tahu",
+                    "text": "There is no time to waste. Every moment that passes, the Bohrok advance, setting the island ablaze."
+                },
+                {"text": "But the heat of the flames shall be their demise."}
+            ]
+        },
+        "gako": {
+            "micon": "water.webp",
+            "mdesc": "WATER",
+            "chain": "pack:water",
+            "parts": [
+                {
+                    "char": "kopaka", "src": "kopaka.webp", "name": "Kopaka",
+                    "text": "... Great. Teaming up. Just what I like."
+                },
+                {
+                    "move": "kopaka", "dist": 60, "speed": 2
+                },
+                {
+                    "char": "gali", "src": "gali.webp", "name": "Gali", "left": -40,
+                    "text": "Spare me the freezing remarks, brother. You are well aware that finding what dwells in these waters will be of use to us both, aren't you?"
+                },
+                {
+                    "char": "kopaka", "text": "..."
+                },
+                {
+                    "move": "kopaka", "dist": 100, "speed": 3
+                },
+                {
+                    "char": "gali", "text": "I guess that's a yes."
+                },
+                {
+                    "move": "gali", "dist": 100, "speed": 2
+                }
+            ]
+        },
+        "onupo": {
+            "micon": "earth.webp",
+            "mdesc": "EARTH",
+            "chain": "pack:earth",
+            "parts": [
+                {
+                    "char": "meeting", "src": "pohatu_meeting_onua.webp", "anim": "in_fly_u"
+                },
+                {
+                    "char": "meeting", "anim": "blur",
+                    "name": "Pohatu", "text": "Whoa there!"
+                },
+                {
+                    "char": "pohatu", "src": "pohatu.webp", "name": "Pohatu", "left": -45,
+                    "text": "Talk about a chance meeting. How are things looking down below?"
+                },
+                {
+                    "char": "onua", "src": "onua.webp", "name": "Onua", "left": 45,
+                    "text": "Not much better than on the surface, I'm afraid. Fortifying the tunnels has held the swarms at bay, but with their numbers and persistence, they will break through before long."
+                },
+                {
+                    "text": "Unless we can stop them first, that is. The earth holds many treasures that may help us out ..."
+                }
+            ]
+        },
+        "le": {
+            "micon": "wind.webp",
+            "mdesc": "WIND",
+            "chain": "pack:wind",
+            "parts": [
+                {
+                    "char": "lewa", "src": "lewa.webp", "name": "Lewa",
+                    "text": "The way these creatures are pouring out, even up-tree Le-Koro will not escape their attacks for long."
+                },
+                {"text": "We're going to need some high-flying help to handle this quick-fast."}
+            ]
+        },
+        "toaDuel1": {
+            "micon": "vs.webp",
+            "mdesc": "Confront the Bohrok Swarms (Duel)",
+            "chain": "duel:duel1",
+            "parts": [
+                {
+                    "char": "takua", "src": "takua.webp", "name": "Takua, the Chronicler",
+                    "text": "With their allies assembled and strategy clear, the Toa head out to confront the rampaging swarms."
+                },
+                { "text": "This is but one of many battles to protect the island of Mata Nui." }
+            ]
+        },
+        "toaWin1": {
+            "chain": "area:toa2",
+            "parts": [
+                {
+                    "char": "takua", "src": "takua.webp", "name": "Takua, the Chronicler",
+                    "text": "Despite some success in combating the swarm, their tireless advance showed no signs of ceasing."
+                },
+                { "text": "In an effort to turn the tables, the islanders began devising new tactics." }
+            ]
+        },
+        "toaLose1": {
+            "chain": "area:toa2",
+            "parts": [
+                {
+                    "char": "takua", "src": "takua.webp", "name": "Takua, the Chronicler",
+                    "text": "Direct combat against the overwhelming masses of the Bohrok could slow, but ultimately not halt their destructive march."
+                },
+                { "text": "In an effort to turn the tables, the islanders began devising new tactics." }
+            ]
+        },
+        "gahdok": {
+            "micon": "gahdok.webp",
+            "mdesc": "Bahrag Gahdok: Bolster the main swarms",
+            "chain": "pack:l4Bohrok",
+            "parts": [
+                {
+                    "char": "gahdok", "src": "gahdok.webp", "name": "Bahrag Gahdok, Queen of the Bohrok",
+                    "text": "We must continue deploying more Bohrok, until all is clean."
+                },
+                { "text": "Clean it all. It must be cleaned." }
+            ]
+        },
+        "krana": {
+            "micon": "krana.webp",
+            "mdesc": "Krana Nests: Expand the roles of your units",
+            "chain": "pack:krana",
+            "parts": [
+                { "text": "A Bohrok is nothing without its Krana." }
+            ]
+        },
+        "cahdok": {
+            "micon": "cahdok.webp",
+            "mdesc": "Bahrag Cahdok: Acquire additional support from Bohrok Va",
+            "chain": "pack:bohrokVa",
+            "parts": [
+                {
+                    "char": "cahdok", "src": "cahdok.webp", "name": "Bahrag Cahdok, Queen of the Bohrok",
+                    "text": "The swarms are in motion. Bohrok Va, be sure to keep up logistical support."
+                },
+                { "text": "Clean it all. It must be cleaned." }
+            ]
+        },
+        "bohrokDuel1": {
+            "micon": "vs.webp",
+            "mdesc": "Confront the Toa (Duel)",
+            "chain": "duel:duel1",
+            "parts": [
+                {
+                    "char": "gearhead", "src": "gearhead.webp", "name": "Gearhead Bohrok, the Royal Herald",
+                    "text": "As the swarms head out to cleanse the surface, it appears they have met with some resistance."
+                },
+                { "text": "However, the goal is clear. We shall not be stopped from doing our duty." }
+            ]
+        },
+         "bohrokWin1": {
+            "chain": "area:bohrok2",
+            "parts": [
+                {
+                    "char": "gearhead", "src": "gearhead.webp", "name": "Gearhead Bohrok, the Royal Herald",
+                    "text": "Good progress is being made, despite some who would seek to stand in our way."
+                },
+                { "text": "Now is the time to redouble our efforts and truly clean it all." }
+            ]
+        },
+        "bohrokLose1": {
+            "chain": "area:bohrok2",
+            "parts": [
+                {
+                    "char": "gearhead", "src": "gearhead.webp", "name": "Gearhead Bohrok, the Royal Herald",
+                    "text": "While some of our advances are facing losses, progress is being made across the island, step by step."
+                },
+                { "text": "Now is the time to redouble our efforts and truly clean it all." }
+            ]
+        },
+        "boxor": {
+            "chain": "pick:boxor",
+            "micon": "nuparu.webp",
+            "mdesc": "Nuparu: Anti-Bohrok Technology",
+            "parts": [
+                {
+                    "char": "nuparu", "src": "nuparu.webp", "name": "Nuparu, Matoran Engineer",
+                    "text": "Toa! How goes the battle against the swarms?"
+                },
+                { "text": "We Matoran are also doing all we can. Here, have a look at the latest in anti-Bohrok technology." }
+            ]
+        },
+        "toaKaita": {
+            "chain": "pick:toaKaita",
+            "micon": "suvaKaita.webp",
+            "mdesc": "Suva Kaita: Combine the powers of the Toa",
+            "parts": [
+                {
+                    "char": "suvak", "src": "suvaKaita.webp", "anim": "blur"
+                },
+                {
+                    "char": "lewa", "src": "lewa.webp", "left": 45
+                },
+                {
+                    "char": "gali", "src": "gali.webp", "name": "Gali", "left": -45,
+                    "text": "Divided, these swarms will overrun us. Now is the time to unite our powers."
+                },
+                {
+                    "char": "gali", "anim": "out_fade"
+                },
+                {
+                    "char": "lewa", "anim": "out_fade"
+                },
+                {
+                    "char": "tahu", "src": "tahu.webp", "left": -45
+                },
+                {
+                    "char": "onua", "src": "onua.webp", "name": "Onua", "left": 45,
+                    "text": "Indeed. As they work in perfect coordination, so must we."
+                },
+                {
+                    "char": "tahu", "anim": "out_fade"
+                },
+                {
+                    "char": "onua", "anim": "out_fade"
+                },
+                {
+                    "char": "pohatu", "src": "pohatu.webp", "left": -45
+                },
+                {
+                    "char": "kopaka", "src": "kopaka.webp", "name": "Kopaka", "left": 45,
+                    "text": "... If that is what it takes."
+                }
+            ]
+        },
+        "toaDuel2": {
+            "micon": "vs.webp",
+            "mdesc": "Into the Nest (Duel)",
+            "chain": "duel:duel2",
+            "parts": [
+                {
+                    "char": "takua", "src": "takua.webp", "name": "Takua, the Chronicler",
+                    "text": "By the power of their unity and the support of the islanders, the Toa continued to defend Mata Nui."
+                },
+                { "text": "But merely fighting on the surface was not going to bring an end to the threat. The time had come to dive deep into the nests of the Bohrok and strike at their commanding Queens." }
+            ]
+        },
+        "toaWin2": {
+            "chain": "area:toa3",
+            "parts": [
+                {
+                    "char": "takua", "src": "takua.webp", "name": "Takua, the Chronicler",
+                    "text": "In the depths of the Bohrok Nest, the Toa at last vanquished the Bahrag. And on the surface, the swarms fell silent."
+                },
+                { "text": "The threat seemed over, but a new darkness already loomed on the horizon. And they Toa, too, found themselves changed forever ..." }
+            ]
+        },
+        "toaLose2": {
+            "chain": "area:toa3",
+            "parts": [
+                {
+                    "char": "takua", "src": "takua.webp", "name": "Takua, the Chronicler",
+                    "text": "Despite being outmatched in their battle against the Bahrag, the Toa eventually succeeded in sealing away the Queens by combining their powers, bringing the advance of the Bohrok to a halt."
+                },
+                { "text": "The threat seemed over, but a new darkness already loomed on the horizon. And they Toa, too, found themselves changed forever ..." }
+            ]
+        },
+        "bahrag": {
+            "micon": "bahrag.webp",
+            "mdesc": "The Bahrag: Prepare for a final showdown",
+            "chain": "pick:bahrag",
+            "parts": [
+                {
+                    "char": "gahdok", "src": "gahdok.webp", "name": "Bahrag Gahdok, Queen of the Bohrok", "left": 60,
+                    "text": "They draw near."
+                },
+                {
+                    "char": "cahdok", "src": "cahdok.webp", "name": "Bahrag cahdok, Queen of the Bohrok", "left": -60,
+                    "text": "They who do not belong."
+                },
+                { 
+                    "char": "gahdok", "text": "They who dare challenge us."
+                },
+                { 
+                    "char": "cahdok", "text": "They who will be removed."
+                }
+            ]
+        },
+        "bohrokKaita": {
+            "micon": "bohrokFusion.webp",
+            "mdesc": "Bohrok Swarms: Commence emergency protocols",
+            "chain": "pick:bohrokKaita",
+            "parts": [
+                {
+                    "char": "nuhvok", "src": "nuhvok.webp", "left": -60 
+                },
+                {
+                    "char": "pahrak", "src": "pahrak.webp", "left": 60 
+                },
+                {
+                    "char": "tahnok", "src": "tahnok.webp", "name": "Squad Commander Tahnok",
+                    "text": "UNEXPECTED OBSTACLE DETECTED. ACTIVATING KAITA PROCEDURE."
+                },
+                {
+                    "char": "fusion", "src": "bohrokFusion.webp" 
+                }
+            ]
+        },
+        "bohrokDuel2": {
+            "micon": "vs.webp",
+            "mdesc": "The Queens' Defense (Duel)",
+            "chain": "duel:duel2",
+            "parts": [
+                {
+                    "char": "gearhead", "src": "gearhead.webp", "name": "Gearhead Bohrok, the Royal Herald",
+                    "text": "Using the Krana they had collected as a key, our enemies advanced deep into the nest and challenged the Bahrag themselves."
+                },
+                { "text": "Should they win, the swarms would cease their operations. But should they be defeated, nothing would remain to stand in the way of our mission." },
+                { "text": "Thus began the decisive battle." }
+            ]
+        },
+        "bohrokWin2": {
+            "chain": "area:bohrok3",
+            "parts": [
+                {
+                    "char": "gearhead", "src": "gearhead.webp", "name": "Gearhead Bohrok, the Royal Herald",
+                    "text": "The might of our Queens drove the intruders to the brink of destruction, but tragedy struck all the same - an impenetrable seal, formed from the union of six elemental powers."
+                },
+                { "text": "With the Bahrag thus incapacitated, the swarms have stopped their operations. But at the same time, something else has been unleashed ..." }
+            ]
+        },
+        "bohrokLose2": {
+            "chain": "area:bohrok3",
+            "parts": [
+                {
+                    "char": "gearhead", "src": "gearhead.webp", "name": "Gearhead Bohrok, the Royal Herald",
+                    "text": "And thus, in the final battle, the Queens were defeated, trapped behind an impenetrable seal of Protodermis."
+                },
+                { "text": "With the Bahrag thus incapacitated, the swarms have stopped their operations. But at the same time, something else has been unleashed ..." }
+            ]
+        },
+        "emergence": {
+            "chain": "pack:nuva",
+            "micon": "emergence.webp",
+            "mdesc": "The End of the Toa?",
+            "parts": [
+                {
+                    "char": "gali", "src": "gali_nuva.webp", "name": "Gali Nuva", "left": "-45",
+                    "text": "Kopaka ... What has happened? What have we become?"
+                },
+                {
+                    "char": "kopaka", "src": "kopaka_nuva.webp", "name": "Kopaka Nuva", "left": "45",
+                    "text": "More than we were. More than anyone has ever been."
+                },
+                {
+                    "char": "gali", "anim": "out_fade"
+                },
+                {
+                    "char": "kopaka", "anim": "out_fade"
+                },
+                {
+                    "char": "onua", "src": "onua_nuva.webp", "name": "Onua Nuva", "left": "-45",
+                    "text": "Those chambers were filled with Protodermis! It changed us - increased our power ..."
+                },
+                {
+                    "char": "tahu", "src": "tahu_nuva.webp", "name": "Tahu Nuva", "left": "45",
+                    "text": "Let us worry about why it happened later. There are more important things to do."
+                }
+            ]
+        },
+        "duel3": {
+            "chain": "duel:duel3",
+            "micon": "vs.webp",
+            "mdesc": "The Bohrok-Kal Strike (Duel)",
+            "parts": [
+                {
+                    "char": "pohatu", "src": "pohatu_nuva.webp", "name": "Pohatu Nuva", "left": "-45",
+                    "text": "Uh, what are those ... things up ahead?"
+                },
+                {
+                    "char": "nuhvokKal", "src": "nuhvok_kal.webp", "name": "Nuhvok-Kal", "left": "45",
+                    "text": "We are the Bohrok-Kal. We search for Cahdok and Gahdok, Queens of the Swarms."
+                },
+                {
+                    "char": "pohatu", "anim": "out_fade"
+                },
+                {
+                    "char": "pahrakKal", "src": "pahrak_kal.webp", "name": "Pahrak-Kal", "left": "-45",
+                    "text": "Tell us where you have hidden the Bahrag, and then stand aside. We have no wish to harm helpless foes."
+                },
+                {
+                    "char": "nuhvokKal", "anim": "out_fade"
+                },
+                {
+                    "char": "lewa", "src": "lewa_nuva.webp", "name": "Lewa Nuva", "left": "45",
+                    "text": "Helpless? Toa Nuva are never helpless! We'll run you into the ground!"
+                }
+            ]
+        },
+        "kalifornication": {
+            "chain": "pack:kal",
+            "micon": "kalifornication.webp",
+            "mdesc": "The Bohrok-Kal Awaken",
+            "image": "kal_hive.webp",
+            "parts": [
+                {
+                    "text": "BAHRAG INTEGRITY CHECK NEGATIVE"
+                },
+                {
+                    "text": "INITIATING RECOVERY PROTOCOL"
+                },
+                {
+                    "back": "kalifornication.webp"
+                },
+                {
+                    "text": "COMMENCE KALIFORNICATION"
+                }
+            ]
+        }
+    },
+    "choice": {
+        "faction": {
+            "title": "Which role will you play in this campaign?",
+            "image": "faceoff.webp",
+            "micon": "vs.webp",
+            "list": [
+                {
+                    "name": "Toa",  "img": "Toa.webp", "chain": "text:toaIntro",
+                    "desc": "Defend Mata Nui against the threat of the Bohrok Swarms!\n(Diverse Warrior and Attribute synergies, with a focus on the six Toa and their masks of power)"
+                },
+                {
+                    "name": "Bohrok", "img": "Bohrok.webp", "chain": "text:bohrokIntro",
+                    "desc": "Clean it all. It must be cleaned.\n(Flip Monster strategy that swarms your field and tries to dismantle the opponent's with destructive effects)"
+                }
+            ]
+        }
+    },
+    "pack": {
+        "toaBase": {
+            "micon": "toa.webp",
+            "mdesc": "Pack: Toa Mata & Kanohi",
+            "shows": 24,
+            "composes": [
+                "toaBase"
+            ]
+        },
+        "fire": {
+            "shows": 24,
+            "composes": [
+                "fire"
+            ]
+        },
+        "water": {
+            "shows": 24,
+            "composes": [
+                "water"
+            ]
+        },
+        "earth": {
+            "shows": 24,
+            "composes": [
+                "earth"
+            ]
+        },
+        "wind": {
+            "shows": 24,
+            "composes": [
+                "wind"
+            ]
+        },
+        "bohrokBase": {
+            "micon": "bohrok.webp",
+            "mdesc": "Pack: Bohrok & Krana",
+            "shows": 24,
+            "composes": [
+                "bohrokBase"
+            ]
+        },
+        "l4Bohrok": {
+            "shows": 24,
+            "composes": [
+                "l4Bohrok"
+            ]
+        },
+        "krana": {
+            "shows": 24,
+            "composes": [
+                "krana"
+            ]
+        },
+        "bohrokVa": {
+            "shows": 24,
+            "composes": [
+                "bohrokVa"
+            ]
+        },
+        "nuva": {
+            "shows": 24,
+            "composes": [
+                "nuva"
+            ]
+        },
+        "kal": {
+            "shows": 24,
+            "composes": [
+                "kal"
+            ]
+        }
+    },
+    "pick": {
+        "toaBase": {
+            "micon": "toa.webp",
+            "mdesc": "Pick: Toa Mata & Kanohi",
+            "shows": 12,
+            "limit": 3,
+            "composes": [
+                "toaBase"
+            ]
+        },
+        "bohrokBase": {
+            "micon": "bohrok.webp",
+            "mdesc": "Pick: Bohrok & Krana",
+            "shows": 12,
+            "limit": 3,
+            "composes": [
+                "bohrokBase"
+            ]
+        },
+        "boxor": {
+            "shows": 12,
+            "limit": 5,
+            "composes": [
+                "boxor"
+            ]
+        },
+        "toaKaita": {
+            "shows": 12,
+            "limit": 5,
+            "composes": [
+                "toaKaita"
+            ]
+        },
+        "bahrag": {
+            "shows": 12,
+            "limit": 5,
+            "composes": [
+                "bahrag"
+            ]
+        },
+        "bohrokKaita": {
+            "shows": 12,
+            "limit": 5,
+            "composes": [
+                "bohrokKaita"
+            ]
+        }
+    },
+    "swap": {
+        "toa2": {
+            "micon": "trade.webp",
+            "mdesc": "Trade between Unity and Technology",
+            "removeRedundant": true,
+            "showLimit": 3,
+            "swapLimit": 2,
+            "trades": [
+                { "Exo-Toa": "Toa Mata Combination - Magma" },
+                { "Exo-Toa": "Toa Mata Combination - Storm" },
+                { "Exo-Toa": "Toa Mata Combination - Crystal" },
+                { "The Boxor, Weapon of the Matoran": "Toa Mata Combination - Magma" },
+                { "The Boxor, Weapon of the Matoran": "Toa Mata Combination - Storm" },
+                { "The Boxor, Weapon of the Matoran": "Toa Mata Combination - Crystal" },
+                { "Matoran Engineer Nuparu": "Toa Mata Combination - Magma" },
+                { "Matoran Engineer Nuparu": "Toa Mata Combination - Storm" },
+                { "Matoran Engineer Nuparu": "Toa Mata Combination - Crystal" },
+                { "Toa Mata Combination - Magma": "Exo-Toa" },
+                { "Toa Mata Combination - Storm": "Exo-Toa" },
+                { "Toa Mata Combination - Crystal": "Exo-Toa" },
+                { "Toa Mata Combination - Magma": "The Boxor, Weapon of the Matoran" },
+                { "Toa Mata Combination - Storm": "The Boxor, Weapon of the Matoran" },
+                { "Toa Mata Combination - Crystal": "The Boxor, Weapon of the Matoran" },
+                { "Toa Mata Combination - Magma": "Matoran Engineer Nuparu" },
+                { "Toa Mata Combination - Storm": "Matoran Engineer Nuparu" },
+                { "Toa Mata Combination - Crystal": "Matoran Engineer Nuparu" }
+            ]
+        },
+        "bohrok2": {
+            "micon": "trade.webp",
+            "mdesc": "Trade between Bahrag and Bohrok Kaita",
+            "removeRedundant": true,
+            "showLimit": 3,
+            "swapLimit": 2,
+            "trades": [
+                { "Bahrag Cahdok, Queen of the Bohrok": "Bohrok Kaita Ja" },
+                { "Bahrag Cahdok, Queen of the Bohrok": "Bohrok Kaita Za" },
+                { "Bahrag Gahdok, Queen of the Bohrok": "Bohrok Kaita Ja" },
+                { "Bahrag Gahdok, Queen of the Bohrok": "Bohrok Kaita Za" },
+                { "Bohrok Kaita Za": "Bahrag Cahdok, Queen of the Bohrok" },
+                { "Bohrok Kaita Ja": "Bahrag Cahdok, Queen of the Bohrok" },
+                { "Bohrok Kaita Za": "Bahrag Gahdok, Queen of the Bohrok" },
+                { "Bohrok Kaita Ja": "Bahrag Gahdok, Queen of the Bohrok" }
+            ]
+        },
+        "toa3": {
+            "micon": "trade.webp",
+            "mdesc": "Toa Nuva Upgrades",
+            "removeRedundant": true,
+            "showLimit": 3,
+            "swapLimit": 2,
+            "trades": [
+                { "Toa Mata Tahu": "Toa Nuva Tahu" },
+                { "Toa Mata Gali": "Toa Nuva Gali" },
+                { "Toa Mata Onua": "Toa Nuva Onua" },
+                { "Toa Mata Pohatu": "Toa Nuva Pohatu" },
+                { "Toa Mata Kopaka": "Toa Nuva Kopaka" },
+                { "Toa Mata Lewa": "Toa Nuva Lewa" },
+                { "Call of the Toa Stones": "Tales of the Nuva" },
+                { "Quest for the Masks": "Nuva Emergence" },
+                { "Coming of the Toa": "Nuva Overcharge" }
+            ]
+        },
+        "bohrok3": {
+            "micon": "trade.webp",
+            "mdesc": "Bohrok-Kal Upgrades",
+            "removeRedundant": true,
+            "showLimit": 3,
+            "swapLimit": 2,
+            "trades": [
+                { "Bohrok Tahnok": "Bohrok Tahnok-Kal" },
+                { "Bohrok Gahlok": "Bohrok Gahlok-Kal" },
+                { "Bohrok Nuhvok": "Bohrok Nuhvok-Kal" },
+                { "Bohrok Pahrak": "Bohrok Pahrak-Kal" },
+                { "Bohrok Kohrak": "Bohrok Kohrak-Kal" },
+                { "Bohrok Lehvak": "Bohrok Lehvak-Kal" },
+                { "Krana Xa, Swarm Commander": "Krana Xa-Kal, Liberator" },
+                { "Krana Ca, Clearance Worker": "Krana Ca-Kal, Seeker" },
+                { "Krana Vu, Surveyor": "Krana Vu-Kal, Transporter" },
+                { "Krana Ja, Scout": "Krana Ja-Kal, Tracker" },
+                { "Krana Bo, Sentinel": "Krana Bo-Kal, Visionary" },
+                { "Krana Za, Squad Leader": "Krana Za-Kal, Overseer" },
+                { "Krana Su, Worker": "Krana Su-Kal, Demolisher" },
+                { "Krana Yo, Mole": "Krana Yo-Kal, Excavator" },
+                { "Bohrok Invasion": "Bohrok-Kal Strategy" },
+                { "If You Wake One...": "Bohrok Kalifornication" },
+                { "...You Wake Them All": "Bohrok Counterattack" }
+            ]
+        }
+    },
+    "duel": {
+        "duel1": {
+            "wins": "text:<<side>>Win1",
+            "lose": "text:<<side>>Lose1"
+        },
+        "duel2": {
+            "wins": "text:<<side>>Win2",
+            "lose": "text:<<side>>Lose2"
+        },
+        "duel3": {
+            "wins": "ends:<<side>>Win",
+            "lose": "ends:<<side>>Lose"
+        }
+    },
+    "ends": {
+        "toaWin": {
+            "image": "namingDay.webp",
+            "title": "Congratulations! You have halted the invasion of the Bohrok!"
+        },
+        "bohrokWin": {
+            "image": "before-time.webp",
+            "title": "Congratulations! Mata Nui shall be As It Was in the Before-Time!"
+        },
+        "toaLose": {
+            "image": "before-time.webp",
+            "title": "You were unable to stop the Bohrok Invasion ..."
+        },
+        "bohrokLose": {
+            "image": "namingDay.webp",
+            "title": "The island of Mata Nui will not be cleaned this day ..."
+        }
+    },
+    "credits": [
+        {"Most assets obtained from BioMedia Project": "https://biomediaproject.com/bmp/"},
+        {"and from BIONICLEsector01": "https://biosector01.com/wiki"},
+        {"More custom cards can be found at": "https://bye-project.xyz/"}
+    ]           
+}

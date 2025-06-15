@@ -1,0 +1,913 @@
+[
+    {
+        "name": "Toa Mata Tahu",
+        "type": "Effect Monster",
+        "attribute": "FIRE",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2500,
+        "def": 1500,
+        "desc": "● To Tribute Summon this card face-up, you can Tribute a FIRE or \"Toa Mata\" monster in your hand, except \"Toa Mata Tahu\", instead of a monster you control.\n● Once per turn, if a monster battles, after damage calculation: You can target 1 face-up monster your opponent controls; its ATK becomes 0, also if it is destroyed by battle this turn, your opponent takes damage equal to its original ATK.",
+        "credits": "The LEGO Group"
+    }, {
+        "name": "Toa Mata Gali",
+        "type": "Effect Monster",
+        "attribute": "WATER",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2300,
+        "def": 1800,
+        "desc": "● To Tribute Summon this card face-up, you can Tribute a WATER or \"Toa Mata\" monster in your hand, except \"Toa Mata Gali\", instead of a monster you control.\n ●Once per turn, when the turn player's opponent activates a monster effect, except \"Toa Mata Gali\" (Quick Effect): You can target 1 other face-up monster on the field; negate its effects, and if you do, this card gains 400 ATK.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Mata Onua",
+        "type": "Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2100,
+        "def": 2100,
+        "desc": "● To Tribute Summon this card face-up, you can Tribute an EARTH or \"Toa Mata\" monster in your hand, except \"Toa Mata Onua\", instead of a monster you control.\n● Once per turn, if a monster(s) is sent from the hand or Deck to the GY: You can target 1 card in either GY; place it on the top or bottom of the Deck, and if it was a monster whose original ATK in the GY was lower than this card's current ATK, gain LP equal to the difference.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Mata Pohatu",
+        "type": "Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2400,
+        "def": 1700,
+        "desc": "● To Tribute Summon this card face-up, you can Tribute an EARTH or \"Toa Mata\" monster in your hand, except \"Toa Mata Pohatu\", instead of a monster you control.\n● Once per turn, if a monster(s) is Special Summoned from the Extra Deck, or a monster Special Summoned from the Extra Deck activates its effect: You can target 1 Spell\/Trap on the field; destroy it, also, if you control a Rock monster, you can destroy 1 additional Spell\/Trap on the field.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Mata Kopaka",
+        "type": "Effect Monster",
+        "attribute": "WATER",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2000,
+        "def": 2500,
+        "desc": "● To Tribute Summon this card face-up, you can Tribute a WATER or \"Toa Mata\" monster in your hand, except \"Toa Mata Kopaka\", instead of a monster you control.\n● If this card attacks, it is changed to Defense Position at the end of the Battle Phase.\n● While this card is in face-up Defense Position, your opponent's monsters cannot target monsters for attacks, except \"Toa Mata Kopaka\".\n● Once per turn, if another card(s) you control leaves the field by an opponent's card effect: You can banish 1 card your opponent controls.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Mata Lewa",
+        "type": "Effect Monster",
+        "attribute": "WIND",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2200,
+        "def": 1900,
+        "desc": "● To Tribute Summon this card face-up, you can Tribute a WIND or \"Toa Mata\" monster in your hand, except \"Toa Mata Lewa\", instead of a monster you control.\n● Once per turn, if a monster(s) is Special Summoned from the hand, Main Deck, and\/or GY while you control this card: You can target 1 monster on the field; return it to the hand, also, after that, if it left your field by this effect, you can return 1 additional monster on the field to the hand.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Great Kanohi Hau",
+        "type": "Spell",
+        "race": "Equip",
+        "desc": "● If another \"Kanohi\" card becomes equipped to the equipped monster, destroy this card.\n● If the equipped monster is a \"Toa\" or \"Makuta\" monster, it cannot be destroyed by battle, also you take no battle damage from battles involving it.\n● If this card is sent to the GY: You can banish 1 monster from your GY; add 1 \"Toa Mata Tahu\" from your Deck to your hand.\nYou can only use this effect of \"Great Kanohi Hau\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Great Kanohi Kaukau",
+        "type": "Spell",
+        "race": "Equip",
+        "desc": "● If another \"Kanohi\" card becomes equipped to the equipped monster, destroy this card.\n● If the equipped monster is a \"Toa\" or \"Makuta\" monster, it is unaffected by your opponent's card effects, unless they target it.\n● If this card is sent to the GY: You can banish 1 monster from your GY; add 1 \"Toa Mata Gali\" from your Deck to your hand.\nYou can only use this effect of \"Great Kanohi Kaukau\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Great Kanohi Pakari",
+        "type": "Spell",
+        "race": "Equip",
+        "desc": "● If another \"Kanohi\" card becomes equipped to the equipped monster, destroy this card.\n● If the equipped monster is a \"Toa\" or \"Makuta\" monster, it gains 1000 ATK, also if it attacks a Defense Position monster, inflict piercing battle damage.\n● If this card is sent to the GY: You can banish 1 monster from your GY; add 1 \"Toa Mata Onua\" from your Deck to your hand.\nYou can only use this effect of \"Great Kanohi Pakari\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Great Kanohi Kakama",
+        "type": "Spell",
+        "race": "Equip",
+        "desc": "● If another \"Kanohi\" card becomes equipped to the equipped monster, destroy this card.\n● If the equipped monster is a \"Toa\" or \"Makuta\" monster, it can attack all monsters your opponent controls, once each.\n● If this card is sent to the GY: You can banish 1 monster from your GY; add 1 \"Toa Mata Pohatu\" from your Deck to your hand.\nYou can only use this effect of \"Great Kanohi Kakama\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Great Kanohi Akaku",
+        "type": "Spell",
+        "race": "Equip",
+        "desc": "● If another \"Kanohi\" card becomes equipped to the equipped monster, destroy this card.\n● If this card is sent to the GY: You can banish 1 monster from your GY; add 1 \"Toa Mata Kopaka\" from your Deck to your hand.\nYou can only use this effect of \"Great Kanohi Akaku\" once per turn.\n\nWhile equipped to a \"Toa\" or \"Makuta\" monster you control, this card gains these effects.\n● Your opponent must keep their hand revealed.\n● Once per turn, if your opponent adds a Spell\/Trap(s) to their hand (except during the Damage Step): You can banish that Spell\/Trap(s) until the End Phase.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Great Kanohi Miru",
+        "type": "Spell",
+        "race": "Equip",
+        "desc": "● If another \"Kanohi\" card becomes equipped to the equipped monster, destroy this card. If the equipped monster is a \"Toa\" or \"Makuta\" monster, negate any effect activated by your opponent that targeted it. If this card is sent to the GY: You can banish 1 monster from your GY; add 1 \"Toa Mata Lewa\" from your Deck to your hand. You can only use this effect of \"Great Kanohi Miru\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Suva",
+        "type": "Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Rock",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "● While in your hand, and while face-up on the field if you control a \"-Koro\" Field Spell, this card is also EARTH, WATER, FIRE, and WIND-Attribute.\n● Once per Chain (Quick Effect): You can pay 600 LP, then target 1 \"Toa\" monster you control; equip 1 \"Kanohi\" Equip Spell from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.\n● If you control a \"Toa\" monster: You can Special Summon this card from your GY.\nYou can only use this effect of \"Suva\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Suva Kaita",
+        "type": "Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Rock",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "● While in your hand or GY, this card is also EARTH, WATER, FIRE, and WIND-Attribute.\n● (Quick Effect): You can Tribute this card, then target 1 Level 6 \"Toa\" monster in your GY; Special Summon that target.\n● You can banish this card from your GY, then target 1 of your banished \"Toa\" monsters; Special Summon it in Defense Position, also you cannot Special Summon monsters from the Extra Deck for the rest of this turn, except \"Toa\" monsters.\n● You can only use each effect of \"Suva Kaita\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Call of the Toa Stones",
+        "type": "Spell",
+        "desc": "Discard 1 card; roll a six-sided die and excavate cards from the top of your Deck equal to the result, and if you do, you can add up to 2 excavated \"Toa Mata\" monsters with different names to your hand, also shuffle the rest into your Deck. Then, apply the following effect, based on the number of cards added to your hand this way. You can only activate 1 \"Call of the Toa Stones\" per turn.\n● 0: Set 1 \"Coming of the Toa\" directly from your Deck. It can be activated this turn.\n● 1: Add 1 Level 1 Rock monster with 0 ATK\/DEF from your Deck to your hand.\n● 2: Gain 1800 LP.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Coming of the Toa",
+        "type": "Trap",
+        "desc": "● Target up to 3 monsters with different names in your GY; Special Summon 1 \"Toa Mata\" monster from your Deck with the same Attribute as each target, but they cannot attack, also return them to the hand during the End Phase. Then, if all targets are in the GY because they were sent there this turn, you can place 1 \"Quest for the Masks\" from your Deck face-up in your Spell & Trap Zone. You cannot Special Summon monsters with 2000 or more ATK, except \"Toa\" monsters, the turn you activate this card. You can only activate 1 \"Coming of the Toa\" per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Quest for the Masks",
+        "type": "Spell",
+        "race": "Continuous",
+        "desc": "● When a \"Toa\" monster is Normal Summoned: You can equip 1 \"Noble Kanohi\" or \"Great Kanohi\" Equip Spell from your Deck to it.\n● You can send any number of \"Kanohi\" Equip Spells from your hand to the GY; draw that many cards.\nYou can only use this effect of \"Quest for the Masks\" once per turn.\n● Once per turn, during the End Phase: You can target 1 of your banished monsters whose Level is less than or equal to the number of \"Kanohi\" Equip Spells with different names in your GY; Special Summon it, then destroy this card.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Gift of the Shrine",
+        "type": "Spell",
+        "race": "Quick-Play",
+        "desc": "Target 1 face-up monster you control, then activate 1 of these effects;\n● Equip 1 \"Kanohi\" Equip Spell from your hand or GY to that target.\n● Banish 1 Level 1 Rock monster you control or in your GY with 0 ATK\/DEF, and if you do, equip 1 \"Noble Kanohi\" or \"Great Kanohi\" Equip Spell from your Deck to that target.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "The Great Temple, Kini-Nui",
+        "type": "Spell",
+        "race": "Field",
+        "desc": "● During your Main Phase, you can Normal Summon 1 \"Toa Mata\" monster in addition to your Normal Summon\/Set. (You can only gain this effect once per turn.)\n● If a \"Toa\" monster(s) is Tributed for the Tribute Summon of a \"Toa Mata\" monster and sent to your GY: You can target 1 of those monsters; Special Summon it in Defense Position, but banish it when it leaves the field.\n● During the End Phase: You can destroy this card, and if you do, Special Summon 1 Level 1 Rock monster with 0 ATK\/DEF from your Deck.\n● You can only use each effect of \"The Great Temple, Kini-Nui\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Mata Combination - Magma",
+        "type": "Xyz Effect Monster",
+        "attribute": "FIRE",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2900,
+        "def": 1200,
+        "desc": "2 Level 6 \"Toa Mata\" monsters\n● You can detach 2 materials from this card; send 1 Level 1 Rock monster with 0 ATK\/DEF from your Deck to the GY, and if you do, you can halve the ATK\/DEF of 1 monster your opponent controls.\n● (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 \"Toa Mata\" monsters (1 EARTH monster and 1 FIRE monster) in your GY; Special Summon them, but they cannot attack this turn.\n● You can only use 1 \"Toa Mata Combination - Magma\" effect per turn, and only once that turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Mata Combination - Storm",
+        "type": "Xyz Effect Monster",
+        "attribute": "WIND",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2200,
+        "def": 0,
+        "desc": "2 Level 6 \"Toa Mata\" monsters\n● During the Main or Battle Phase (Quick Effect): You can detach 1 material from this card; Special Summon 1 \"Toa Mata\" monster from your Deck, but change its ATK to 0, it cannot be used as material for a Synchro, Xyz, or Link Summon, also banish it during the End Phase of the next turn.\n● (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 \"Toa Mata\" monsters (1 WATER monster and 1 WIND monster) in your GY; Special Summon them, but they cannot attack this turn.\n● You can only use 1 \"Toa Mata Combination - Storm\" effect per turn, and only once that turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Mata Combination - Crystal",
+        "type": "Xyz Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2000,
+        "def": 2700,
+        "desc": "2 Level 6 \"Toa Mata\" monsters\n● When a Spell\/Trap Card or effect is activated (Quick Effect): You can detach 2 materials from this card; negate that effect, and if you do, banish that card.\n● (Quick Effect): You can Tribute this card with no material, then target 2 Level 6 \"Toa Mata\" monsters (1 EARTH monster and 1 WATER monster) in your GY; Special Summon them, but they cannot attack this turn.\n● You can only use 1 \"Toa Mata Combination - Crystal\" effect per turn, and only once that turn.",
+        "credits": "The LEGO Group"
+    },
+    
+    {
+        "name": "Akamai, Toa Kaita of Valor",
+        "type": "Xyz Effect Monster",
+        "attribute": "FIRE",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 3000,
+        "def": 2000,
+        "desc": "3 Level 6 \"Toa Mata\" monsters\n● Your opponent cannot activate cards or effects during the Battle Phase.\n● If this card battles an opponent's monster, that monster has its effects negated until the end of the Damage Step.\n● Once per turn, when this card destroys an opponent's monster by battle: You can detach 1 material from this card; inflict damage to your opponent equal to the destroyed monster's original ATK.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Wairuha, Toa Kaita of Wisdom",
+        "type": "Xyz Effect Monster",
+        "attribute": "WIND",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2600,
+        "def": 2600,
+        "desc": "3 Level 6 \"Toa Mata\" monsters\n● Once per turn, when a card or effect is activated (Quick Effect): You can detach 1 material from this card; negate the activation.\n● If a material(s) is detached from this card (except during the Damage Step): You can declare 1 card type (Monster, Spell, or Trap); your opponent reveals 1 random card in their hand and the top card of their Deck. Then, apply the following effect(s) in sequence, based on the number of cards of the declared type revealed. You can only use this effect of \"Wairuha, Toa Kaita of Wisdom\" once per turn.\n● 1+: Draw 1 card.\n● 2: Banish 1 card your opponent controls or in their GY.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Tahnok",
+        "type": "Flip Effect Monster",
+        "attribute": "FIRE",
+        "race": "Machine",
+        "level": 4,
+        "atk": 1600,
+        "def": 1700,
+        "desc": "FLIP: Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-down Defense Position, except \"Bohrok Tahnok\".\n(Quick Effect): You can shuffle this card into the Deck, then target 1 face-up monster your opponent controls; destroy that target.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Gahlok",
+        "type": "Flip Effect Monster",
+        "attribute": "WATER",
+        "race": "Machine",
+        "level": 4,
+        "atk": 1700,
+        "def": 1600,
+        "desc": "FLIP: Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-down Defense Position, except \"Bohrok Gahlok\".\nOnce per turn: You can activate the following effect, based on the type of card on top of your opponent's GY. During the End Phase of the turn you activated this effect, shuffle this face-up card into the Deck.\n\u25cfMonster: Target 1 card your opponent controls; destroy that target.\n\u25cfSpell: Negate the effects of 1 face-up monster your opponent controls, until the end of this turn.\n\u25cfTrap: Banish 1 random card from your opponent's hand, until the End Phase.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Nuhvok",
+        "type": "Flip Effect Monster",
+        "attribute": "EARTH",
+        "race": "Machine",
+        "level": 4,
+        "atk": 1500,
+        "def": 1800,
+        "desc": "FLIP: Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-down Defense Position, except \"Bohrok Nuhvok\".\nOnce per turn: You can target 1 Spell\/Trap Card on the field; destroy that target, and if you do, its Spell & Trap Zone cannot be used until your next Standby Phase. During the End Phase of the turn you activated this effect, shuffle this face-up card into the Deck.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Pahrak",
+        "type": "Flip Effect Monster",
+        "attribute": "EARTH",
+        "race": "Machine",
+        "level": 4,
+        "atk": 1900,
+        "def": 1400,
+        "desc": "FLIP: Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-down Defense Position, except \"Bohrok Pahrak\".\nIf this card battles, it cannot be targeted or destroyed by your opponent's card effects until the end of the Damage Step. At the end of the Battle Phase, if this card battled: You can target 1 card your opponent controls; destroy that target. During the End Phase of the turn you activated this effect, shuffle this face-up card into the Deck.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Kohrak",
+        "type": "Flip Effect Monster",
+        "attribute": "WATER",
+        "race": "Machine",
+        "level": 4,
+        "atk": 1800,
+        "def": 1500,
+        "desc": "FLIP: Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-down Defense Position, except \"Bohrok Kohrak\".\nIf this card did not declare an attack this turn: You can shuffle this card into the Deck, then target 1 face-up card your opponent controls; banish that target.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Lehvak",
+        "type": "Flip Effect Monster",
+        "attribute": "WIND",
+        "race": "Machine",
+        "level": 4,
+        "atk": 1400,
+        "def": 1900,
+        "desc": "FLIP: Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-down Defense Position, except \"Bohrok Lehvak\".\nDuring your Main Phase 1: You can shuffle this card into the Deck; destroy 1 card on the field.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Vu, Surveyor",
+        "type": "Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "When a card or effect is activated that targets a \"Bohrok\" monster(s) you control (Quick Effect): You can send this card from your hand to the GY; negate the activation, and if you do, destroy that card. You can only use this effect of \"Krana Vu, Surveyor\" once per turn. When exactly 1 monster your opponent controls (and no other cards) is destroyed by a \"Bohrok\" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Su, Worker",
+        "type": "Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "Once per turn (Quick Effect): You can target 1 Level 4 or higher \"Bohrok\" monster you control; equip this card from your hand to that target. A \"Bohrok\" monster equipped with this card gains 600 ATK\/DEF. When exactly 1 monster your opponent controls (and no other cards) is destroyed by a \"Bohrok\" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Za, Squad Leader",
+        "type": "Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "Once per turn (Quick Effect): You can target 1 Level 4 or higher \"Bohrok\" monster you control; equip this card from your hand to that target. Once per turn, if the equipped \"Bohrok\" monster would be destroyed, you can shuffle 1 other monster you control into the Deck instead, then draw 1 card. When exactly 1 monster your opponent controls (and no other cards) is destroyed by a \"Bohrok\" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Bo, Sentinel",
+        "type": "Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "When exactly 1 card (and no other cards) is destroyed or banished by the effect of a \"Bohrok\" monster: You can send this card from your hand to the GY; look at your opponent's hand and banish all cards with the same name as that card, face-down. You can only use this effect of \"Krana Bo, Sentinel\" once per turn. When exactly 1 monster your opponent controls (and no other cards) is destroyed by a \"Bohrok\" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Xa, Swarm Commander",
+        "type": "Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "If a \"Bohrok\" monster effect was activated in this Chain, except as the last Chain Link (Quick Effect): You can send this card from your hand to the GY; negate the effects of all face-up cards on the field that were activated or activated their effects before this effect in this Chain, except \"Bohrok\" cards, until the end of this turn. You can only use this effect of \"Krana Xa, Swarm Commander\" once per turn. You can return this Normal Summoned\/Set card to the hand; Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Yo, Mole",
+        "type": "Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "Once per turn (Quick Effect): You can target 1 Level 4 or higher \"Bohrok\" monster you control; equip this card from your hand to that target. A \"Bohrok\" monster equipped with this card can attack directly, but when it does so using this effect, the battle damage inflicted to your opponent is halved. You can return this Normal Summoned\/Set card to the hand; Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Ca, Clearance Worker",
+        "type": "Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "Once per turn (Quick Effect): You can target 1 Level 4 or higher \"Bohrok\" monster you control; equip this card from your hand to that target. While this card is equipped to a \"Bohrok\" monster, the first time a \"Bohrok\" monster you control would be destroyed by battle each turn, it is not destroyed. You can return this Normal Summoned\/Set card to the hand; Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Ja, Scout",
+        "type": "Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "If you control a \"Bohrok\" monster (Quick Effect): You can send this card from your hand to the GY; during the next turn, negate the effects of cards on the field with the same name as face-up cards your opponent currently controls. You can only use this effect of \"Krana Ja, Scout\" once per turn. You can return this Normal Summoned\/Set card to the hand; Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Beware the Swarm",
+        "type": "Spell",
+        "desc": "Add 1 \"Bohrok\" card from your Deck to your hand, and if you do, and it was a monster, you can add 1 \"Bohrok\" monster with a different Level than that monster from your GY to your hand, then shuffle 1 card from your hand into the Deck. You can only activate 1 \"Beware the Swarm\" per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Tahnok Va",
+        "type": "Tuner Effect Monster",
+        "attribute": "FIRE",
+        "race": "Machine",
+        "level": 2,
+        "atk": 800,
+        "def": 900,
+        "desc": "If you control \"Bohrok Tahnok\", you can Special Summon this card (from your hand). You can only Special Summon \"Bohrok Tahnok Va\" once per turn this way. Once per turn: You can excavate the top 3 cards of your Deck, and if you do, banish 1 of them, and if it was a \"Bohrok\" monster, increase this card's Level by the Level of the banished monster, until the end of this turn. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Add 1 of your banished \"Krana\" monsters to your hand.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Gahlok Va",
+        "type": "Tuner Effect Monster",
+        "attribute": "WATER",
+        "race": "Machine",
+        "level": 2,
+        "atk": 900,
+        "def": 800,
+        "desc": "If you control\"Bohrok Gahlok\", you can Special Summon this card (from your hand). You can only Special Summon \"Bohrok Gahlok Va\" once per turn this way. During your Main Phase: You can excavate the top card of your Deck, and if it is a \"Bohrok\" card, add it to your hand. You can only use this effect of \"Bohrok Gahlok Va\" once per turn. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Shuffle 2 \"Bohrok\" monsters, except \"Bohrok Gahlok Va\", from your GY into the Deck, then draw 1 card.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Nuhvok Va",
+        "type": "Tuner Effect Monster",
+        "attribute": "EARTH",
+        "race": "Machine",
+        "level": 2,
+        "atk": 700,
+        "def": 1000,
+        "desc": "If you control \"Bohrok Nuhvok\", you can Special Summon this card (from your hand). You can only Special Summon \"Bohrok Nuhvok Va\" once per turn this way. You can send 1 card from your hand to the GY; draw 1 card. You can only use this effect of \"Bohrok Nuhvok Va\" once per turn. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Shuffle 2 \"Bohrok\" monsters, except \"Bohrok Nuhvok Va\", from your GY into the Deck, then draw 1 card.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Pahrak Va",
+        "type": "Tuner Effect Monster",
+        "attribute": "EARTH",
+        "race": "Machine",
+        "level": 2,
+        "atk": 600,
+        "def": 1100,
+        "desc": "If you control \"Bohrok Pahrak\", you can Special Summon this card (from your hand). You can only Special Summon \"Bohrok Pahrak Va\" once per turn this way. Once per turn: You can place 1 \"Bohrok\" card from your GY on the top of the Deck. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Add 1 of your banished \"Krana\" monsters to your hand.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Kohrak Va",
+        "type": "Tuner Effect Monster",
+        "attribute": "WATER",
+        "race": "Machine",
+        "level": 2,
+        "atk": 1000,
+        "def": 700,
+        "desc": "If you control \"Bohrok Kohrak\", you can Special Summon this card (from your hand). You can only Special Summon \"Bohrok Kohrak Va\" once per turn this way. When an opponent's monster declares an attack: You can Tribute this card; negate the attack, then end the Battle Phase. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Shuffle 2 \"Bohrok\" monsters, except \"Bohrok Kohrak Va\", from your GY into the Deck, then draw 1 card.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Lehvak Va",
+        "type": "Tuner Effect Monster",
+        "attribute": "WIND",
+        "race": "Machine",
+        "level": 2,
+        "atk": 1100,
+        "def": 600,
+        "desc": "If you control \"Bohrok Lehvak\", you can Special Summon this card (from your hand). You can only Special Summon \"Bohrok Lehvak Va\" once per turn this way. When your opponent activates a Spell\/Trap Card while you control another \"Bohrok\" monster (Quick Effect): You can Tribute this card; negate the activation, and if you do, destroy that card. You can only use this effect of \"Bohrok Lehvak Va\" once per turn. During the End Phase, if this card is in the GY because it was sent there from the field this turn: Add 1 of your banished \"Krana\" monsters to your hand.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Confrontation",
+        "type": "Spell",
+        "desc": "Send 1 \"Krana\" monster from your Deck to the GY, then target 1 \"Bohrok\" monster you control; that target gains 700 ATK\/DEF until the end of this turn.",
+        "credits": "The LEGO Group",
+        "race": "Quick-Play"
+    },
+    {
+        "name": "Bohrok Invasion",
+        "type": "Trap",
+        "desc": "When this card is activated: You can Special Summon 1 Level 4 \"Bohrok\" monster from your GY in face-down Defense Position. When a card(s) your opponent controls is destroyed by a \"Bohrok\" card (by battle or card effect): \"Bohrok\" monsters you control gain 400 ATK until the end of this turn. You can send this card to the GY; \"Bohrok\" monsters you control gain 800 DEF until the end of this turn.",
+        "credits": "The LEGO Group",
+        "race": "Continuous"
+    },
+    {
+        "name": "Bohrok Nest",
+        "type": "Spell",
+        "desc": "Face-down monsters you control cannot be targeted or destroyed by your opponent's card effects. If a \"Bohrok\" card(s) is shuffled into your Deck: You can draw 1 card. If this card in the Field Zone is destroyed by a card effect: You can target 1 card your opponent controls; destroy it. You can only use  1 \"Bohrok Nest\" effect per turn, and only once that turn.",
+        "credits": "The LEGO Group",
+        "race": "Field"
+    },
+    {
+        "name": "If You Wake One...",
+        "type": "Trap",
+        "desc": "(This card is always treated as a \"Bohrok\" card.)\nWhen a monster(s) is Special Summoned to your side of the field in face-down Defense Position, even during the Damage Step: You can Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-down Defense Position, and if you do, send this card to the GY at the end of this turn. If this face-up card on the field is sent to the GY: You can Set 1 \"Bohrok\" Trap Card directly from your Deck, except \"If You Wake One...\". You can only use each effect of \"If You Wake One...\" once per turn.",
+        "credits": "The LEGO Group",
+        "race": "Continuous"
+    },
+    {
+        "name": "...You Wake Them All",
+        "type": "Trap",
+        "desc": "(This card is always treated as a \"Bohrok\" card.)\nTarget 1 \"Bohrok\" monster you control; return that target to the hand, then change all face-down monsters you control to face-up Attack Position. You can only activate 1 \"...You Wake Them All\" per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "C.C. Matoran Taipu",
+        "type": "Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 2,
+        "atk": 1000,
+        "def": 500,
+        "desc": "● You can Special Summon this card (from your hand), but you cannot declare an attack for the rest of this turn, except with \"C.C. Matoran\" monsters. You can only Special Summon \"C.C. Matoran Taipu\" once per turn this way.\n● If this card is sent from the field to the GY: You can target 1 monster you control with less than 2000 ATK; it gains 1000 ATK\/DEF until the end of the next turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Matoran Engineer Nuparu",
+        "type": "Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 2,
+        "atk": 600,
+        "def": 500,
+        "desc": "● You can banish 1 Machine monster from either GY; Special Summon 1 Machine monster with the same Level from your hand in Defense Position.\n● When a \"Matoran\" monster you control destroys an opponent's monster by battle: You can activate this effect; that monster can make a second attack in a row. This card cannot attack the turn you activate this effect.\n● You can only use 1 \"Matoran Engineer Nuparu\" effect per turn, and only once that turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Empty Bohrok Shell",
+        "type": "Effect Monster",
+        "attribute": "EARTH",
+        "race": "Machine",
+        "level": 4,
+        "atk": 0,
+        "def": 1600,
+        "desc": "● You can send this card from your hand or field to the GY; add 1 EARTH \"Matoran\" monster from your Deck to your hand.\n● If this card is banished from your GY: You can target 1 card your opponent controls; destroy that target.\n● You can only use 1 \"Empty Bohrok Shell\" effect per turn, and only once that turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "The Boxor, Weapon of the Matoran",
+        "type": "Union Effect Monster",
+        "attribute": "EARTH",
+        "race": "Machine",
+        "level": 4,
+        "atk": 1600,
+        "def": 0,
+        "desc": "● Once per turn, you can either: Target 1 Level 2 Warrior monster you control; equip this card to that target, OR: Unequip this card and Special Summon it.\n● The original ATK of a monster equipped with this card becomes 2000, if it attacks, your opponent cannot activate monster effects until the end of the Damage Step, also if the equipped monster would be destroyed by battle or card effect, destroy this card instead.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Exo-Toa",
+        "type": "Union Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Machine",
+        "level": 6,
+        "atk": 2000,
+        "def": 2000,
+        "desc": "(This card is not treated as a \"Toa\" card.)\n● If all monsters you control are Normal Summoned \"Toa\" monsters (min. 1), you can Special Summon this card (from your hand).\n● Once per turn, you can either: Target 1 \"Toa\" monster you control; equip this card to that target, OR: Unequip this card and Special Summon it.\n● A monster equipped with this card gains 2000 ATK, also its effects are negated and its name becomes \"Exo-Toa\".\n● If the equipped monster would be destroyed by battle or card effect, destroy this card instead.\n● During the End Phase, if this card is in the GY because it was sent there this turn: Set 1 \"Exo Armaments\" directly from your Deck. You can only use this effect of \"Exo-Toa\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Exo Armaments",
+        "type": "Trap",
+        "desc": "Special Summon 1 \"Toa\" monster from your hand, then equip 1 \"Exo-Toa\" from your Deck or GY to it, but that Equip Card cannot activate its effects this turn.\n\nIf you control \"Exo-Toa\": You can banish this card from your GY, then activate 1 of these effects;\n● This turn, if an \"Exo-Toa\" you control battles, your opponent cannot activate cards or effects until the end of the Damage Step.\n● This turn, \"Exo-Toa\" you control cannot be destroyed by your opponent's card effects, also your opponent cannot target them with card effects.\n● Target 1 \"Exo-Toa\" you control; destroy 1 other card in the same column as that target.\nYou can only use this effect of \"Exo Armaments\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Queens' Illusion",
+        "type": "Trap",
+        "desc": "If you have no cards in your Pendulum Zones: Reveal 1 face-down \"Bahrag\" Pendulum Monster in your Extra Deck and shuffle \"Bohrok\" monsters from your hand, field, and\/or GY into the Deck, whose total Levels exactly equal the Level of the revealed monster; for the rest of this turn, monsters you control with less ATK than the revealed monster cannot be targeted for attacks and monsters your opponent controls whose ATK is lower than the revealed monster's DEF cannot attack, also place the revealed monster in your Pendulum Zone, but shuffle it into the Extra Deck during your next End Phase.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bahrag Gahdok, Queen of the Bohrok",
+        "type": "Synchro Pendulum Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Dinosaur",
+        "level": 10,
+        "atk": 2600,
+        "def": 3000,
+        "scale": 5,
+        "desc": [
+            "● If a \"Bohrok\" monster(s) is sent from the field to your GY: Add 1 of those monsters to your hand.\nYou can only use this effect of \"Bahrag Gahdok, Queen of the Bohrok\" once per turn.",
+            "1 \"Bohrok\" Tuner + 1+ non-Tuner \"Bohrok\" monsters\n● Once per turn, if you control no other face-up monsters: You can Special Summon 1 Level 4 \"Bohrok\" monster from your GY, but banish it during the End Phase.\n● If you control \"Bahrag Cahdok, Queen of the Bohrok\", \"Bahrag\" monsters you control cannot be destroyed by battle.\n● During your Standby Phase, if this card is face-up in your Extra Deck: You can place it in your Pendulum Zone."
+        ],
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bahrag Cahdok, Queen of the Bohrok",
+        "type": "Synchro Pendulum Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Dinosaur",
+        "level": 10,
+        "atk": 3000,
+        "def": 2600,
+        "scale": 3,
+        "desc": [
+            "● When a \"Bohrok\" monster(s) is Normal or Special Summoned to your field: You can change 1 of those monsters to face-down Defense Position, and if you do, until your next Standby Phase, it cannot be destroyed by card effects while face-down, also it cannot be destroyed by battle if it was face-down at the start of the Damage Step.\nYou can only use this effect of \"Bahrag Cahdok, Queen of the Bohrok\" once per turn.",
+            "1 \"Bohrok\" Tuner + 1+ non-Tuner \"Bohrok\" monsters\n● Once per turn, if you control no other face-up monsters: You can Special Summon 1 Level 2 \"Bohrok\" monster from your GY, but banish it during the End Phase.\n● If you control \"Bahrag Gahdok, Queen of the Bohrok\", \"Bahrag\" monsters you control cannot be targeted or destroyed by your opponent's card effects.\n● During your Standby Phase, if this card is face-up in your Extra Deck: You can place it in your Pendulum Zone."
+        ],
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "As It Was in the Before-Time",
+        "type": "Spell",
+        "desc": "Activate 1 of these effects;\n● Target any number of \"Bahrag\" cards you control; destroy them, then draw 1 card for each card destroyed.\n● Shuffle 2 \"Bahrag\" cards you control with different names into the Extra Deck; send all cards on the field to the GY, except \"Bohrok\" and \"Krana\" cards.",
+        "credits": "The LEGO Group",
+        "race": "Quick-Play"
+    },
+    {
+        "name": "Bohrok Swarm Fusion",
+        "type": "Spell",
+        "desc": "● Fusion Summon 1 \"Bohrok\" Fusion Monster from your Extra Deck, using monsters from your hand or field as Fusion Materials.\n● If a \"Bohrok\" card(s) is banished from your GY while this card is in your GY: You can banish this card; shuffle that card(s) into the Deck, then draw 1 card. You can only use this effect of \"Bohrok Swarm Fusion\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Kaita Za",
+        "type": "Fusion Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Machine",
+        "level": 8,
+        "atk": 2500,
+        "def": 2000,
+        "desc": "\"Bohrok Tahnok\" + \"Bohrok Nuhvok\" + \"Bohrok Pahrak\"\n● If this card is Fusion Summoned: Reveal up to 3 \"Krana\" monsters from your Deck, your opponent chooses 1 for you to add to your hand, and you send the rest to the GY.\n● Once per turn (Quick Effect): You can banish up to 3 \"Bohrok\" monsters from your GY; this card gains 1000 ATK for each, also, if you banished 2 or more monsters, it is unaffected by card effects, except its own. These effects last until the end of this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Kaita Ja",
+        "type": "Fusion Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Machine",
+        "level": 8,
+        "atk": 2500,
+        "def": 2000,
+        "desc": "\"Bohrok Gahlok\" + \"Bohrok Kohrak\" + \"Bohrok Lehvak\"\n● If this card is Fusion Summoned: Reveal up to 3 \"Krana\" monsters from your Deck, your opponent chooses 1 for you to add to your hand, and you send the rest to the GY.\n● Once per turn (Quick Effect): You can banish up to 3 \"Bohrok\" monsters from your GY; banish cards from your opponent's GY, up to the number of monsters you banished +1.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Va Kaita Ja",
+        "type": "Fusion Tuner Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Machine",
+        "level": 2,
+        "atk": 1000,
+        "def": 1500,
+        "desc": "\"Bohrok Gahlok Va\" + \"Bohrok Kohrak Va\" + \"Bohrok Lehvak Va\"\n● If this card is used as Synchro Material, all other Synchro Materials must be \"Bohrok\" monsters.\n● During the Standby Phase: You can Tribute this Fusion Summoned card; Special Summon 1 \"Bohrok\" Fusion Monster from your Extra Deck.\n● During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can add 1 \"Bohrok\" or \"Krana\" card from your Deck to your hand. You can only use this effect of \"Bohrok Va Kaita Ja\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Va Kaita Za",
+        "type": "Fusion Tuner Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Machine",
+        "level": 2,
+        "atk": 1000,
+        "def": 1500,
+        "desc": "\"Bohrok Tahnok Va\" + \"Bohrok Nuhvok Va\" + \"Bohrok Pahrak Va\"\n● If this card is used as Synchro Material, all other Synchro Materials must be \"Bohrok\" monsters.\n● During the Standby Phase: You can Tribute this Fusion Summoned card; Special Summon 1 \"Bohrok\" Fusion Monster from your Extra Deck.\n● During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can Special Summon 1 \"Bohrok\" monster from your GY in face-down Defense Position, except \"Bohrok Va Kaita Za\".\n● You can only use this effect of \"Bohrok Va Kaita Za\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Energized Protodermis Chamber",
+        "type": "Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Aqua",
+        "level": 2,
+        "atk": 0,
+        "def": 0,
+        "desc": "If only your opponent controls a monster, you can Special Summon this card (from your hand). If this card is Normal or Special Summoned (except during the Damage Step): You can Fusion Summon 1 Fusion Monster from your Extra Deck, using this card you control and 1 monster from your hand as material. If this card is used as material for a Fusion Summon, except by its own effect: Target 1 Special Summoned monster on the field; send it to the GY.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Energized Protodermis Destiny",
+        "type": "Spell",
+        "desc": "Target 1 face-up monster you control; Special Summon 1 \"Energized Protodermis Token\" (Aqua\/LIGHT\/Level 2\/ATK 0\/DEF 0), then apply 1 of these effects.\n\u25cfSend the targeted monster to the GY, and if you do, you can destroy that Token and Special Summon 1 \"Energized Protodermis\" monster from your Deck.\n\u25cfFusion Summon 1 Fusion Monster that mentions an \"Energized Protodermis\" monster as material from your Extra Deck in Defense Position, using only that Token and the targeted monster as material.\nYou can only activate 1 \"Energized Protodermis Destiny\" per turn.",
+        "credits": "The LEGO Group",
+        "race": "Quick-Play"
+    },
+    {
+        "name": "Toa Nuva Tahu",
+        "type": "Fusion Effect Monster",
+        "attribute": "FIRE",
+        "race": "Warrior",
+        "level": 8,
+        "atk": 2900,
+        "def": 1900,
+        "desc": "\"Toa Mata Tahu\" + 1 \"Energized Protodermis\" monster\nIf this card is Fusion Summoned: You can add 1 \"Nuva\" Spell\/Trap from your Deck or GY to your hand, then discard 1 card. If your opponent controls a monster (Quick Effect): You can target 1 other Attack Position monster on the field; its ATK becomes 0, and if it does, this card gains ATK equal to that monster's original ATK, until the end of this turn. You can only use this effect of \"Toa Nuva Tahu\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Nuva Gali",
+        "type": "Fusion Effect Monster",
+        "attribute": "WATER",
+        "race": "Warrior",
+        "level": 8,
+        "atk": 2700,
+        "def": 2200,
+        "desc": "\"Toa Mata Gali\" + 1 \"Energized Protodermis\" monster\nIf this card is Fusion Summoned: You can add 1 \"Nuva\" Spell\/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can target 1 other Effect Monster on the field; negate its effects until the end of this turn. You can only use this effect of \"Toa Nuva Gali\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Nuva Onua",
+        "type": "Fusion Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 8,
+        "atk": 2500,
+        "def": 2500,
+        "desc": "\"Toa Mata Onua\" + 1 \"Energized Protodermis\" monster\nIf this card is Fusion Summoned: You can add 1 \"Nuva\" Spell\/Trap from your Deck or GY to your hand, then discard 1 card.  During the Main Phase (Quick Effect): You can target 1 card in either GY; place it on the top or bottom of the Deck, then gain 1000 LP. You can only use this effect of \"Toa Nuva Onua\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Nuva Pohatu",
+        "type": "Fusion Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 8,
+        "atk": 2800,
+        "def": 2100,
+        "desc": "\"Toa Mata Pohatu\" + 1 \"Energized Protodermis\" monster\nIf this card is Fusion Summoned: You can add 1 \"Nuva\" Spell\/Trap from your Deck or GY to your hand, then discard 1 card. (Quick Effect): You can destroy 1 Spell\/Trap your opponent controls, or up to 2 if you control a Rock monster. You can only use this effect of \"Toa Nuva Pohatu\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Nuva Kopaka",
+        "type": "Fusion Effect Monster",
+        "attribute": "WATER",
+        "race": "Warrior",
+        "level": 8,
+        "atk": 2400,
+        "def": 2900,
+        "desc": "\"Toa Mata Kopaka\" + 1 \"Energized Protodermis\" monster\nIf this card is Fusion Summoned: You can add 1 \"Nuva\" Spell\/Trap from your Deck or GY to your hand, then discard 1 card. Once per turn, during the Main Phase, if you control no other monsters (Quick Effect): You can target 1 monster your opponent controls; banish it. While this card is in face-up Defense Position, your opponent's monsters cannot target other monsters you control for attacks, also your opponent cannot target other cards you control with card effects.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa Nuva Lewa",
+        "type": "Fusion Effect Monster",
+        "attribute": "WIND",
+        "race": "Warrior",
+        "level": 8,
+        "atk": 2600,
+        "def": 2300,
+        "desc": "\"Toa Mata Lewa\" + 1 \"Energized Protodermis\" monster\nIf this card is Fusion Summoned: You can add 1 \"Nuva\" Spell\/Trap from your Deck or GY to your hand, then discard 1 card. During the Main Phase (Quick Effect): You can target 1 monster on the field; return it to the hand, also, after that, if it left your field by this effect, you can return 1 additional monster on the field to the hand. You can only use this effect of \"Toa Nuva Lewa\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Tales of the Nuva",
+        "type": "Spell",
+        "desc": "When this card is activated: You can add 1 \"Energized Protodermis\" card from your Deck to your hand. If a \"Nuva\" Spell\/Trap(s) is sent from the hand and\/or Deck to your GY: You can target 1 of them; Set it to your field. If your opponent activates a monster effect: You can send this card to the GY, then target 1 \"Toa Nuva\" monster you control or in your GY; shuffle it into the Deck, and if you do, you can Special Summon 1 \"Toa Nuva\" Fusion Monster with a different name from your Extra Deck. You can only use each effect of \"Tales of the Nuva\" once per turn.",
+        "credits": "The LEGO Group",
+        "race": "Continuous"
+    },
+    {
+        "name": "Nuva Overcharge",
+        "type": "Trap",
+        "desc": "When your opponent activates a monster effect on the field, while you control a \"Toa Nuva\" monster and have a \"Nuva\" Continuous Spell\/Trap on your field or in your GY: The activated effect becomes \"banish this card\". During the End Phase, if this card is in your GY and you control a \"Toa Nuva\" monster: You can Set this card, but banish it when it leaves the field. You can only use each effect of \"Nuva Overcharge\" once per turn.",
+        "credits": "The LEGO Group",
+        "race": "Counter"
+    },
+    {
+        "name": "Nuva Emergence",
+        "type": "Trap",
+        "desc": "Fusion Summon 1 \"Toa Nuva\" Fusion Monster from your Extra Deck, by shuffling its materials from your hand, GY, and\/or banishment into the Deck. If your opponent controls a monster, you can also banish up to 1 monster from your Deck as material. During the Main Phase, except the turn this card was sent to the GY: You can banish this card from your GY; add 1 \"Nuva\" Spell\/Trap from your Deck or GY to your hand, except \"Nuva Emergence\", then discard 1 card. You can only use each effect of \"Nuva Emergence\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Tahnok-Kal",
+        "type": "Xyz Effect Monster",
+        "attribute": "FIRE",
+        "race": "Machine",
+        "level": 4,
+        "atk": 2100,
+        "def": 2200,
+        "desc": "2 Level 4 \"Bohrok\" monsters\nPlace materials detached from this card on the bottom of the Deck instead of sending them to the GY. Once per turn: You can attach 1 \"Krana\" monster from your hand, field, or GY to this card as material. (Quick Effect): You can detach 1 material from this card, then target 1 face-up monster your opponent controls; it cannot attack or activate its effects this turn, also you can detach 1 material from this card, and if you do, destroy all monsters your opponent controls with less than 2000 ATK. You can only use this effect of \"Bohrok Tahnok-Kal\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Gahlok-Kal",
+        "type": "Xyz Effect Monster",
+        "attribute": "WATER",
+        "race": "Machine",
+        "level": 4,
+        "atk": 2200,
+        "def": 2100,
+        "desc": "2 Level 4 \"Bohrok\" monsters\nPlace materials detached from this card on the bottom of the Deck instead of sending them to the GY. Once per turn: You can attach 1 \"Krana\" monster from your hand, field, or GY to this card as material. At the start of the Battle Phase: You can detach 1 material from this card, then target 1 face-up monster on the field; it cannot attack until the end of your turn, then you can equip 1 monster adjacent to it or in its column to it. You can only use this effect of \"Bohrok Gahlok-Kal\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Nuhvok-Kal",
+        "type": "Xyz Effect Monster",
+        "attribute": "EARTH",
+        "race": "Machine",
+        "level": 4,
+        "atk": 2000,
+        "def": 2300,
+        "desc": "2 Level 4 \"Bohrok\" monsters\nPlace materials detached from this card on the bottom of the Deck instead of sending them to the GY. Once per turn: You can attach 1 \"Krana\" monster from your hand, field, or GY to this card as material. You can detach 2 or more materials from this card, then choose that many Main Monster Zones and\/or Spell & Trap Zones; return as many cards in those zones to the hand as possible, also any of those zones that are unused after that cannot be used until your next Standby Phase. You can only use this effect of \"Bohrok Nuhvok-Kal\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Pahrak-Kal",
+        "type": "Xyz Effect Monster",
+        "attribute": "EARTH",
+        "race": "Machine",
+        "level": 4,
+        "atk": 2400,
+        "def": 1900,
+        "desc": "2 Level 4 \"Bohrok\" monsters\nPlace materials detached from this card on the bottom of the Deck instead of sending them to the GY. Once per turn: You can attach 1 \"Krana\" monster from your hand, field, or GY to this card as material. At the start of the Damage Step, if this card battles: You can detach 1 material from this card, then target 1 monster your opponent controls; banish all cards they control in its column. Then, if this effect banished exactly 1 card, inflict 1200 damage to your opponent. You can only use this effect of \"Bohrok Pahrak-Kal\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Kohrak-Kal",
+        "type": "Xyz Effect Monster",
+        "attribute": "WATER",
+        "race": "Machine",
+        "level": 4,
+        "atk": 2300,
+        "def": 2000,
+        "desc": "2 Level 4 \"Bohrok\" monsters\nPlace materials detached from this card on the bottom of the Deck instead of sending them to the GY. Once per turn: You can attach 1 \"Krana\" monster from your hand, field, or GY to this card as material. During the Main Phase (Quick Effect): You can detach 2 materials from this card; change all other face-up monsters on the field to Defense Position, also negate their effects until the end of this turn. You can only use this effect of \"Bohrok Kohrak-Kal\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Lehvak-Kal",
+        "type": "Xyz Effect Monster",
+        "attribute": "WIND",
+        "race": "Machine",
+        "level": 4,
+        "atk": 1900,
+        "def": 2400,
+        "desc": "2 Level 4 \"Bohrok\" monsters\nPlace materials detached from this card on the bottom of the Deck instead of sending them to the GY. (Quick Effect): You can target 1 other card you control or in either GY; attach it to this card as material. If this card has 5 or more materials: You can detach all materials from this card, and if you do, destroy up to that many cards your opponent controls, then you can attach 1 of those destroyed cards to this card as material. You can only use each effect of \"Bohrok Lehvak-Kal\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok-Kal Strategy",
+        "type": "Spell",
+        "desc": "When this card is activated: You can Special Summon 1 \"Bohrok\" monster from your hand. If a \"Bohrok\" monster(s) is Special Summoned to your field (except during the Damage Step): You can activate 1 of these effects, or, if the Summon is an Xyz Summon, you can activate both, in sequence;\n\u25cfTarget 1 other Spell\/Trap on the field; destroy it.\n\u25cfAdd 1 \"Bohrok\" Spell\/Trap from your Deck to your hand, except \"Bohrok-Kal Strategy\".\nYou can only use this effect of \"Bohrok-Kal Strategy\" once per turn.",
+        "credits": "The LEGO Group",
+        "race": "Continuous"
+    },
+    {
+        "name": "Bohrok Kalifornication",
+        "type": "Trap",
+        "desc": "If your opponent controls a face-up card, you can activate this card the turn it was Set, by banishing 2 \"Bahrag\" monsters with different names from your Extra Deck. During the Main Phase: You can send 1 \"Bohrok\" or \"Krana\" card from your hand or face-up field to the GY, then target up to 2 \"Bohrok\" monsters in your GY; Special Summon 1 \"Bohrok\" Xyz Monster from your Extra Deck, and if you do, attach the targeted monsters to it as material, but return it to the Extra Deck during your opponent's End Phase. You can only use this effect of \"Bohrok Kalifornication\" once per turn.",
+        "credits": "The LEGO Group",
+        "race": "Continuous"
+    },
+    {
+        "name": "Bohrok Counterattack",
+        "type": "Trap",
+        "desc": "When your opponent activates a Spell\/Trap Card, or monster effect, while you control a \"Bohrok\" monster or only face-down monsters (min. 1): Send 1 \"Krana\" monster from your Deck or Extra Deck to the GY; negate the activation, then you can attach that card to 1 \"Bohrok\" Xyz Monster you control as material.",
+        "credits": "The LEGO Group",
+        "race": "Counter"
+    },
+    {
+        "name": "Krana Xa-Kal, Liberator",
+        "type": "Link Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "linkmarkers": [ "Bottom" ],
+        "desc": "1 \"Bohrok\" or \"Krana\" monster\nCannot be used as Link Material. Once per turn: You can target 1 Level 4 \"Bohrok\" monster this card points to; Special Summon 1 \"Bohrok\" Xyz Monster from your Extra Deck, by using that target as material. (This is treated as an Xyz Summon.) A \"Bohrok\" Xyz Monster that has this card as material gains this effect.\n\u25cfIf this card inflicts battle damage to your opponent: You can place up to 2 of your banished \"Bahrag\" Pendulum Monsters in your Pendulum Zone(s), then you can add 1 \"As It Was in the Before-Time\" from your Deck or GY to your hand.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Za-Kal, Overseer",
+        "type": "Link Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "linkmarkers": [ "Top-Right" ],
+        "desc": "1 \"Bohrok\" or \"Krana\" monster\nCannot be used as Link Material. If an opponent's monster this card points to battles a \"Bohrok\" monster, that opponent's monster's ATK\/DEF become 0 during the Damage Step only. A \"Bohrok\" Xyz Monster that has this card as material gains this effect.\n\u25cfOnce per turn, when a card or effect is activated that would destroy a \"Bohrok\" card(s) you control (Quick Effect): You can detach 1 material from this card; negate the activation, and if you do, destroy that card.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Vu-Kal, Transporter",
+        "type": "Link Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "linkmarkers": [ "Bottom-Right" ],
+        "desc": "1 \"Bohrok\" or \"Krana\" monster\nCannot be used as Link Material. Once per turn: You can target 1 Level 4 \"Bohrok\" monster this card points to; Special Summon 1 \"Bohrok\" Xyz Monster from your Extra Deck, by using that target as material. (This is treated as an Xyz Summon.) A \"Bohrok\" Xyz Monster that has this card as material gains this effect.\n\u25cfOnce per turn (Quick Effect): You can banish this card until the End Phase, and if you do, you can add 1 \"Bohrok\" card from your GY to your hand.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Su-Kal, Demolisher",
+        "type": "Link Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "linkmarkers": [ "Top" ],
+        "desc": "1 \"Bohrok\" or \"Krana\" monster\nCannot be used as Link Material. If an opponent's monster this card points to battles a \"Bohrok\" monster, that opponent's monster's ATK\/DEF become 0 during the Damage Step only. A \"Bohrok\" Xyz Monster that has this card as material gains this effect.\n\u25cfThis card gains 800 ATK\/DEF and cannot be destroyed by card effects.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Ca-Kal, Seeker",
+        "type": "Link Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "linkmarkers": [ "Bottom-Left" ],
+        "desc": "1 \"Bohrok\" or \"Krana\" monster\nCannot be used as Link Material. Once per turn: You can target 1 Level 4 \"Bohrok\" monster this card points to; Special Summon 1 \"Bohrok\" Xyz Monster from your Extra Deck, by using that target as material. (This is treated as an Xyz Summon.) A \"Bohrok\" Xyz Monster that has this card as material gains these effects based on the number of \"Bahrag\" Monster Cards with different names in your field and banishment.\n\u25cf1+: Cannot be destroyed by battle. \u25cf2+: Once per turn: You can draw 1 card, then discard 1 card.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Yo-Kal, Excavator",
+        "type": "Link Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "linkmarkers": [ "Top-Left" ],
+        "desc": "1 \"Bohrok\" or \"Krana\" monster\nCannot be used as Link Material. If an opponent's monster this card points to battles a \"Bohrok\" monster, that opponent's monster's ATK\/DEF become 0 during the Damage Step only. A \"Bohrok\" Xyz Monster that has this card as material gains this effect.\n\u25cfThis card can attack directly, also if it attacks, your opponent cannot activate monster effects until the end of the Damage Step.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Ja-Kal, Tracker",
+        "type": "Link Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "linkmarkers": [ "Left" ],
+        "desc": "1 \"Bohrok\" or \"Krana\" monster\nCannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 \"Bohrok\" monster from your hand or GY in face-up or face-down Defense Position, but place it on the bottom of the Deck when it leaves the field. A \"Bohrok\" Xyz Monster that has this card as material gains this effect.\n\u25cfOnce per turn: You can declare 1 card name; until the end of your opponent's turn, \"Bohrok\" cards and Set cards you control are unaffected by the effects of cards with that original name.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Krana Bo-Kal, Visionary",
+        "type": "Link Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "linkmarkers": [ "Right" ],
+        "desc": "1 \"Bohrok\" or \"Krana\" monster\nCannot be used as Link Material. You can Tribute this card; Special Summon 1 Level 4 \"Bohrok\" monster from your hand or GY in face-up or face-down Defense Position, but place it on the bottom of the Deck when it leaves the field. A \"Bohrok\" Xyz Monster that has this card as material gains this effect.\n\u25cfOnce per turn: You can look at all Set cards your opponent controls, also look at as many random cards in their hand as possible, up to the number of \"Bohrok\" monsters you control.",
+        "credits": "The LEGO Group"
+    }
+]
