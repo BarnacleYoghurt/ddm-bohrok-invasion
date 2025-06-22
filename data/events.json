@@ -79,7 +79,7 @@
             "parts": [
                 {
                     "char": "intro", "src": "introduction.webp", "name": "Introduction",
-                    "text": "Welcome to {{italic::Bohrok Invasion}}, a campaign utilizing the card pool of the Bionicle YGOPro Expansion."
+                    "text": "Welcome to {{italic::Bohrok Invasion}}, a campaign utilizing the card pool of the Bionicle YGOPro Expansion.\n(Check out bye-project.xyz for further information!)"
                 },
                 {"text": "In the role of either the Toa or the Bohrok Swarms, the players will face off over the fate of the island of Mata Nui.\nFirst, choose which side to take."},
                 {"text": "(Both players can technically make the same choice, but be aware the lore won't make any sense if you do.)"}
@@ -110,7 +110,7 @@
         },
         "ta": {
             "micon": "fire.webp",
-            "mdesc": "FIRE",
+            "mdesc": "Search for FIRE allies in the magma fields",
             "chain": "pack:fire",
             "parts": [
                 {
@@ -122,7 +122,7 @@
         },
         "gako": {
             "micon": "water.webp",
-            "mdesc": "WATER",
+            "mdesc": "Search for WATER allies in the seas and glaciers",
             "chain": "pack:water",
             "parts": [
                 {
@@ -152,7 +152,7 @@
         },
         "onupo": {
             "micon": "earth.webp",
-            "mdesc": "EARTH",
+            "mdesc": "Search for EARTH allies in tunnels and deserts",
             "chain": "pack:earth",
             "parts": [
                 {
@@ -180,7 +180,7 @@
         },
         "le": {
             "micon": "wind.webp",
-            "mdesc": "WIND",
+            "mdesc": "Search for WIND allies in the jungle treetops",
             "chain": "pack:wind",
             "parts": [
                 {
@@ -527,6 +527,70 @@
                     "text": "COMMENCE KALIFORNICATION"
                 }
             ]
+        },
+        "toaTut": {
+            "parts": [
+                {
+                    "name": "Tutorial"
+                },
+                {
+                    "text": "A brief overview on the key features of the Toa Mata archetype."
+                },
+                {
+                    "char": "tut1", "src": "tutorialToaMata.webp",
+                    "text": "All six main monsters are Level 6 Warriors spread over the FIRE, WATER, EARTH, and WIND Attributes. Despite their Level, they can be Normal Summoned even on an empty field, by Tributing another monster in your hand that either matches in Attribute or is also a Toa Mata."
+                },
+                {
+                    "char": "tut1",
+                    "text": "On the field, aside from decently big stat lines, they offer various useful effects that trigger when certain events occur. Having the right Toa on scene at the right moments is crucial to move the duel in your favor."
+                },
+                {
+                    "char": "tut2", "src": "tutorialKanohi.webp",
+                    "text": "You can also equip the Toa with their Kanohi, the masks of power that grant them protection and other boosts. Equipping a new Kanohi will destroy any mask already equipped, but this can be to your advantage, as each of them will search out the Toa Mata it belongs to upon hitting the GY."
+                },
+                {
+                    "char": "tut3", "src": "tutorialToaSupport.webp",
+                    "text": "Further support includes the Suva, which lets you swap Kanohi as a Quick Effect, and the Suva Kaita, which provides a way to bring back Toa from GY and banishment. Both are Level 1 Rock monsters that count as multiple Attributes in your hand, making them perfect Tribute fodder for the Toa Mata!"
+                },
+                {
+                    "char": "tut3", 
+                    "text": "Finally, several Spells and Traps depicting the arrival and adventures of the Toa can help you find your way to these monsters and put them on the field more quickly."
+                },
+                {
+                    "char": "tut3", 
+                    "text": "That concludes this tutorial. Happy deckbuilding and dueling, and good luck!"
+                }
+            ]
+        },
+        "bohrokTut": {
+            "parts": [
+                {
+                    "name": "Tutorial"
+                },
+                {
+                    "text": "A brief overview on the key features of the Bohrok archetype."
+                },
+                {
+                    "char": "tut1", "src": "tutorialBohrok.webp",
+                    "text": "The core of the swarm are these six Level 4 Machines. Each of them has two similar effects:\n- A Flip effect that Special Summons a different name from your Deck in face-down Defense Position.\n- A unique removal effect at the cost of returning itself to the Deck, either immediately or during the End Phase depending on the effect."
+                },
+                {
+                    "char": "tut1",
+                    "text": "Your basic goal is to eat through your opponent's resources with a neverending onslaught of these monsters. If you wake one, you wake them all."
+                },
+                {
+                    "char": "tut2", "src": "tutorialKrana.webp",
+                    "text": "The Krana are the brains of the swarm, which you can use from your hand to grant the Bohrok special additional powers. In addition, some Krana let you Special Summon a Bohrok directly from your Deck to wield it, while others can be banished from the GY to take control of monsters destroyed by your Bohrok."
+                },
+                {
+                    "char": "tut3", "src": "tutorialBohrokVa.webp",
+                    "text": "The supporting Bohrok Va are Level 2 Tuner monsters that can each be Special Summoned from your hand if you control a matching Bohrok, providing different utility effects on the field. In the End Phase after being sent to the GY, they also help you recycle either Bohrok in your GY or Krana you have previously banished."
+                },
+                {
+                    "char": "tut3", 
+                    "text": "That concludes this tutorial. Happy deckbuilding and dueling, and good luck!"
+                }
+            ]
         }
     },
     "choice": {
@@ -537,7 +601,7 @@
             "list": [
                 {
                     "name": "Toa",  "img": "Toa.webp", "chain": "text:toaIntro",
-                    "desc": "Defend Mata Nui against the threat of the Bohrok Swarms!\n(Diverse Warrior and Attribute synergies, with a focus on the six Toa and their masks of power)"
+                    "desc": "Defend Mata Nui against the threat of the Bohrok Swarms!\n(Diverse Attribute-focused strategies centered on powerful Warriors strengthened by Equip Spells)"
                 },
                 {
                     "name": "Bohrok", "img": "Bohrok.webp", "chain": "text:bohrokIntro",
@@ -550,6 +614,7 @@
         "toaBase": {
             "micon": "toa.webp",
             "mdesc": "Pack: Toa Mata & Kanohi",
+            "chain": "text:toaTut",
             "shows": 24,
             "composes": [
                 "toaBase"
@@ -582,6 +647,7 @@
         "bohrokBase": {
             "micon": "bohrok.webp",
             "mdesc": "Pack: Bohrok & Krana",
+            "chain": "text:bohrokTut",
             "shows": 24,
             "composes": [
                 "bohrokBase"
