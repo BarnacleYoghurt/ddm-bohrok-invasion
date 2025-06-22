@@ -39,7 +39,7 @@
             "audio": "boxor",
             "mdata": [
                 ["text:boxor", "text:toaKaita"],
-                ["swap:toa2"],
+                ["pick:toa2"],
                 ["text:toaDuel2"]
             ]
         },
@@ -48,7 +48,7 @@
             "audio": "invasion",
             "mdata": [
                 ["text:bahrag", "text:bohrokKaita"],
-                ["swap:bohrok2"],
+                ["pick:bohrok2"],
                 ["text:bohrokDuel2"]
             ]
         },
@@ -287,7 +287,7 @@
             ]
         },
         "boxor": {
-            "chain": "pick:boxor",
+            "chain": "pack:boxor",
             "micon": "nuparu.webp",
             "mdesc": "Nuparu: Anti-Bohrok Technology",
             "parts": [
@@ -299,7 +299,7 @@
             ]
         },
         "toaKaita": {
-            "chain": "pick:toaKaita",
+            "chain": "pack:toaKaita",
             "micon": "suvaKaita.webp",
             "mdesc": "Suva Kaita: Combine the powers of the Toa",
             "parts": [
@@ -376,7 +376,7 @@
         "bahrag": {
             "micon": "bahrag.webp",
             "mdesc": "The Bahrag: Prepare for a final showdown",
-            "chain": "pick:bahrag",
+            "chain": "pack:bahrag",
             "parts": [
                 {
                     "char": "gahdok", "src": "gahdok.webp", "name": "Bahrag Gahdok, Queen of the Bohrok", "left": 60,
@@ -397,7 +397,7 @@
         "bohrokKaita": {
             "micon": "bohrokFusion.webp",
             "mdesc": "Bohrok Swarms: Commence emergency protocols",
-            "chain": "pick:bohrokKaita",
+            "chain": "pack:bohrokKaita",
             "parts": [
                 {
                     "char": "nuhvok", "src": "nuhvok.webp", "left": -60 
@@ -615,31 +615,31 @@
             "micon": "toa.webp",
             "mdesc": "Pack: Toa Mata & Kanohi",
             "chain": "text:toaTut",
-            "shows": 24,
+            "shows": 30,
             "composes": [
                 "toaBase"
             ]
         },
         "fire": {
-            "shows": 24,
+            "shows": 20,
             "composes": [
                 "fire"
             ]
         },
         "water": {
-            "shows": 24,
+            "shows": 20,
             "composes": [
                 "water"
             ]
         },
         "earth": {
-            "shows": 24,
+            "shows": 20,
             "composes": [
                 "earth"
             ]
         },
         "wind": {
-            "shows": 24,
+            "shows": 20,
             "composes": [
                 "wind"
             ]
@@ -648,39 +648,63 @@
             "micon": "bohrok.webp",
             "mdesc": "Pack: Bohrok & Krana",
             "chain": "text:bohrokTut",
-            "shows": 24,
+            "shows": 30,
             "composes": [
                 "bohrokBase"
             ]
         },
         "l4Bohrok": {
-            "shows": 24,
+            "shows": 20,
             "composes": [
                 "l4Bohrok"
             ]
         },
         "krana": {
-            "shows": 24,
+            "shows": 20,
             "composes": [
                 "krana"
             ]
         },
         "bohrokVa": {
-            "shows": 24,
+            "shows": 20,
             "composes": [
                 "bohrokVa"
             ]
         },
+        "boxor": {
+            "shows": 10,
+            "composes": [
+                "boxor"
+            ]
+        },
+        "toaKaita": {
+            "shows": 10,
+            "composes": [
+                "toaKaita"
+            ]
+        },
         "nuva": {
-            "shows": 24,
+            "shows": 20,
             "composes": [
                 "nuva"
             ]
         },
         "kal": {
-            "shows": 24,
+            "shows": 20,
             "composes": [
                 "kal"
+            ]
+        },
+        "bahrag": {
+            "shows": 10,
+            "composes": [
+                "bahrag"
+            ]
+        },
+        "bohrokKaita": {
+            "shows": 10,
+            "composes": [
+                "bohrokKaita"
             ]
         }
     },
@@ -703,80 +727,28 @@
                 "bohrokBase"
             ]
         },
-        "boxor": {
+        "toa2": {
+            "micon": "trade.webp",
+            "mdesc": "Pick: Technology & Unity",
             "shows": 12,
-            "limit": 5,
+            "limit": 3,
             "composes": [
+                "toaKaita",
                 "boxor"
             ]
         },
-        "toaKaita": {
+        "bohrok2": {
+            "micon": "trade.webp",
+            "mdesc": "Pick: Queens & Combiners",
             "shows": 12,
-            "limit": 5,
+            "limit": 3,
             "composes": [
-                "toaKaita"
-            ]
-        },
-        "bahrag": {
-            "shows": 12,
-            "limit": 5,
-            "composes": [
-                "bahrag"
-            ]
-        },
-        "bohrokKaita": {
-            "shows": 12,
-            "limit": 5,
-            "composes": [
+                "bahrag",
                 "bohrokKaita"
             ]
         }
     },
     "swap": {
-        "toa2": {
-            "micon": "trade.webp",
-            "mdesc": "Trade between Unity and Technology",
-            "removeRedundant": true,
-            "showLimit": 3,
-            "swapLimit": 2,
-            "trades": [
-                { "Exo-Toa": "Toa Mata Combination - Magma" },
-                { "Exo-Toa": "Toa Mata Combination - Storm" },
-                { "Exo-Toa": "Toa Mata Combination - Crystal" },
-                { "The Boxor, Weapon of the Matoran": "Toa Mata Combination - Magma" },
-                { "The Boxor, Weapon of the Matoran": "Toa Mata Combination - Storm" },
-                { "The Boxor, Weapon of the Matoran": "Toa Mata Combination - Crystal" },
-                { "Matoran Engineer Nuparu": "Toa Mata Combination - Magma" },
-                { "Matoran Engineer Nuparu": "Toa Mata Combination - Storm" },
-                { "Matoran Engineer Nuparu": "Toa Mata Combination - Crystal" },
-                { "Toa Mata Combination - Magma": "Exo-Toa" },
-                { "Toa Mata Combination - Storm": "Exo-Toa" },
-                { "Toa Mata Combination - Crystal": "Exo-Toa" },
-                { "Toa Mata Combination - Magma": "The Boxor, Weapon of the Matoran" },
-                { "Toa Mata Combination - Storm": "The Boxor, Weapon of the Matoran" },
-                { "Toa Mata Combination - Crystal": "The Boxor, Weapon of the Matoran" },
-                { "Toa Mata Combination - Magma": "Matoran Engineer Nuparu" },
-                { "Toa Mata Combination - Storm": "Matoran Engineer Nuparu" },
-                { "Toa Mata Combination - Crystal": "Matoran Engineer Nuparu" }
-            ]
-        },
-        "bohrok2": {
-            "micon": "trade.webp",
-            "mdesc": "Trade between Bahrag and Bohrok Kaita",
-            "removeRedundant": true,
-            "showLimit": 3,
-            "swapLimit": 2,
-            "trades": [
-                { "Bahrag Cahdok, Queen of the Bohrok": "Bohrok Kaita Ja" },
-                { "Bahrag Cahdok, Queen of the Bohrok": "Bohrok Kaita Za" },
-                { "Bahrag Gahdok, Queen of the Bohrok": "Bohrok Kaita Ja" },
-                { "Bahrag Gahdok, Queen of the Bohrok": "Bohrok Kaita Za" },
-                { "Bohrok Kaita Za": "Bahrag Cahdok, Queen of the Bohrok" },
-                { "Bohrok Kaita Ja": "Bahrag Cahdok, Queen of the Bohrok" },
-                { "Bohrok Kaita Za": "Bahrag Gahdok, Queen of the Bohrok" },
-                { "Bohrok Kaita Ja": "Bahrag Gahdok, Queen of the Bohrok" }
-            ]
-        },
         "toa3": {
             "micon": "trade.webp",
             "mdesc": "Toa Nuva Upgrades",
