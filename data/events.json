@@ -2,12 +2,14 @@
     "area": {
         "START": {
             "image": "faceoff.webp",
+            "audio": "begin",
             "mdata": [
                 ["text: introduction"]
             ]
         },
         "toa1": {
             "image": "kini-nui.webp",
+            "audio": "meeting",
             "mdata": [
                 ["pack: toaBase"],
                 ["text: ta", "text: gako", "text: onupo", "text: le"],
@@ -20,6 +22,7 @@
         },
         "bohrok1": {
             "image": "bohrok_nest.webp",
+            "audio": "bohrok",
             "mdata": [
                 ["pack: bohrokBase"],
                 ["text: gahdok", "text: krana", "text: cahdok"],
@@ -33,6 +36,7 @@
         },
         "toa2": {
             "image": "cave.webp",
+            "audio": "boxor",
             "mdata": [
                 ["text:boxor", "text:toaKaita"],
                 ["swap:toa2"],
@@ -41,6 +45,7 @@
         },
         "bohrok2": {
             "image": "invasion.webp",
+            "audio": "invasion",
             "mdata": [
                 ["text:bahrag", "text:bohrokKaita"],
                 ["swap:bohrok2"],
@@ -49,6 +54,7 @@
         },
         "toa3": {
             "image": "ep.webp",
+            "audio": "nuva",
             "mdata": [
                 ["text:emergence"],
                 ["swap:toa3"],
@@ -57,6 +63,7 @@
         },
         "bohrok3": {
             "image": "kal_hive.webp",
+            "audio": "kal",
             "mdata": [
                 ["text:kalifornication"],
                 ["swap:bohrok3"],
@@ -150,6 +157,9 @@
             "parts": [
                 {
                     "char": "meeting", "src": "pohatu_meeting_onua.webp", "anim": "in_fly_u"
+                },
+                {
+                    "sfxx": "crash_se.mp3"
                 },
                 {
                     "char": "meeting", "anim": "blur",
@@ -350,7 +360,7 @@
                     "char": "takua", "src": "takua.webp", "name": "Takua, the Chronicler",
                     "text": "In the depths of the Bohrok Nest, the Toa at last vanquished the Bahrag. And on the surface, the swarms fell silent."
                 },
-                { "text": "The threat seemed over, but a new darkness already loomed on the horizon. And they Toa, too, found themselves changed forever ..." }
+                { "text": "The threat seemed over, but a new darkness already loomed on the horizon. And the Toa, too, found themselves changed forever ..." }
             ]
         },
         "toaLose2": {
@@ -360,7 +370,7 @@
                     "char": "takua", "src": "takua.webp", "name": "Takua, the Chronicler",
                     "text": "Despite being outmatched in their battle against the Bahrag, the Toa eventually succeeded in sealing away the Queens by combining their powers, bringing the advance of the Bohrok to a halt."
                 },
-                { "text": "The threat seemed over, but a new darkness already loomed on the horizon. And they Toa, too, found themselves changed forever ..." }
+                { "text": "The threat seemed over, but a new darkness already loomed on the horizon. And the Toa, too, found themselves changed forever ..." }
             ]
         },
         "bahrag": {
@@ -509,6 +519,9 @@
                 },
                 {
                     "back": "kalifornication.webp"
+                },
+                {
+                    "sfxx": "kalifornication_se.mp3"
                 },
                 {
                     "text": "COMMENCE KALIFORNICATION"
@@ -746,15 +759,18 @@
     "duel": {
         "duel1": {
             "wins": "text:<<side>>Win1",
-            "lose": "text:<<side>>Lose1"
+            "lose": "text:<<side>>Lose1",
+            "audio": "duel1"
         },
         "duel2": {
             "wins": "text:<<side>>Win2",
-            "lose": "text:<<side>>Lose2"
+            "lose": "text:<<side>>Lose2",
+            "audio": "duel2"
         },
         "duel3": {
             "wins": "ends:<<side>>Win",
-            "lose": "ends:<<side>>Lose"
+            "lose": "ends:<<side>>Lose",
+            "audio": "duel3"
         }
     },
     "ends": {
