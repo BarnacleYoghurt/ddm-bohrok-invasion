@@ -909,5 +909,51 @@
         "linkmarkers": [ "Right" ],
         "desc": "1 \"Bohrok\" or \"Krana\" monster\n● Cannot be used as Link Material.\n● You can Tribute this card; Special Summon 1 Level 4 \"Bohrok\" monster from your hand or GY in face-up or face-down Defense Position, but place it on the bottom of the Deck when it leaves the field.\nA \"Bohrok\" Xyz Monster that has this card as material gains this effect.\n● Once per turn: You can look at all Set cards your opponent controls, also look at as many random cards in their hand as possible, up to the number of \"Bohrok\" monsters you control.",
         "credits": "The LEGO Group"
+    },
+    {
+        "name": "Matoran Legend Lhii",
+        "type": "Effect Monster",
+        "attribute": "FIRE",
+        "race": "Warrior",
+        "level": 2,
+        "atk": 0,
+        "def": 0,
+        "desc": "● During the Damage Step, when your FIRE monster battles an opponent's monster (Quick Effect): You can send this card from your hand to the GY; until the end of this turn, that opponent's monster loses 500 ATK\/DEF, also its effects are negated.\n● If your FIRE Warrior monster destroys an opponent's monster by battle, while this card is in your GY: You can Special Summon this card, and if you do, it gains ATK equal to that destroyed monster's original ATK, until the end of this turn. You can only use 1 \"Matoran Legend Lhii\" effect per turn, and only once that turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Matoran Astrologer Nixie",
+        "type": "Tuner Effect Monster",
+        "attribute": "WATER",
+        "race": "Warrior",
+        "level": 2,
+        "atk": 400,
+        "def": 500,
+        "desc": "● When a monster effect is activated while you control a WATER monster and this card is in your hand (Quick Effect): You can draw 1 card and show it, then if it is a monster, Special Summon this card, and if you do, its Level becomes the shown monster's Level. Otherwise, discard this card.\n● If this card is sent from the hand or field to the GY, and you have no Spells\/Traps in your GY: You can send 1 Spell\/Trap from your Deck to the GY. You can only use each effect of \"Matoran Astrologer Nixie\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Matoran Scribe Jaa",
+        "type": "Effect Monster",
+        "attribute": "WATER",
+        "race": "Warrior",
+        "level": 2,
+        "atk": 300,
+        "def": 700,
+        "desc": "● You can banish 1 Spell\/Trap from your hand or field; Special Summon this card from your hand.\n● If this card is sent to the GY: You can target 1 of your banished Spells\/Traps; place it on top of your Deck, and if you do, Special Summon 1 WATER \"Matoran\" monster from your GY, except \"Matoran Scribe Jaa\", but negate its effects, also you cannot Special Summon while you control that face-up monster. You can only use each effect of \"Matoran Scribe Jaa\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Premature Bohrok Beacon",
+        "type": "Trap",
+        "desc": "● Target 1 face-down Defense Position monster you control; change that target to face-up Attack Position.\n● If you control no face-up monsters, you can activate this card from your hand. During your Main Phase, except the turn this card was sent to the GY: You can Special Summon this card from your GY as an Effect Monster (Machine\/DARK\/Level 4\/ATK 1400\/DEF 1400), but banish it when it leaves the field.  (This card is NOT treated as a Trap.) If Summoned this way, this card can be used as a substitute for any 1 Fusion Material whose name is specifically listed on a \"Bohrok\" Fusion Monster, but the other Fusion Material(s) must be correct. You can only use this effect of \"Premature Bohrok Beacon\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "The Island of Mata Nui",
+        "type": "Spell",
+        "desc": "● All Normal Summoned \"Toa Mata\" monsters gain 600 ATK\/DEF.\n● During your Main Phase: You can reveal 1 monster in your hand and add 1 \"-Koro\" Field Spell that mentions that monster's Attribute from your Deck to your hand. If you revealed a \"Toa Mata\" monster, you can add 1 \"The Great Temple, Kini-Nui\" instead.\n● If a card in your Field Zone, except \"The Island of Mata Nui\", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can only use each effect of \"The Island of Mata Nui\" once per turn.",
+        "credits": "The LEGO Group",
+        "race": "Field"
     }
 ]

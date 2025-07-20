@@ -615,7 +615,6 @@
             "micon": "toa.webp",
             "mdesc": "Pack: Toa Mata & Kanohi",
             "chain": "text:toaTut",
-            "shows": 30,
             "composes": [
                 "toaBase"
             ]
@@ -648,7 +647,6 @@
             "micon": "bohrok.webp",
             "mdesc": "Pack: Bohrok & Krana",
             "chain": "text:bohrokTut",
-            "shows": 30,
             "composes": [
                 "bohrokBase"
             ]
