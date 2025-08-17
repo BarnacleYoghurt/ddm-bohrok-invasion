@@ -955,5 +955,143 @@
         "desc": "● All Normal Summoned \"Toa Mata\" monsters gain 600 ATK\/DEF.\n● During your Main Phase: You can reveal 1 monster in your hand and add 1 \"-Koro\" Field Spell that mentions that monster's Attribute from your Deck to your hand. If you revealed a \"Toa Mata\" monster, you can add 1 \"The Great Temple, Kini-Nui\" instead.\n● If a card in your Field Zone, except \"The Island of Mata Nui\", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can only use each effect of \"The Island of Mata Nui\" once per turn.",
         "credits": "The LEGO Group",
         "race": "Field"
+    },
+    {
+        "name": "Great Golden Kanohi",
+        "type": "Spell",
+        "desc": "● If another \"Kanohi\" card becomes equipped to the equipped monster, destroy this card.\n● While this card is equipped to a \"Toa\" monster: You can banish 6 \"Great Kanohi\" Equip Spells with different names from your GY, and if you do, replace this effect with those cards' original effects.\n● If this card is sent to the GY: You can send 1 \"Kanohi\" Equip Spell from your Deck to the GY; add this card to your hand, then place 1 card from your hand on the bottom of the Deck. You can only use this effect of \"Great Golden Kanohi\" once per turn.",
+        "credits": "The LEGO Group",
+        "race": "Equip"
+    },
+    {
+        "name": "Ussal, Crab Rahi",
+        "type": "Pendulum Effect Monster",
+        "attribute": "EARTH",
+        "race": "Beast",
+        "level": 3,
+        "atk": 1000,
+        "def": 1000,
+        "scale": 2,
+        "desc": [
+            "● Once per turn: You can pay 1000 LP; this turn, if you Pendulum Summon while this card and another \"Rahi\" monster are in your Pendulum Zones, you can also Pendulum Summon up to 1 Beast or Winged Beast \"Rahi\" monster from your GY.",
+            "● If this card is sent to the GY: You can Special Summon 1 other Level 4 or lower EARTH monster from your GY, but negate its effects.\n● If this card is banished: You can target 1 Beast or Winged Beast \"Rahi\" monster in your GY; banish it, and if you do, draw 1 card. You can only use 1 \"Ussal, Crab Rahi\" effect per turn, and only once that turn."
+        ],
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Mahi, Goat Rahi",
+        "type": "Pendulum Effect Monster",
+        "attribute": "EARTH",
+        "race": "Beast",
+        "level": 3,
+        "atk": 700,
+        "def": 1500,
+        "scale": 2,
+        "desc": [ 
+            "● You can target up to 2 \"Rahi\" monsters you control; destroy 1 Beast or Winged Beast Monster Card in your Pendulum Zone or face-up Extra Deck, and if you do, increase or decrease the targeted monsters' Levels by 1.",
+            "● If this card is sent to the GY: You can add 1 Level 4 or lower Beast or Winged Beast \"Rahi\" monster from your Deck to your hand, except \"Mahi, Goat Rahi\".\n● If this card is banished: You can target 1 of your banished \"Rahi\" cards that was not banished this turn; add it to your hand. You can only use 1 \"Mahi, Goat Rahi\" effect per turn, and only once that turn."
+        ],
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Vako, Rhino Rahi",
+        "type": "Pendulum Effect Monster",
+        "attribute": "EARTH",
+        "race": "Beast",
+        "level": 4,
+        "atk": 1900,
+        "def": 700,
+        "scale": 5,
+        "desc": [
+            "● During your Main Phase: You can destroy 1 \"Rahi\" monster you control, and if you do, Special Summon this card. You can only use this effect of \"Vako, Rhino Rahi\" once per turn.",
+            "● If this card is Normal or Special Summoned: You can send 1 Beast or Winged Beast \"Rahi\" monster from your Deck or face-up Extra Deck to the GY. You can only use this effect of \"Vako, Rhino Rahi\" once per turn.\nA Synchro Monster Summoned using this card as material gains these effects.\n● If it battles, your opponent cannot activate cards or effects until the end of the Damage Step.\n● A \"Rahi\" Synchro Monster Summoned using this card as material gains the above effect."
+        ],
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Dikapi, Ostrich Rahi",
+        "type": "Synchro Tuner Effect Monster",
+        "attribute": "EARTH",
+        "race": "Winged Beast",
+        "level": 5,
+        "atk": 1000,
+        "def": 1650,
+        "desc": "1 Tuner + 1+ non-Tuner monsters\n● If this Synchro Summoned card would be used as Synchro Material for a \"Rahi\" monster, 1 face-up Beast or Winged Beast Pendulum Monster in your Extra Deck (and no other monsters) can be used as the other material. If you do this, you can treat this card as any Level from 1 to 5 for that Synchro Summon.● If you control no monsters and this card is in your GY: You can target 1 of your banished monsters; shuffle it into the Deck, and if you do, Special Summon this card. You can only Special Summon \"Dikapi, Ostrich Rahi(s)\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Kuma-Nui, Rat Rahi",
+        "type": "Synchro Effect Monster",
+        "attribute": "EARTH",
+        "race": "Beast",
+        "level": 8,
+        "atk": 3000,
+        "def": 2500,
+        "desc": "1 \"Rahi\" Tuner + 1+ non-Tuner monsters\n● Gains 300 ATK for each other \"Rahi\" card you control.● If this card battles an opponent's monster, at the start of the Damage Step: You can activate this effect; change that opponent's monster to Attack Position, also negate its effects until the end of this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Matoran Racer Onepu",
+        "type": "Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 2,
+        "atk": 700,
+        "def": 500,
+        "desc": "● When this card is Normal Summoned: You can target 1 of your banished EARTH monsters; place it on the bottom of the Deck, then you can reveal any number of \"Matoran\" monsters in your hand, and if you do, gain 500 LP for each.\n● During your Main Phase: You can Special Summon 1 Level 4 or lower Beast \"Rahi\" monster from your hand or GY, but banish it when it leaves the field. You can only use each effect of \"Matoran Racer Onepu\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Matoran Tender Midak",
+        "type": "Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 2,
+        "atk": 500,
+        "def": 500,
+        "desc": "● If you control a \"Matoran\" monster, except \"Matoran Tender Midak\": You can send this card from your hand to the GY; send 1 EARTH monster from your Deck to the GY, and if you do, gain 400 LP.\n● If this card in your GY would be returned to the Deck by a card effect, you can add it to your hand instead. You can only use each effect of \"Matoran Tender Midak\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Matoran Trader Ahkmou",
+        "type": "Effect Monster",
+        "attribute": "EARTH",
+        "race": "Warrior",
+        "level": 2,
+        "atk": 400,
+        "def": 600,
+        "desc": "● During your Main Phase: You can Special Summon this card from your hand to your opponent's field, and if you do, Special Summon 1 Level 4 or lower \"Matoran\" monster from your hand. You can only use this effect of \"Matoran Trader Ahkmou\" once per turn.\n● If you activate a monster effect, except \"Matoran Trader Ahkmou\": Give control of this card to your opponent.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Great Kanohi Aki",
+        "type": "Spell",
+        "desc": "● If another \"Kanohi\" card becomes equipped to the equipped monster, destroy this card.\n● If the equipped monster is a \"Toa Kaita\" monster, it cannot be destroyed by battle, gains 1000 ATK, and can attack all monsters your opponent controls once each, also if it attacks a Defense Position monster, inflict piercing battle damage.\n● Once per turn, while this card is equipped to a \"Toa Mata\" monster you control: You can Special Summon 1 \"Toa Mata\" monster with the same Level from your hand, then, immediately after this effect resolves, Xyz Summon 1 \"Toa\" Xyz Monster using monsters you control, including that Special Summoned monster.",
+        "credits": "The LEGO Group",
+        "race": "Equip"
+    },
+    {
+        "name": "Great Kanohi Rua",
+        "type": "Spell",
+        "desc": "● If another \"Kanohi\" card becomes equipped to the equipped monster, destroy this card.\n● If the equipped monster is a \"Toa Kaita\" monster, it is unaffected by your opponent's card effects, also your opponent must keep their hand revealed.\n● Once per turn, while this card is equipped to a \"Toa Mata\" monster you control: You can Special Summon 1 \"Toa Mata\" monster with the same Level from your hand, then, immediately after this effect resolves, Xyz Summon 1 \"Toa\" Xyz Monster using monsters you control, including that Special Summoned monster.",
+        "credits": "The LEGO Group",
+        "race": "Equip"
+    },
+    {
+        "name": "Pokawi, Flightless Bird Rahi",
+        "type": "Tuner Effect Monster",
+        "attribute": "EARTH",
+        "race": "Winged Beast",
+        "level": 2,
+        "atk": 300,
+        "def": 600,
+        "desc": "● If a Beast or Winged Beast \"Rahi\" monster(s) is Normal or Special Summoned to your field (except during the Damage Step): You can Special Summon this card from your hand, then, immediately after this effect resolves, Synchro Summon 1 \"Rahi\" Synchro Monster using monsters you control. You can only use this effect of \"Pokawi, Flightless Bird Rahi\" once per turn.\n● During the Battle Phase (Quick Effect): You can banish this card from your GY; all monsters your opponent currently controls lose 500 ATK for each of your banished \"Rahi\" monsters, until the end of this turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Exo Autonomy",
+        "type": "Spell",
+        "desc": "● Special Summon 1 \"Exo-Toa\" from your hand or Deck, but it cannot activate its effects, also destroy it during the End Phase.\n● During your End Phase: You can banish this card from your GY and shuffle 1 \"Exo-Toa\" from your GY or banishment into the Deck; add 1 \"Toa\" monster from your Deck to your hand, then you can Set 1 \"Exo Armaments\" from your Deck, GY, or banishment. You can only activate 1 \"Exo Autonomy\" per turn.",
+        "credits": "The LEGO Group"
     }
 ]

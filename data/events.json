@@ -12,8 +12,8 @@
             "audio": "meeting",
             "mdata": [
                 ["pack: toaBase"],
-                ["text: ta", "text: gako", "text: onupo", "text: le"],
-                ["pick: toaBase"],
+                ["text: kanohi", "text: onupo", "text: toaKaita"],
+                ["pick: toaAll"],
                 ["text: toaDuel1"]
             ],
             "vars": {
@@ -38,8 +38,7 @@
             "image": "cave.webp",
             "audio": "boxor",
             "mdata": [
-                ["text:boxor", "text:toaKaita"],
-                ["pick:toa2"],
+                ["text:boxor", "text:exoToa"],
                 ["text:toaDuel2"]
             ]
         },
@@ -108,52 +107,35 @@
                 { "text": "Ahem. Where was I? Yes, let us take a look at the preparations taking place in the Bohrok Nests." }
             ]
         },
-        "ta": {
-            "micon": "fire.webp",
-            "mdesc": "Search for FIRE allies in the magma fields",
-            "chain": "pack:fire",
+        "kanohi": {
+            "micon": "kanohi.webp",
+            "mdesc": "Gather the Masks of Power",
+            "chain": "pick:kanohi",
             "parts": [
                 {
-                    "char": "tahu", "src": "tahu.webp", "name": "Tahu",
-                    "text": "There is no time to waste. Every moment that passes, the Bohrok advance, setting the island ablaze."
-                },
-                {"text": "But the heat of the flames shall be their demise."}
-            ]
-        },
-        "gako": {
-            "micon": "water.webp",
-            "mdesc": "Search for WATER allies in the seas and glaciers",
-            "chain": "pack:water",
-            "parts": [
-                {
-                    "char": "kopaka", "src": "kopaka.webp", "name": "Kopaka",
-                    "text": "... Great. Teaming up. Just what I like."
+                    "char": "tahu", "src": "tahu.webp", "name": "Tahu", "left": -45,
+                    "text": "Just what are these Bohrok? They advance spreading nothing but mindless destruction, but they do so using the same powers of the elements that we wield."
                 },
                 {
-                    "move": "kopaka", "dist": 60, "speed": 2
+                    "char": "vakama", "src": "vakama.webp", "name": "Turaga Vakama", "left": 45,
+                    "text": "They are a force as ancient as Mata Nui itself, known even to us only through visions and through chronicles of times long past."
                 },
                 {
-                    "char": "gali", "src": "gali.webp", "name": "Gali", "left": -40,
-                    "text": "Spare me the freezing remarks, brother. You are well aware that finding what dwells in these waters will be of use to us both, aren't you?"
+                    "text": "Why they are able to control the elements just as you do, I cannot tell, but do not forget: There are other powers that only you Toa are able to use."
                 },
                 {
-                    "char": "kopaka", "text": "..."
+                    "char": "tahu",
+                    "text": "You mean ...?"
                 },
                 {
-                    "move": "kopaka", "dist": 100, "speed": 3
-                },
-                {
-                    "char": "gali", "text": "I guess that's a yes."
-                },
-                {
-                    "move": "gali", "dist": 100, "speed": 2
+                    "text": "Indeed. The Great Kanohi Masks which you have so dilligently gathered may just become the key to victory in this battle."
                 }
             ]
         },
         "onupo": {
             "micon": "earth.webp",
             "mdesc": "Search for EARTH allies in tunnels and deserts",
-            "chain": "pack:earth",
+            "chain": "pick:earth",
             "parts": [
                 {
                     "char": "meeting", "src": "pohatu_meeting_onua.webp", "anim": "in_fly_u"
@@ -178,16 +160,35 @@
                 }
             ]
         },
-        "le": {
-            "micon": "wind.webp",
-            "mdesc": "Search for WIND allies in the jungle treetops",
-            "chain": "pack:wind",
+        "toaKaita": {
+            "chain": "pick:toaKaita",
+            "micon": "suvaKaita.webp",
+            "mdesc": "Unite the forces of the Toa",
             "parts": [
                 {
-                    "char": "lewa", "src": "lewa.webp", "name": "Lewa",
-                    "text": "The way these creatures are pouring out, even up-tree Le-Koro will not escape their attacks for long."
+                    "char": "suvak", "src": "suvaKaita.webp", "anim": "blur"
                 },
-                {"text": "We're going to need some high-flying help to handle this quick-fast."}
+                {
+                    "char": "lewa", "src": "lewa.webp", "left": 45
+                },
+                {
+                    "char": "gali", "src": "gali.webp", "name": "Gali", "left": -45,
+                    "text": "Divided, these swarms will overrun us. Now is the time to unite our powers."
+                },
+                {
+                    "char": "lewa",
+                    "text": "Indeed. As they work in perfect coordination, so must we."
+                },
+                {
+                    "char": "gali", "anim": "out_fade"
+                },
+                {
+                    "char": "lewa", "anim": "out_fade"
+                },
+                {
+                    "char": "kopaka", "src": "kopaka.webp", "name": "Kopaka",
+                    "text": "... If that is what it takes."
+                }
             ]
         },
         "toaDuel1": {
@@ -298,46 +299,31 @@
                 { "text": "We Matoran are also doing all we can. Here, have a look at the latest in anti-Bohrok technology." }
             ]
         },
-        "toaKaita": {
-            "chain": "pack:toaKaita",
-            "micon": "suvaKaita.webp",
-            "mdesc": "Suva Kaita: Combine the powers of the Toa",
+        "exoToa": {
+            "chain": "pack:exoToa",
+            "micon": "exoToa.webp",
+            "mdesc": "Exo-Toa: The secret hidden in the Bohrok Nests",
             "parts": [
                 {
-                    "char": "suvak", "src": "suvaKaita.webp", "anim": "blur"
+                    "back": "nest_entrance.webp"
                 },
                 {
-                    "char": "lewa", "src": "lewa.webp", "left": 45
-                },
-                {
-                    "char": "gali", "src": "gali.webp", "name": "Gali", "left": -45,
-                    "text": "Divided, these swarms will overrun us. Now is the time to unite our powers."
-                },
-                {
-                    "char": "gali", "anim": "out_fade"
-                },
-                {
-                    "char": "lewa", "anim": "out_fade"
-                },
-                {
-                    "char": "tahu", "src": "tahu.webp", "left": -45
-                },
-                {
-                    "char": "onua", "src": "onua.webp", "name": "Onua", "left": 45,
-                    "text": "Indeed. As they work in perfect coordination, so must we."
-                },
-                {
-                    "char": "tahu", "anim": "out_fade"
-                },
-                {
-                    "char": "onua", "anim": "out_fade"
-                },
-                {
-                    "char": "pohatu", "src": "pohatu.webp", "left": -45
+                    "char": "tahu", "src": "tahu.webp", "name": "Tahu", "left": -45,
+                    "text": "So we have made it at last. The nests of the Bohrok, deep within Mata Nui itself. Time to end this once and for all."
                 },
                 {
                     "char": "kopaka", "src": "kopaka.webp", "name": "Kopaka", "left": 45,
-                    "text": "... If that is what it takes."
+                    "text": "Look, Tahu. These carvings in the floor. They match the Krana we have collected. This must be where they are meant to go."
+                },
+                {
+                    "char": "tahu",
+                    "text": "And just what will we find if we place them here?"
+                },
+                { "char": "tahu", "anim": "out_fade" },
+                { "char": "kopaka", "anim": "out_fade" },
+                {
+                    "char": "lewa", "src": "lewa.webp", "name": "Lewa",
+                    "text": "Armor ... but more than armor ..."
                 }
             ]
         },
@@ -619,30 +605,6 @@
                 "toaBase"
             ]
         },
-        "fire": {
-            "shows": 20,
-            "composes": [
-                "fire"
-            ]
-        },
-        "water": {
-            "shows": 20,
-            "composes": [
-                "water"
-            ]
-        },
-        "earth": {
-            "shows": 20,
-            "composes": [
-                "earth"
-            ]
-        },
-        "wind": {
-            "shows": 20,
-            "composes": [
-                "wind"
-            ]
-        },
         "bohrokBase": {
             "micon": "bohrok.webp",
             "mdesc": "Pack: Bohrok & Krana",
@@ -675,14 +637,14 @@
                 "boxor"
             ]
         },
-        "toaKaita": {
-            "shows": 10,
+        "exoToa": {
+            "shows": 20,
             "composes": [
-                "toaKaita"
+                "exoToa"
             ]
         },
         "nuva": {
-            "shows": 20,
+            "shows": 12,
             "composes": [
                 "nuva"
             ]
@@ -707,13 +669,39 @@
         }
     },
     "pick": {
-        "toaBase": {
-            "micon": "toa.webp",
-            "mdesc": "Pick: Toa Mata & Kanohi",
+        "kanohi": {
             "shows": 12,
-            "limit": 3,
+            "limit": 6,
             "composes": [
-                "toaBase"
+                "kanohi"
+            ]
+        },
+        "earth": {
+            "shows": 12,
+            "limit": 6,
+            "composes": [
+                "earth"
+            ]
+        },
+        "toaKaita": {
+            "shows": 12,
+            "limit": 6,
+            "composes": [
+                "toaKaita"
+            ]
+        },
+        "toaAll": {
+            "micon": "toa.webp",
+            "mdesc": "Pick: Toa & Toa Accessories",
+            "shows": 24,
+            "limit": 6,
+            "removeRedundant": true,
+            "composes": [
+                "toaBase",
+                "toaExtend",
+                "kanohi",
+                "earth",
+                "toaKaita"
             ]
         },
         "bohrokBase": {
@@ -723,16 +711,6 @@
             "limit": 3,
             "composes": [
                 "bohrokBase"
-            ]
-        },
-        "toa2": {
-            "micon": "trade.webp",
-            "mdesc": "Pick: Technology & Unity",
-            "shows": 12,
-            "limit": 3,
-            "composes": [
-                "toaKaita",
-                "boxor"
             ]
         },
         "bohrok2": {

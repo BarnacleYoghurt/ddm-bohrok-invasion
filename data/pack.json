@@ -13,11 +13,10 @@
             { "Great Kanohi Kakama": 1},
             { "Great Kanohi Akaku": 1},
             { "Great Kanohi Miru": 1},
-            { "Suva": 3 },
-            { "Suva Kaita": 3 },
+            { "Suva": 1 },
+            { "Suva Kaita": 1 },
             { "Call of the Toa Stones": 3 },
-            { "Coming of the Toa": 2 },
-            { "Quest for the Masks" : 1 },
+            { "Coming of the Toa": 1 },
             { "The Island of Mata Nui": 3 },
             { "The Great Temple, Kini-Nui": 3 },
             { "SPYRAL Super Agent": 1 },
@@ -28,89 +27,69 @@
             { "Matoran Legend Lhii": 1 },
             { "Matoran Astrologer Nixie": 1 },
             { "Matoran Scribe Jaa": 1 },
-            { "Wynn the Wind Charmer, Verdant": 1 },
-            { "Hiita the Fire Charmer, Ablaze": 1 },
-            { "Eria the Water Charmer, Gentle": 1 },
-            { "Aussa the Earth Charmer, Immovable": 1 },
             { "Salamangreat Almiraj": 1 }
         ],
         "shows": 49
     },
-    "fire": {
+    "toaExtend": {
         "card": [
-            "Toa Mata Tahu",
-            "Great Kanohi Hau",
-            { "Berlineth the Firestorm Vassal": 3 },
-            { "Infernoble Knight - Renaud": 3 },
-            { "\"Infernoble Arms - Durendal\"": 3 },
-            { "Super Quantum Red Layer": 3 },
-            { "Ha-Re the Sword Mikanko": 3 },
-            { "Mikanko Fire Dance": 3 },
-            { "Mikanko Water Arabesque": 3 },
-            { "Sublimation Knight": 3 },
-            { "Squeaknight": 3 },
-            { "Rekindling": 3 },
-            "Hiita the Fire Charmer, Ablaze",
-            "Knightmare Phoenix",
-            "Powercode Talker"
+            { "Wynn the Wind Charmer, Verdant": 1 },
+            { "Hiita the Fire Charmer, Ablaze": 1 },
+            { "Eria the Water Charmer, Gentle": 1 },
+            { "Aussa the Earth Charmer, Immovable": 1 }
         ]
     },
-    "water": {
+    "kanohi": {
         "card": [
-            ["Toa Mata Gali", "Toa Mata Kopaka"],
-            ["Great Kanohi Kaukau", "Great Kanohi Akaku"],
-            { "Majiosheldon": 3 },
-            "Kanzashi the Rikka Queen",
-            "Marincess Coral Anemone",
-            { "Steam Synchron": 3 },
-            "Ravenous Crocodragon Archethys",
-            { "Dupe Frog": 3 },
-            { "Swap Frog": 3 },
-            { "Ronintoadin": 3 },
-            "Cat Shark",
-            { "Deep Sea Diva": 3 },
-            "Paleozoic Opabinia",
-            { "Paleozoic Canadia": 3 },
-            { "Paleozoic Olenoides": 3 },
-            "Eria the Water Charmer, Gentle",
-            { "Salvage": 3 }
+            { "Great Kanohi Hau": 1},
+            { "Great Kanohi Kaukau": 1},
+            { "Great Kanohi Pakari": 1},
+            { "Great Kanohi Kakama": 1},
+            { "Great Kanohi Akaku": 1},
+            { "Great Kanohi Miru": 1},
+            { "Great Golden Kanohi": 3},
+            { "Gift of the Shrine": 3},
+            { "Revolution Synchron": 3 },
+            { "Suva": 2 },
+            { "Quest for the Masks" : 2 },
+            { "Power Tool Braver Dragon": 2 },
+            { "Power Tool Mecha Dragon": 1 },
+            { "Foolish Burial Goods": 2 }
         ]
     },
     "earth": {
         "card": [
-            ["Toa Mata Onua", "Toa Mata Pohatu"],
-            ["Great Kanohi Pakari", "Great Kanohi Kakama"],
-            { "Samsara Kaiser": 3 },
-            { "SPYRAL Super Agent": 3 },
-            { "Grandsoil the Elemental Lord": 3 },
-            { "Junk Forward": 3 },
-            { "Adamancipator Researcher": 3 },
-            { "Nemeses Keystone": 3 },
-            "Knightmare Cerberus",
-            "Aussa the Earth Charmer, Immovable",
-            "Power Tool Dragon",
-            "Power Tool Braver Dragon",
-            "Goyo Guardian",
-            { "Rookie Warrior Lady": 3 },
-            { "Planet Pathfinder": 3 },
-            { "Landrobe the Rock Vassal": 3},
-            { "Revolution Synchron": 3 }
+            { "Toa Mata Onua": 1},
+            { "Toa Mata Pohatu": 1},
+            { "Great Kanohi Pakari": 1},
+            { "Great Kanohi Kakama": 1},
+            { "SPYRAL Super Agent": 1 },
+            { "Planet Pathfinder": 2 },
+            { "Landrobe the Rock Vassal": 1},
+            { "Ussal, Crab Rahi": 2},
+            { "Mahi, Goat Rahi": 2},
+            { "Vako, Rhino Rahi": 2},
+            { "Pokawi, Flightless Bird Rahi": 2},
+            { "Dikapi, Ostrich Rahi": 1},
+            { "Kuma-Nui, Rat Rahi": 1},
+            { "Matoran Racer Onepu": 2},
+            { "Matoran Tender Midak": 2},
+            { "Matoran Trader Ahkmou": 2}
         ]
     },
-    "wind": {
+    "toaKaita": {
         "card": [
-            "Toa Mata Lewa",
-            "Great Kanohi Miru",
-            { "Legendary Six Samurai - Kageki": 3 },
-            { "Secret Six Samurai - Fuma": 3 },
-            { "Speedroid Terrortop": 3 },
-            { "Speedroid Taketomborg": 3 },
-            { "Speedroid CarTurbo": 3 },
-            "Virtual World Beast - Jiujiu",
-            "Stellar Wind Wolfrayet",
-            "Number 75: Bamboozling Gossip Shadow",
-            { "Garum the Storm Vassal": 3 },
-            { "Summon Storm": 3 }
+            { "Toa Mata Combination - Magma": 3 },
+            { "Toa Mata Combination - Crystal": 3 },
+            { "Toa Mata Combination - Storm": 3 },
+            { "Coming of the Toa": 2 },
+            { "Suva Kaita": 2 },
+            { "Akamai, Toa Kaita of Valor": 1 },
+            { "Wairuha, Toa Kaita of Wisdom": 1 },
+            { "Great Kanohi Aki": 2 },
+            { "Great Kanohi Rua": 2 },
+            { "Constellar Ptolemy M7":2 },
+            { "Gauntlet Launcher": 3 }
         ]
     },
     "bohrokBase": {
@@ -187,21 +166,15 @@
     "boxor": {
         "card": [
             { "Matoran Engineer Nuparu": 3 },
-            { "C.C. Matoran Taipu": 3 },
             { "Empty Bohrok Shell": 3 },
-            { "The Boxor, Weapon of the Matoran": 3 },
-            { "Exo-Toa": 3 },
-            { "Exo Armaments": 3 }
+            { "The Boxor, Weapon of the Matoran": 3 }
         ]
     },
-    "toaKaita": {
+    "exoToa": {
         "card": [
-            { "Toa Mata Combination - Magma": 3 },
-            { "Toa Mata Combination - Crystal": 3 },
-            { "Toa Mata Combination - Storm": 3 },
-            { "Suva Kaita": 3 },
-            "Akamai, Toa Kaita of Valor",
-            "Wairuha, Toa Kaita of Wisdom"
+            { "Exo-Toa": 3 },
+            { "Exo Armaments": 3 },
+            { "Exo Autonomy": 3}
         ]
     },
     "bahrag": {
