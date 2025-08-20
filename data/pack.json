@@ -31,7 +31,7 @@
         ],
         "shows": 49
     },
-    "toaExtend": {
+    "charmers": {
         "card": [
             { "Wynn the Wind Charmer, Verdant": 1 },
             { "Hiita the Fire Charmer, Ablaze": 1 },
@@ -121,46 +121,57 @@
     },
     "l4Bohrok": {
         "card": [
-            { "Bohrok Tahnok": 3 },
-            { "Bohrok Gahlok": 3 },
-            { "Bohrok Nuhvok": 3 },
-            { "Bohrok Pahrak": 3 },
-            { "Bohrok Kohrak": 3 },
-            { "Bohrok Lehvak": 3 },
-            { "If You Wake One...": 3 },
-            { "...You Wake Them All": 3 },
-            "Gear Gigant X",
-            "Number 85: Crazy Box",
-            "Number 103: Ragnazero",
-            "Diamond Dire Wolf"
+            { "Bohrok Tahnok": 1 },
+            { "Bohrok Gahlok": 1 },
+            { "Bohrok Nuhvok": 1 },
+            { "Bohrok Pahrak": 1 },
+            { "Bohrok Kohrak": 1 },
+            { "Bohrok Lehvak": 1 },
+            { "If You Wake One...": 1 },
+            { "...You Wake Them All": 2 },
+            { "Bohrok Invasion": 1 },
+            { "Premature Bohrok Beacon": 1 },
+            { "Bohrok Nest": 1 },
+            { "Gear Gigant X": 3 },
+            { "Number 85: Crazy Box": 3 },
+            { "Number 103: Ragnazero": 3},
+            { "Diamond Dire Wolf": 3 }
         ]
     },
     "krana": {
         "card": [
-            { "Krana Vu, Surveyor": 3 },
-            { "Krana Su, Worker": 3 },
-            { "Krana Za, Squad Leader": 3 },
-            { "Krana Bo, Sentinel": 3 },
-            { "Krana Xa, Swarm Commander": 3 },
-            { "Krana Yo, Mole": 3 },
-            { "Krana Ca, Clearance Worker": 3 },
-            { "Krana Ja, Scout": 3 },
-            { "Bohrok Confrontation": 3 }
+            { "Krana Vu, Surveyor": 2 },
+            { "Krana Su, Worker": 2 },
+            { "Krana Ca, Clearance Worker": 2 },
+            { "Krana Ja, Scout": 2 },
+            { "Bohrok Confrontation": 3 },
+            { "Bohrok Servant": 3 },
+            { "Matoran of the Swarm": 3 },
+            { "Toa of the Swarm": 1 },
+            { "If You Wake One...": 1 },
+            { "...You Wake Them All": 2 },
+            { "Bohrok Invasion": 1 },
+            { "Premature Bohrok Beacon": 1 },
+            { "Bohrok Nest": 1 }
         ]
     },
     "bohrokVa": {
         "card": [
-            { "Beware the Swarm": 3 },
-            { "Bohrok Tahnok Va": 3 },
-            { "Bohrok Gahlok Va": 3 },
-            { "Bohrok Nuhvok Va": 3 },
-            { "Bohrok Pahrak Va": 3 },
-            { "Bohrok Kohrak Va": 3 },
-            { "Bohrok Lehvak Va": 3 },
-            "Hi-Speedroid Kendama",
-            "Penguin Brave",
-            "Red Wyvern",
-            "Celestial Wolf Lord, Blue Sirius"
+            { "Bohrok Tahnok Va": 1 },
+            { "Bohrok Gahlok Va": 1 },
+            { "Bohrok Nuhvok Va": 1 },
+            { "Bohrok Pahrak Va": 1 },
+            { "Bohrok Kohrak Va": 1 },
+            { "Bohrok Lehvak Va": 1 },
+            { "Hi-Speedroid Kendama": 3 },
+            { "Penguin Brave": 3 },
+            { "Red Wyvern": 3 },
+            { "Celestial Wolf Lord, Blue Sirius": 3 },
+            { "If You Wake One...": 1 },
+            { "...You Wake Them All": 2 },
+            { "Bohrok Invasion": 1 },
+            { "Premature Bohrok Beacon": 1 },
+            { "Bohrok Nest": 1 }
         ]
     },
     "boxor": {
@@ -179,20 +190,17 @@
     },
     "bahrag": {
         "card": [
-            { "Bahrag Cahdok, Queen of the Bohrok": 3 },
-            { "Bahrag Gahdok, Queen of the Bohrok": 3 },
+            { "Bahrag Cahdok, Queen of the Bohrok": 2 },
+            { "Bahrag Gahdok, Queen of the Bohrok": 2 },
             { "Queens' Illusion": 3 },
-            { "As It Was in the Before-Time": 3 }
+            { "As It Was in the Before-Time": 2 }
         ]
     },
     "bohrokKaita": {
         "card": [
             { "Bohrok Kaita Ja": 3 },
             { "Bohrok Kaita Za": 3 },
-            { "Bohrok Va Kaita Ja": 3 },
-            { "Bohrok Va Kaita Za": 3 },
-            { "Bohrok Swarm Fusion": 3 },
-            { "Instant Fusion": 3 }
+            { "Bohrok Swarm Fusion": 3 }
         ]
     },
     "nuva": {
@@ -219,12 +227,8 @@
             "Bohrok Kohrak-Kal",
             "Bohrok Lehvak-Kal",
             "Krana Xa-Kal, Liberator",
-            "Krana Ca-Kal, Seeker",
-            "Krana Vu-Kal, Transporter",
-            "Krana Ja-Kal, Tracker",
             "Krana Bo-Kal, Visionary",
             "Krana Za-Kal, Overseer",
-            "Krana Su-Kal, Demolisher",
             "Krana Yo-Kal, Excavator",
             { "Bohrok Kalifornication": 3 },
             { "Bohrok Counterattack": 3 },

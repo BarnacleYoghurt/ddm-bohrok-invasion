@@ -26,7 +26,7 @@
             "mdata": [
                 ["pack: bohrokBase"],
                 ["text: gahdok", "text: krana", "text: cahdok"],
-                ["pick: bohrokBase"],
+                ["pick: bohrokAll"],
                 ["text: bohrokDuel1"]
 
             ],
@@ -47,7 +47,6 @@
             "audio": "invasion",
             "mdata": [
                 ["text:bahrag", "text:bohrokKaita"],
-                ["pick:bohrok2"],
                 ["text:bohrokDuel2"]
             ]
         },
@@ -226,7 +225,7 @@
         "gahdok": {
             "micon": "gahdok.webp",
             "mdesc": "Bahrag Gahdok: Bolster the main swarms",
-            "chain": "pack:l4Bohrok",
+            "chain": "pick:l4Bohrok",
             "parts": [
                 {
                     "char": "gahdok", "src": "gahdok.webp", "name": "Bahrag Gahdok, Queen of the Bohrok",
@@ -238,7 +237,7 @@
         "krana": {
             "micon": "krana.webp",
             "mdesc": "Krana Nests: Expand the roles of your units",
-            "chain": "pack:krana",
+            "chain": "pick:krana",
             "parts": [
                 { "text": "A Bohrok is nothing without its Krana." }
             ]
@@ -246,7 +245,7 @@
         "cahdok": {
             "micon": "cahdok.webp",
             "mdesc": "Bahrag Cahdok: Acquire additional support from Bohrok Va",
-            "chain": "pack:bohrokVa",
+            "chain": "pick:bohrokVa",
             "parts": [
                 {
                     "char": "cahdok", "src": "cahdok.webp", "name": "Bahrag Cahdok, Queen of the Bohrok",
@@ -613,24 +612,6 @@
                 "bohrokBase"
             ]
         },
-        "l4Bohrok": {
-            "shows": 20,
-            "composes": [
-                "l4Bohrok"
-            ]
-        },
-        "krana": {
-            "shows": 20,
-            "composes": [
-                "krana"
-            ]
-        },
-        "bohrokVa": {
-            "shows": 20,
-            "composes": [
-                "bohrokVa"
-            ]
-        },
         "boxor": {
             "shows": 10,
             "composes": [
@@ -698,29 +679,45 @@
             "removeRedundant": true,
             "composes": [
                 "toaBase",
-                "toaExtend",
                 "kanohi",
                 "earth",
-                "toaKaita"
+                "toaKaita",
+                "charmers"
             ]
         },
-        "bohrokBase": {
+        "l4Bohrok": {
+            "shows": 12,
+            "limit": 6,
+            "composes": [
+                "l4Bohrok"
+            ]
+        },
+        "krana": {
+            "shows": 12,
+            "limit": 6,
+            "composes": [
+                "krana"
+            ]
+        },
+        "bohrokVa": {
+            "shows": 12,
+            "limit": 6,
+            "composes": [
+                "bohrokVa"
+            ]
+        },
+        "bohrokAll": {
             "micon": "bohrok.webp",
             "mdesc": "Pick: Bohrok & Krana",
-            "shows": 12,
-            "limit": 3,
+            "shows": 24,
+            "limit": 6,
+            "removeRedundant": true,
             "composes": [
-                "bohrokBase"
-            ]
-        },
-        "bohrok2": {
-            "micon": "trade.webp",
-            "mdesc": "Pick: Queens & Combiners",
-            "shows": 12,
-            "limit": 3,
-            "composes": [
-                "bahrag",
-                "bohrokKaita"
+                "bohrokBase",
+                "l4Bohrok",
+                "krana",      
+                "bohrokVa",
+                "charmers" 
             ]
         }
     },
@@ -756,14 +753,10 @@
                 { "Bohrok Pahrak": "Bohrok Pahrak-Kal" },
                 { "Bohrok Kohrak": "Bohrok Kohrak-Kal" },
                 { "Bohrok Lehvak": "Bohrok Lehvak-Kal" },
-                { "Krana Xa, Swarm Commander": "Krana Xa-Kal, Liberator" },
-                { "Krana Ca, Clearance Worker": "Krana Ca-Kal, Seeker" },
-                { "Krana Vu, Surveyor": "Krana Vu-Kal, Transporter" },
-                { "Krana Ja, Scout": "Krana Ja-Kal, Tracker" },
-                { "Krana Bo, Sentinel": "Krana Bo-Kal, Visionary" },
-                { "Krana Za, Squad Leader": "Krana Za-Kal, Overseer" },
-                { "Krana Su, Worker": "Krana Su-Kal, Demolisher" },
-                { "Krana Yo, Mole": "Krana Yo-Kal, Excavator" },
+                { "Krana Ca, Clearance Worker": "Krana Xa-Kal, Liberator" },
+                { "Krana Vu, Surveyor": "Krana Yo-Kal, Excavator" },
+                { "Krana Ja, Scout": "Krana Bo-Kal, Visionary" },
+                { "Krana Su, Worker": "Krana Za-Kal, Overseer" },
                 { "Bohrok Invasion": "Bohrok-Kal Strategy" },
                 { "If You Wake One...": "Bohrok Kalifornication" },
                 { "...You Wake Them All": "Bohrok Counterattack" }

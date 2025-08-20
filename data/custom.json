@@ -306,50 +306,6 @@
         "credits": "The LEGO Group"
     },
     {
-        "name": "Krana Za, Squad Leader",
-        "type": "Effect Monster",
-        "attribute": "DARK",
-        "race": "Zombie",
-        "level": 1,
-        "atk": 0,
-        "def": 0,
-        "desc": "● Once per turn (Quick Effect): You can target 1 Level 4 or higher \"Bohrok\" monster you control; equip this card from your hand to that target.\n● Once per turn, if the equipped \"Bohrok\" monster would be destroyed, you can shuffle 1 other monster you control into the Deck instead, then draw 1 card.\n● When exactly 1 monster your opponent controls (and no other cards) is destroyed by a \"Bohrok\" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.",
-        "credits": "The LEGO Group"
-    },
-    {
-        "name": "Krana Bo, Sentinel",
-        "type": "Effect Monster",
-        "attribute": "DARK",
-        "race": "Zombie",
-        "level": 1,
-        "atk": 0,
-        "def": 0,
-        "desc": "● When exactly 1 card (and no other cards) is destroyed or banished by the effect of a \"Bohrok\" monster: You can send this card from your hand to the GY; look at your opponent's hand and banish all cards with the same name as that card, face-down. You can only use this effect of \"Krana Bo, Sentinel\" once per turn.\n● When exactly 1 monster your opponent controls (and no other cards) is destroyed by a \"Bohrok\" monster (by battle or card effect) and sent to the GY: You can banish this card from your GY; Special Summon that monster in face-down Defense Position, but you cannot Special Summon monsters from your opponent's GY for the rest of this turn.",
-        "credits": "The LEGO Group"
-    },
-    {
-        "name": "Krana Xa, Swarm Commander",
-        "type": "Effect Monster",
-        "attribute": "DARK",
-        "race": "Zombie",
-        "level": 1,
-        "atk": 0,
-        "def": 0,
-        "desc": "● If a \"Bohrok\" monster effect was activated in this Chain, except as the last Chain Link (Quick Effect): You can send this card from your hand to the GY; negate the effects of all face-up cards on the field that were activated or activated their effects before this effect in this Chain, except \"Bohrok\" cards, until the end of this turn. You can only use this effect of \"Krana Xa, Swarm Commander\" once per turn.\n● You can return this Normal Summoned\/Set card to the hand; Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.",
-        "credits": "The LEGO Group"
-    },
-    {
-        "name": "Krana Yo, Mole",
-        "type": "Effect Monster",
-        "attribute": "DARK",
-        "race": "Zombie",
-        "level": 1,
-        "atk": 0,
-        "def": 0,
-        "desc": "● Once per turn (Quick Effect): You can target 1 Level 4 or higher \"Bohrok\" monster you control; equip this card from your hand to that target.\n● A \"Bohrok\" monster equipped with this card can attack directly, but when it does so using this effect, the battle damage inflicted to your opponent is halved.\n● You can return this Normal Summoned\/Set card to the hand; Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.",
-        "credits": "The LEGO Group"
-    },
-    {
         "name": "Krana Ca, Clearance Worker",
         "type": "Effect Monster",
         "attribute": "DARK",
@@ -607,28 +563,6 @@
         "atk": 2500,
         "def": 2000,
         "desc": "\"Bohrok Gahlok\" + \"Bohrok Kohrak\" + \"Bohrok Lehvak\"\n● If this card is Fusion Summoned: Reveal up to 3 \"Krana\" monsters from your Deck, your opponent chooses 1 for you to add to your hand, and you send the rest to the GY.\n● Once per turn (Quick Effect): You can banish up to 3 \"Bohrok\" monsters from your GY; banish cards from your opponent's GY, up to the number of monsters you banished +1.",
-        "credits": "The LEGO Group"
-    },
-    {
-        "name": "Bohrok Va Kaita Ja",
-        "type": "Fusion Tuner Effect Monster",
-        "attribute": "LIGHT",
-        "race": "Machine",
-        "level": 2,
-        "atk": 1000,
-        "def": 1500,
-        "desc": "\"Bohrok Gahlok Va\" + \"Bohrok Kohrak Va\" + \"Bohrok Lehvak Va\"\n● If this card is used as Synchro Material, all other Synchro Materials must be \"Bohrok\" monsters.\n● During the Standby Phase: You can Tribute this Fusion Summoned card; Special Summon 1 \"Bohrok\" Fusion Monster from your Extra Deck.\n● During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can add 1 \"Bohrok\" or \"Krana\" card from your Deck to your hand. You can only use this effect of \"Bohrok Va Kaita Ja\" once per turn.",
-        "credits": "The LEGO Group"
-    },
-    {
-        "name": "Bohrok Va Kaita Za",
-        "type": "Fusion Tuner Effect Monster",
-        "attribute": "LIGHT",
-        "race": "Machine",
-        "level": 2,
-        "atk": 1000,
-        "def": 1500,
-        "desc": "\"Bohrok Tahnok Va\" + \"Bohrok Nuhvok Va\" + \"Bohrok Pahrak Va\"\n● If this card is used as Synchro Material, all other Synchro Materials must be \"Bohrok\" monsters.\n● During the Standby Phase: You can Tribute this Fusion Summoned card; Special Summon 1 \"Bohrok\" Fusion Monster from your Extra Deck.\n● During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can Special Summon 1 \"Bohrok\" monster from your GY in face-down Defense Position, except \"Bohrok Va Kaita Za\". You can only use this effect of \"Bohrok Va Kaita Za\" once per turn.",
         "credits": "The LEGO Group"
     },
     {
@@ -946,7 +880,7 @@
     {
         "name": "Premature Bohrok Beacon",
         "type": "Trap",
-        "desc": "● Target 1 face-down Defense Position monster you control; change that target to face-up Attack Position.\n● If you control no face-up monsters, you can activate this card from your hand. During your Main Phase, except the turn this card was sent to the GY: You can Special Summon this card from your GY as an Effect Monster (Machine\/DARK\/Level 4\/ATK 1400\/DEF 1400), but banish it when it leaves the field.  (This card is NOT treated as a Trap.) If Summoned this way, this card can be used as a substitute for any 1 Fusion Material whose name is specifically listed on a \"Bohrok\" Fusion Monster, but the other Fusion Material(s) must be correct. You can only use this effect of \"Premature Bohrok Beacon\" once per turn.",
+        "desc": "● Target 1 face-down Defense Position monster you control; change that target to face-up Attack Position. If you control no face-up monsters, you can activate this card from your hand.\n● During your Main Phase, except the turn this card was sent to the GY: You can Special Summon this card from your GY as an Effect Monster (Machine\/DARK\/Level 4\/ATK 1400\/DEF 1400), but banish it when it leaves the field.  (This card is NOT treated as a Trap.) If Summoned this way, this card can be used as a substitute for any 1 Fusion Material whose name is specifically listed on a \"Bohrok\" Fusion Monster, but the other Fusion Material(s) must be correct. You can only use this effect of \"Premature Bohrok Beacon\" once per turn.",
         "credits": "The LEGO Group"
     },
     {
@@ -1092,6 +1026,39 @@
         "name": "Exo Autonomy",
         "type": "Spell",
         "desc": "● Special Summon 1 \"Exo-Toa\" from your hand or Deck, but it cannot activate its effects, also destroy it during the End Phase.\n● During your End Phase: You can banish this card from your GY and shuffle 1 \"Exo-Toa\" from your GY or banishment into the Deck; add 1 \"Toa\" monster from your Deck to your hand, then you can Set 1 \"Exo Armaments\" from your Deck, GY, or banishment. You can only activate 1 \"Exo Autonomy\" per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Matoran of the Swarm",
+        "type": "Effect Monster",
+        "attribute": "WIND",
+        "race": "Warrior",
+        "level": 2,
+        "atk": 600,
+        "def": 400,
+        "desc": "● If an Xyz Monster you control is flipped face-up: You can attach this card from your GY to it as material.\n(Quick Effect): You can send 1 \"Krana\" monster from your Deck to the GY, then target 1 Xyz Monster your opponent controls; attach this card from your hand to that target as material, and if you do, it gains this effect.\n● If this card battles a \"Bohrok\" monster, its ATK\/DEF become 0 during the Damage Step only. This card cannot activate its effects.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Toa of the Swarm",
+        "type": "Effect Monster",
+        "attribute": "WIND",
+        "race": "Warrior",
+        "level": 6,
+        "atk": 2500,
+        "def": 1400,
+        "desc": "● You can Special Summon this card (from your hand) to your opponent's field in Attack Position, by Tributing 1 Level 5 or higher monster they control and sending 1 \"Krana\" monster from your Deck to the GY.\n● If this card battles a \"Bohrok\" monster, its ATK\/DEF become 0 during the Damage Step only.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Servant",
+        "type": "Fusion Effect Monster",
+        "attribute": "DARK",
+        "race": "Zombie",
+        "level": 1,
+        "atk": 0,
+        "def": 0,
+        "desc": "1 \"Krana\" monster + 1 monster owned by your opponent\n● Must be Special Summoned (from your Extra Deck) by banishing the above cards from your hand, field, and\/or GY, and cannot be Special Summoned by other ways. (You do not use \"Polymerization\".)\n● The original ATK\/DEF of this card become equal to the original ATK\/DEF of the monster owned by your opponent used for its Special Summon.",
         "credits": "The LEGO Group"
     }
 ]
