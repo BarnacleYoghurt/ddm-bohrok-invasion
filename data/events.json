@@ -236,10 +236,13 @@
         },
         "krana": {
             "micon": "krana.webp",
-            "mdesc": "Krana Nests: Expand the roles of your units",
+            "mdesc": "Krana: More brain for your brawn",
             "chain": "pick:krana",
             "parts": [
-                { "text": "A Bohrok is nothing without its Krana." }
+                { "back": "lewa_krana.webp" },
+                { "name": "???" },
+                { "text": "Clean ... it ... all ..." },
+                { "text": "... it must be cleaned ..." }
             ]
         },
         "cahdok": {
@@ -565,7 +568,7 @@
                 },
                 {
                     "char": "tut2", "src": "tutorialKrana.webp",
-                    "text": "The Krana are the brains of the swarm, which you can use from your hand to grant the Bohrok special additional powers. In addition, some Krana let you Special Summon a Bohrok directly from your Deck to wield it, while others can be banished from the GY to take control of monsters destroyed by your Bohrok."
+                    "text": "The Krana are the brains of the swarm, which you can use from your hand to grant the Bohrok special additional powers. In addition, some Krana let you Special Summon a Bohrok directly from your Deck to wield it, while others can be banished from the GY to take control of monsters destroyed by your Bohrok.\n(Note: To save you some reading, only 4 of 8 Krana Types are included in this campaign. Check the project homepage to find out what the others do!)"
                 },
                 {
                     "char": "tut3", "src": "tutorialBohrokVa.webp",
@@ -586,11 +589,11 @@
             "list": [
                 {
                     "name": "Toa",  "img": "Toa.webp", "chain": "text:toaIntro",
-                    "desc": "Defend Mata Nui against the threat of the Bohrok Swarms!\n(Diverse Attribute-focused strategies centered on powerful Warriors strengthened by Equip Spells)"
+                    "desc": "Defend Mata Nui against the threat of the Bohrok Swarms!\n- Warrior monsters and Equip Spells\n- Various synergies and build variants\n- More explosive, but less consistent"
                 },
                 {
                     "name": "Bohrok", "img": "Bohrok.webp", "chain": "text:bohrokIntro",
-                    "desc": "Clean it all. It must be cleaned.\n(Flip Monster strategy that swarms your field and tries to dismantle the opponent's with destructive effects)"
+                    "desc": "Clean it all. It must be cleaned.\n- Flip monsters and removal effects\n- Many tools in-archetype, few outside synergies\n- Consistent, but slow to set up"
                 }
             ]
         }
