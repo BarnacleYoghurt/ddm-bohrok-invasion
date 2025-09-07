@@ -188,6 +188,13 @@
             { "Exo Autonomy": 3}
         ]
     },
+    "toaSpecial": {
+        "card": [
+            "Nobleman of Crossout",
+            "Heavy Storm",
+            "Sasuke Samurai"
+        ]
+    },
     "bahrag": {
         "card": [
             { "Bahrag Cahdok, Queen of the Bohrok": 2 },
@@ -201,6 +208,13 @@
             { "Bohrok Kaita Ja": 3 },
             { "Bohrok Kaita Za": 3 },
             { "Bohrok Swarm Fusion": 3 }
+        ]
+    },
+    "bohrokSpecial": {
+        "card": [
+            "Sol and Luna",
+            "Swords of Revealing Light",
+            "Eternal Rest"
         ]
     },
     "nuva": {

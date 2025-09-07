@@ -39,6 +39,7 @@
             "audio": "boxor",
             "mdata": [
                 ["text:boxor", "text:exoToa"],
+                ["pick:toaSpecial"],
                 ["text:toaDuel2"]
             ]
         },
@@ -47,6 +48,7 @@
             "audio": "invasion",
             "mdata": [
                 ["text:bahrag", "text:bohrokKaita"],
+                ["pick:bohrokSpecial"],
                 ["text:bohrokDuel2"]
             ]
         },
@@ -688,6 +690,15 @@
                 "charmers"
             ]
         },
+        "toaSpecial": {
+            "micon": "special.webp",
+            "mdesc": "A special trick to combat the Bohrok?",
+            "shows": 3,
+            "limit": 1,
+            "composes": [
+                "toaSpecial"
+            ]
+        },
         "l4Bohrok": {
             "shows": 12,
             "limit": 6,
@@ -721,6 +732,15 @@
                 "krana",      
                 "bohrokVa",
                 "charmers" 
+            ]
+        },
+        "bohrokSpecial": {
+            "micon": "special.webp",
+            "mdesc": "A special trick to combat the Toa?",
+            "shows": 3,
+            "limit": 1,
+            "composes": [
+                "bohrokSpecial"
             ]
         }
     },
