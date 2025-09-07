@@ -749,8 +749,8 @@
             "micon": "trade.webp",
             "mdesc": "Toa Nuva Upgrades",
             "removeRedundant": true,
-            "showLimit": 3,
-            "swapLimit": 2,
+            "showLimit": 6,
+            "swapLimit": 3,
             "trades": [
                 { "Toa Mata Tahu": "Toa Nuva Tahu" },
                 { "Toa Mata Gali": "Toa Nuva Gali" },
@@ -760,15 +760,17 @@
                 { "Toa Mata Lewa": "Toa Nuva Lewa" },
                 { "Call of the Toa Stones": "Tales of the Nuva" },
                 { "Quest for the Masks": "Nuva Emergence" },
-                { "Coming of the Toa": "Nuva Overcharge" }
+                { "Coming of the Toa": "Nuva Overcharge" },
+                { "The Island of Mata Nui": "Energized Protodermis Chamber" },
+                { "The Great Temple, Kini-Nui": "Energized Protodermis Destiny" }
             ]
         },
         "bohrok3": {
             "micon": "trade.webp",
             "mdesc": "Bohrok-Kal Upgrades",
             "removeRedundant": true,
-            "showLimit": 3,
-            "swapLimit": 2,
+            "showLimit": 6,
+            "swapLimit": 3,
             "trades": [
                 { "Bohrok Tahnok": "Bohrok Tahnok-Kal" },
                 { "Bohrok Gahlok": "Bohrok Gahlok-Kal" },
