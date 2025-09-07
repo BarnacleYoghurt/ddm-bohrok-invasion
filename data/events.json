@@ -618,15 +618,27 @@
             ]
         },
         "boxor": {
-            "shows": 10,
+            "shows": 9,
             "composes": [
                 "boxor"
             ]
         },
         "exoToa": {
-            "shows": 20,
+            "shows": 9,
             "composes": [
                 "exoToa"
+            ]
+        },
+        "bahrag": {
+            "shows": 9,
+            "composes": [
+                "bahrag"
+            ]
+        },
+        "bohrokKaita": {
+            "shows": 9,
+            "composes": [
+                "bohrokKaita"
             ]
         },
         "nuva": {
@@ -636,21 +648,9 @@
             ]
         },
         "kal": {
-            "shows": 20,
+            "shows": 12,
             "composes": [
                 "kal"
-            ]
-        },
-        "bahrag": {
-            "shows": 10,
-            "composes": [
-                "bahrag"
-            ]
-        },
-        "bohrokKaita": {
-            "shows": 10,
-            "composes": [
-                "bohrokKaita"
             ]
         }
     },
