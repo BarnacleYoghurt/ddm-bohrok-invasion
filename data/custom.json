@@ -867,17 +867,6 @@
         "credits": "The LEGO Group"
     },
     {
-        "name": "Matoran Scribe Jaa",
-        "type": "Effect Monster",
-        "attribute": "WATER",
-        "race": "Warrior",
-        "level": 2,
-        "atk": 300,
-        "def": 700,
-        "desc": "● You can banish 1 Spell\/Trap from your hand or field; Special Summon this card from your hand.\n● If this card is sent to the GY: You can target 1 of your banished Spells\/Traps; place it on top of your Deck, and if you do, Special Summon 1 WATER \"Matoran\" monster from your GY, except \"Matoran Scribe Jaa\", but negate its effects, also you cannot Special Summon while you control that face-up monster. You can only use each effect of \"Matoran Scribe Jaa\" once per turn.",
-        "credits": "The LEGO Group"
-    },
-    {
         "name": "Premature Bohrok Beacon",
         "type": "Trap",
         "desc": "● Target 1 face-down Defense Position monster you control; change that target to face-up Attack Position. If you control no face-up monsters, you can activate this card from your hand.\n● During your Main Phase, except the turn this card was sent to the GY: You can Special Summon this card from your GY as an Effect Monster (Machine\/DARK\/Level 4\/ATK 1400\/DEF 1400), but banish it when it leaves the field.  (This card is NOT treated as a Trap.) If Summoned this way, this card can be used as a substitute for any 1 Fusion Material whose name is specifically listed on a \"Bohrok\" Fusion Monster, but the other Fusion Material(s) must be correct. You can only use this effect of \"Premature Bohrok Beacon\" once per turn.",
@@ -924,21 +913,6 @@
         "desc": [ 
             "● You can target up to 2 \"Rahi\" monsters you control; destroy 1 Beast or Winged Beast Monster Card in your Pendulum Zone or face-up Extra Deck, and if you do, increase or decrease the targeted monsters' Levels by 1.",
             "● If this card is sent to the GY: You can add 1 Level 4 or lower Beast or Winged Beast \"Rahi\" monster from your Deck to your hand, except \"Mahi, Goat Rahi\".\n● If this card is banished: You can target 1 of your banished \"Rahi\" cards that was not banished this turn; add it to your hand. You can only use 1 \"Mahi, Goat Rahi\" effect per turn, and only once that turn."
-        ],
-        "credits": "The LEGO Group"
-    },
-    {
-        "name": "Vako, Rhino Rahi",
-        "type": "Pendulum Effect Monster",
-        "attribute": "EARTH",
-        "race": "Beast",
-        "level": 4,
-        "atk": 1900,
-        "def": 700,
-        "scale": 5,
-        "desc": [
-            "● During your Main Phase: You can destroy 1 \"Rahi\" monster you control, and if you do, Special Summon this card. You can only use this effect of \"Vako, Rhino Rahi\" once per turn.",
-            "● If this card is Normal or Special Summoned: You can send 1 Beast or Winged Beast \"Rahi\" monster from your Deck or face-up Extra Deck to the GY. You can only use this effect of \"Vako, Rhino Rahi\" once per turn.\nA Synchro Monster Summoned using this card as material gains these effects.\n● If it battles, your opponent cannot activate cards or effects until the end of the Damage Step.\n● A \"Rahi\" Synchro Monster Summoned using this card as material gains the above effect."
         ],
         "credits": "The LEGO Group"
     },
