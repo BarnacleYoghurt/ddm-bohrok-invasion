@@ -29,7 +29,7 @@
             { "Matoran Scribe Jaa": 1 },
             { "Salamangreat Almiraj": 1 }
         ],
-        "shows": 49
+        "shows": 39
     },
     "charmers": {
         "card": [
@@ -94,44 +94,46 @@
     },
     "bohrokBase": {
         "card": [
-            { "Bohrok Tahnok": 2 },
-            { "Bohrok Gahlok": 2 },
-            { "Bohrok Nuhvok": 2 },
-            { "Bohrok Pahrak": 2 },
-            { "Bohrok Kohrak": 2 },
-            { "Bohrok Lehvak": 2 },
-            { "Krana Vu, Surveyor": 1 },
-            { "Krana Su, Worker": 1 },
-            { "Krana Ca, Clearance Worker": 1 },
-            { "Krana Ja, Scout": 1 },
-            { "Beware the Swarm": 3 },
-            { "Bohrok Tahnok Va": 2 },
-            { "Bohrok Gahlok Va": 2 },
-            { "Bohrok Nuhvok Va": 2 },
-            { "Bohrok Pahrak Va": 2 },
-            { "Bohrok Kohrak Va": 2 },
-            { "Bohrok Lehvak Va": 2 },
-            { "Bohrok Invasion": 2 },
-            { "Bohrok Nest": 2 },
-            { "If You Wake One...": 2 },
-            { "...You Wake Them All": 1 },
-            { "Premature Bohrok Beacon": 2 }
-        ],
-        "shows": 40
-    },
-    "l4Bohrok": {
-        "card": [
             { "Bohrok Tahnok": 1 },
             { "Bohrok Gahlok": 1 },
             { "Bohrok Nuhvok": 1 },
             { "Bohrok Pahrak": 1 },
             { "Bohrok Kohrak": 1 },
             { "Bohrok Lehvak": 1 },
+            { "Krana Vu, Surveyor": 1 },
+            { "Krana Su, Worker": 1 },
+            { "Krana Ca, Clearance Worker": 1 },
+            { "Krana Ja, Scout": 1 },
+            { "Beware the Swarm": 3 },
+            { "Bohrok Tahnok Va": 1 },
+            { "Bohrok Gahlok Va": 1 },
+            { "Bohrok Nuhvok Va": 1 },
+            { "Bohrok Pahrak Va": 1 },
+            { "Bohrok Kohrak Va": 1 },
+            { "Bohrok Lehvak Va": 1 },
+            { "Bohrok Invasion": 2 },
+            { "Bohrok Nest": 2 },
+            { "Bohrok Confrontation": 2 },
+            { "If You Wake One...": 2 },
+            { "...You Wake Them All": 1 },
+            { "Premature Bohrok Beacon": 2 },
+            { "Tindangle Angel": 3 },
+            { "Gold Gadget": 3 },
+            { "Silver Gadget": 3 }
+        ],
+        "shows": 39
+    },
+    "l4Bohrok": {
+        "card": [
+            { "Bohrok Tahnok": 2 },
+            { "Bohrok Gahlok": 2 },
+            { "Bohrok Nuhvok": 2 },
+            { "Bohrok Pahrak": 2 },
+            { "Bohrok Kohrak": 2 },
+            { "Bohrok Lehvak": 2 },
             { "If You Wake One...": 1 },
             { "...You Wake Them All": 2 },
             { "Bohrok Invasion": 1 },
-            { "Premature Bohrok Beacon": 1 },
-            { "Bohrok Nest": 1 },
             { "Gear Gigant X": 3 },
             { "Number 85: Crazy Box": 3 },
             { "Number 103: Ragnazero": 3},
@@ -144,34 +146,26 @@
             { "Krana Su, Worker": 2 },
             { "Krana Ca, Clearance Worker": 2 },
             { "Krana Ja, Scout": 2 },
-            { "Bohrok Confrontation": 3 },
+            { "Bohrok Confrontation": 2 },
             { "Bohrok Servant": 3 },
             { "Matoran of the Swarm": 3 },
-            { "Toa of the Swarm": 1 },
-            { "If You Wake One...": 1 },
-            { "...You Wake Them All": 2 },
-            { "Bohrok Invasion": 1 },
-            { "Premature Bohrok Beacon": 1 },
-            { "Bohrok Nest": 1 }
+            { "Toa of the Swarm": 2 }
         ]
     },
     "bohrokVa": {
         "card": [
-            { "Bohrok Tahnok Va": 1 },
-            { "Bohrok Gahlok Va": 1 },
-            { "Bohrok Nuhvok Va": 1 },
-            { "Bohrok Pahrak Va": 1 },
-            { "Bohrok Kohrak Va": 1 },
-            { "Bohrok Lehvak Va": 1 },
-            { "Hi-Speedroid Kendama": 3 },
-            { "Penguin Brave": 3 },
-            { "Red Wyvern": 3 },
-            { "Celestial Wolf Lord, Blue Sirius": 3 },
-            { "If You Wake One...": 1 },
-            { "...You Wake Them All": 2 },
-            { "Bohrok Invasion": 1 },
-            { "Premature Bohrok Beacon": 1 },
-            { "Bohrok Nest": 1 }
+            { "Bohrok Tahnok Va": 2 },
+            { "Bohrok Gahlok Va": 2 },
+            { "Bohrok Nuhvok Va": 2 },
+            { "Bohrok Pahrak Va": 2 },
+            { "Bohrok Kohrak Va": 2 },
+            { "Bohrok Lehvak Va": 2 },
+            { "Hi-Speedroid Kendama": 2 },
+            { "Penguin Brave": 2 },
+            { "Red Wyvern": 1 },
+            { "Scrap Archfiend": 2 },
+            { "Celestial Wolf Lord, Blue Sirius": 2 },
+            { "Turbo-Tainted Hot Rod GT19": 3 }
         ]
     },
     "boxor": {
@@ -213,7 +207,7 @@
     "bohrokSpecial": {
         "card": [
             "Sol and Luna",
-            "Swords of Revealing Light",
+            "Blast Held by a Tribute",
             "Eternal Rest"
         ]
     },
@@ -234,18 +228,18 @@
     },
     "kal": {
         "card": [
-            "Bohrok Tahnok-Kal",
-            "Bohrok Gahlok-Kal",
-            "Bohrok Nuhvok-Kal",
-            "Bohrok Pahrak-Kal",
-            "Bohrok Kohrak-Kal",
-            "Bohrok Lehvak-Kal",
-            "Krana Xa-Kal, Liberator",
-            "Krana Bo-Kal, Visionary",
-            "Krana Za-Kal, Overseer",
-            "Krana Yo-Kal, Excavator",
-            { "Bohrok Kalifornication": 3 },
-            { "Bohrok Counterattack": 3 },
+            { "Bohrok Tahnok-Kal" : 1},
+            { "Bohrok Gahlok-Kal" : 1},
+            { "Bohrok Nuhvok-Kal" : 1},
+            { "Bohrok Pahrak-Kal" : 1},
+            { "Bohrok Kohrak-Kal" : 1},
+            { "Bohrok Lehvak-Kal" : 1},
+            { "Krana Xa-Kal, Liberator" : 1},
+            { "Krana Bo-Kal, Visionary" : 1},
+            { "Krana Za-Kal, Overseer" : 1},
+            { "Krana Yo-Kal, Excavator" : 1},
+            { "Bohrok Kalifornication": 2 },
+            { "Bohrok Counterattack": 1 },
             { "Bohrok-Kal Strategy": 3 }
         ]
     }
