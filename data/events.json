@@ -167,24 +167,21 @@
             "mdesc": "Unite the forces of the Toa",
             "parts": [
                 {
-                    "char": "suvak", "src": "suvaKaita.webp", "anim": "blur"
-                },
-                {
-                    "char": "lewa", "src": "lewa.webp", "left": 45
+                    "back": "suvaKaita.webp"
                 },
                 {
                     "char": "gali", "src": "gali.webp", "name": "Gali", "left": -45,
                     "text": "Divided, these swarms will overrun us. Now is the time to unite our powers."
                 },
                 {
-                    "char": "lewa",
+                    "char": "lewa", "src": "lewa.webp", "name": "lewa", "left": 45,
                     "text": "Indeed. As they work in perfect coordination, so must we."
                 },
                 {
-                    "char": "gali", "anim": "out_fade"
+                    "char": "gali", "anim": "out_fade", "immediate": "true"
                 },
                 {
-                    "char": "lewa", "anim": "out_fade"
+                    "char": "lewa", "anim": "out_fade", "immediate": "true"
                 },
                 {
                     "char": "kopaka", "src": "kopaka.webp", "name": "Kopaka",
@@ -323,8 +320,8 @@
                     "char": "tahu",
                     "text": "And just what will we find if we place them here?"
                 },
-                { "char": "tahu", "anim": "out_fade" },
-                { "char": "kopaka", "anim": "out_fade" },
+                { "char": "tahu", "anim": "out_fade", "immediate": "true" },
+                { "char": "kopaka", "anim": "out_fade", "immediate": "true" },
                 {
                     "char": "lewa", "src": "lewa.webp", "name": "Lewa",
                     "text": "Armor ... but more than armor ..."
@@ -390,17 +387,17 @@
             "chain": "pack:bohrokKaita",
             "parts": [
                 {
-                    "char": "nuhvok", "src": "nuhvok.webp", "left": -60 
+                    "char": "nuhvok", "src": "nuhvok.webp", "left": -60, "immediate": "true" 
                 },
                 {
-                    "char": "pahrak", "src": "pahrak.webp", "left": 60 
+                    "char": "pahrak", "src": "pahrak.webp", "left": 60
                 },
                 {
                     "char": "tahnok", "src": "tahnok.webp", "name": "Squad Commander Tahnok",
                     "text": "UNEXPECTED OBSTACLE DETECTED. ACTIVATING KAITA PROCEDURE."
                 },
                 {
-                    "char": "fusion", "src": "bohrokFusion.webp" 
+                    "char": "fusion", "src": "bohrokFusion.webp", "anim": "in_fade"
                 }
             ]
         },
@@ -450,16 +447,12 @@
                     "char": "kopaka", "src": "kopaka_nuva.webp", "name": "Kopaka Nuva", "left": "45",
                     "text": "More than we were. More than anyone has ever been."
                 },
-                {
-                    "char": "gali", "anim": "out_fade"
-                },
-                {
-                    "char": "kopaka", "anim": "out_fade"
-                },
+                { "kill": "gali" },
                 {
                     "char": "onua", "src": "onua_nuva.webp", "name": "Onua Nuva", "left": "-45",
                     "text": "Those chambers were filled with Protodermis! It changed us - increased our power ..."
                 },
+                { "kill": "kopaka" },
                 {
                     "char": "tahu", "src": "tahu_nuva.webp", "name": "Tahu Nuva", "left": "45",
                     "text": "Let us worry about why it happened later. There are more important things to do."
@@ -479,16 +472,12 @@
                     "char": "nuhvokKal", "src": "nuhvok_kal.webp", "name": "Nuhvok-Kal", "left": "45",
                     "text": "We are the Bohrok-Kal. We search for Cahdok and Gahdok, Queens of the Swarms."
                 },
-                {
-                    "char": "pohatu", "anim": "out_fade"
-                },
+                { "kill": "pohatu" },
                 {
                     "char": "pahrakKal", "src": "pahrak_kal.webp", "name": "Pahrak-Kal", "left": "-45",
                     "text": "Tell us where you have hidden the Bahrag, and then stand aside. We have no wish to harm helpless foes."
                 },
-                {
-                    "char": "nuhvokKal", "anim": "out_fade"
-                },
+                { "kill": "nuhvokKal" },
                 {
                     "char": "lewa", "src": "lewa_nuva.webp", "name": "Lewa Nuva", "left": "45",
                     "text": "Helpless? Toa Nuva are never helpless! We'll run you into the ground!"
