@@ -19,7 +19,7 @@
             { "Coming of the Toa": 1 },
             { "The Island of Mata Nui": 3 },
             { "The Great Temple, Kini-Nui": 3 },
-            { "SPYRAL Super Agent": 2 },
+            { "Planet Pathfinder": 2 },
             { "Green Ninja": 2 },
             { "Matoran Legend Lhii": 2 },
             { "Matoran Astrologer Nixie": 2 },
@@ -53,22 +53,19 @@
             { "Foolish Burial Goods": 2 }
         ]
     },
-    "earth": {
+    "bugs": {
         "card": [
-            { "Toa Mata Onua": 1},
-            { "Toa Mata Pohatu": 1},
-            { "Great Kanohi Pakari": 1},
-            { "Great Kanohi Kakama": 1},
-            { "SPYRAL Super Agent": 1 },
-            { "Planet Pathfinder": 3 },
-            { "Ussal, Crab Rahi": 2},
-            { "Mahi, Goat Rahi": 2},
-            { "Pokawi, Flightless Bird Rahi": 2},
-            { "Dikapi, Ostrich Rahi": 2},
-            { "Kuma-Nui, Rat Rahi": 2},
-            { "Matoran Racer Onepu": 2},
-            { "Matoran Tender Midak": 2},
-            { "Matoran Trader Ahkmou": 2}
+            { "Kofo-Jaga, Scorpion Rahi": 3},
+            { "Fikou, Spider Rahi": 3},
+            { "Rahi Swarm": 3},
+            { "Hoto, Firebug Rahi": 2},
+            { "Cliff Bug, Hopper Rahi": 2},
+            { "Nui-Kopen, Wasp Rahi": 2 },
+            { "Subterranean Worm Rahi": 2 },
+            { "Kuma-Nui, Rat Rahi": 2 },
+            { "Fikou-Nui, Tarantula Rahi": 2 },
+            { "The Ussalry Arrives": 2},
+            { "Samurai Destroyer": 1}
         ]
     },
     "toaKaita": {

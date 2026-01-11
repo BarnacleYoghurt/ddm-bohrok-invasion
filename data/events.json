@@ -134,9 +134,9 @@
             ]
         },
         "onupo": {
-            "micon": "earth.webp",
-            "mdesc": "Search for EARTH allies in tunnels and deserts",
-            "chain": "pick:earth",
+            "micon": "fikou.webp",
+            "mdesc": "Recruit(?) some special little helpers",
+            "chain": "pick:bugs",
             "parts": [
                 {
                     "char": "meeting", "src": "pohatu_meeting_onua.webp", "anim": "in_fly_u"
@@ -157,7 +157,22 @@
                     "text": "Not much better than on the surface, I'm afraid. Fortifying the tunnels has held the swarms at bay, but with their numbers and persistence, they will break through before long."
                 },
                 {
-                    "text": "Unless we can stop them first, that is. The earth holds many treasures that may help us out ..."
+                    "text": "Though I doubt they'll have an easy time. I've noticed we're not the only residents of this island standing in their way."
+                },
+                {
+                    "char": "pohatu",
+                    "text": "What do you -"
+                },
+                {
+                     "sfxx": "hiss.mp3"
+                },
+                {
+                    "char": "kofo", "src": "kofojaga.webp", "name": "Kofo-Jaga", "left": 45,
+                    "text": "HISSSSSS"
+                },
+                {
+                    "char": "pohatu",
+                    "text": "Oh."
                 }
             ]
         },
@@ -651,11 +666,11 @@
                 "kanohi"
             ]
         },
-        "earth": {
+        "bugs": {
             "shows": 12,
             "limit": 6,
             "composes": [
-                "earth"
+                "bugs"
             ]
         },
         "toaKaita": {
@@ -674,7 +689,7 @@
             "composes": [
                 "toaBase",
                 "kanohi",
-                "earth",
+                "bugs",
                 "toaKaita",
                 "charmers"
             ]
