@@ -1043,5 +1043,19 @@
         "def": 0,
         "desc": "1 \"Krana\" monster + 1 monster owned by your opponent\n● Must be Special Summoned (from your Extra Deck) by banishing the above cards from your hand, field, and\/or GY, and cannot be Special Summoned by other ways. (You do not use \"Polymerization\".)\n● The original ATK\/DEF of this card become equal to the original ATK\/DEF of the monster owned by your opponent used for its Special Summon.",
         "credits": "The LEGO Group"
+    },
+    {
+        "name": "Heroes Assembled",
+        "type": "Boon",
+        "attribute": "SPELL",
+        "desc": "If only your opponent controls a monster: Reveal 1 \"Toa Mata\" monster or 1 \"Kanohi\" Equip Spell in your hand; add up to 2 \"Toa Mata\" monsters and/or \"Kanohi\" Equip Spells from your Deck and/or banishment to your hand, including a card that either mentions, or is mentioned on, the revealed card, then discard that many cards.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Queen's Gambit",
+        "type": "Boon",
+        "attribute": "TRAP",
+        "desc": "If a monster(s) is Special Summoned to your field face-down, even during the Damage Step: Activate 1 of these effects.\n● Tribute 1 monster; change 1 monster on the field to face-down Defense Position.\n● Add 1 \"Krana\" monster from your Deck or banishment to your hand, then discard 1 card.",
+        "credits": "The LEGO Group"
     }
 ]

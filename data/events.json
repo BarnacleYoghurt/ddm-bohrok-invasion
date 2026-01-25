@@ -135,7 +135,7 @@
         },
         "onupo": {
             "micon": "fikou.webp",
-            "mdesc": "Recruit(?) some special little helpers",
+            "mdesc": "Recruit(?) a swarm of little helpers",
             "chain": "pick:bugs",
             "parts": [
                 {
@@ -548,10 +548,14 @@
                 },
                 {
                     "char": "tut3", 
-                    "text": "Finally, several Spells and Traps depicting the arrival and adventures of the Toa can help you find your way to these monsters and put them on the field more quickly."
+                    "text": "Several Spells and Traps depicting the arrival and adventures of the Toa can also help you find your way to these monsters and put them on the field more quickly."
                 },
                 {
-                    "char": "tut3", 
+                    "char": "tut4", "src": "tutorialToaBoon.webp",
+                    "text": "Finally, your special Boon \"Heroes Assembled\" is a Spell you can activate from the Extra Deck while only your opponent controls a monster. By revealing a Toa or a Kanohi you already have, it lets you adjust your hand with additional pieces from your Deck or banishment. You only get one, so use it wisely!"
+                },
+                {
+                    "char": "tut4", 
                     "text": "That concludes this tutorial. Happy deckbuilding and dueling, and good luck!"
                 }
             ]
@@ -581,7 +585,11 @@
                     "text": "The supporting Bohrok Va are Level 2 Tuner monsters that can each be Special Summoned from your hand if you control a matching Bohrok, providing different utility effects on the field. In the End Phase after being sent to the GY, they also help you recycle either Bohrok in your GY or Krana you have previously banished."
                 },
                 {
-                    "char": "tut3", 
+                    "char": "tut4", "src": "tutorialBohrokBoon.webp",
+                    "text": "Your special Boon \"Queen's Gambit\" lets you perform additional tricks when one of your Bohrok - or any other card - Special Summons a monster face-down. At this timing, the Trap can be activated directly from the Extra Deck to either Tribute a monster and flip something else face-down, or to grab a Krana from your Deck or banishment. You only get one, so use it wisely!"
+                },
+                {
+                    "char": "tut4", 
                     "text": "That concludes this tutorial. Happy deckbuilding and dueling, and good luck!"
                 }
             ]

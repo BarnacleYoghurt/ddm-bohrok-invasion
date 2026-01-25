@@ -23,9 +23,10 @@
             { "Green Ninja": 2 },
             { "Matoran Legend Lhii": 2 },
             { "Matoran Astrologer Nixie": 2 },
-            { "Salamangreat Almiraj": 1 }
+            { "Salamangreat Almiraj": 1 },
+            { "Heroes Assembled": 1 }
         ],
-        "shows": 39
+        "shows": 40
     },
     "charmers": {
         "card": [
@@ -56,16 +57,15 @@
     "bugs": {
         "card": [
             { "Kofo-Jaga, Scorpion Rahi": 3},
-            { "Fikou, Spider Rahi": 3},
             { "Rahi Swarm": 3},
+            { "Fikou-Nui, Tarantula Rahi": 3 },
+            { "Nui-Kopen, Wasp Rahi": 3 },
             { "Hoto, Firebug Rahi": 2},
             { "Cliff Bug, Hopper Rahi": 2},
-            { "Nui-Kopen, Wasp Rahi": 2 },
+            { "Fikou, Spider Rahi": 2},
             { "Subterranean Worm Rahi": 2 },
             { "Kuma-Nui, Rat Rahi": 2 },
-            { "Fikou-Nui, Tarantula Rahi": 2 },
-            { "The Ussalry Arrives": 2},
-            { "Samurai Destroyer": 1}
+            { "The Ussalry Arrives": 2}
         ]
     },
     "toaKaita": {
@@ -110,9 +110,10 @@
             { "Premature Bohrok Beacon": 2 },
             { "Tindangle Angel": 3 },
             { "Gold Gadget": 3 },
-            { "Silver Gadget": 3 }
+            { "Silver Gadget": 3 },
+            { "Queen's Gambit": 1 }
         ],
-        "shows": 39
+        "shows": 40
     },
     "l4Bohrok": {
         "card": [
