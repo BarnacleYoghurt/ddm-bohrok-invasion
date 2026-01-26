@@ -700,6 +700,9 @@
                 "bugs",
                 "toaKaita",
                 "charmers"
+            ],
+            "shrinkFromSearch": [
+                { "name": "Heroes Assembled" }
             ]
         },
         "toaSpecial": {
@@ -744,6 +747,9 @@
                 "krana",      
                 "bohrokVa",
                 "charmers" 
+            ],
+            "shrinkFromSearch": [
+                { "name": "Queen's Gambit" }
             ]
         },
         "bohrokSpecial": {
