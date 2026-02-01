@@ -17,13 +17,14 @@
             { "Suva Kaita": 1 },
             { "Call of the Toa Stones": 3 },
             { "Coming of the Toa": 1 },
-            { "The Island of Mata Nui": 3 },
+            { "The Island of Mata Nui": 2 },
             { "The Great Temple, Kini-Nui": 3 },
             { "Planet Pathfinder": 2 },
             { "Green Ninja": 2 },
             { "Matoran Legend Lhii": 2 },
             { "Matoran Astrologer Nixie": 2 },
-            { "Salamangreat Almiraj": 1 },
+            [ "Suva", "Suva Kaita", "Planet Pathfinder" ],
+            [ "Toa Mata Combination - Magma", "Toa Mata Combination - Crystal", "Toa Mata Combination - Storm" ],
             { "Heroes Assembled": 1 }
         ],
         "shows": 40
@@ -70,17 +71,21 @@
     },
     "toaKaita": {
         "card": [
-            { "Toa Mata Combination - Magma": 3 },
-            { "Toa Mata Combination - Crystal": 3 },
-            { "Toa Mata Combination - Storm": 3 },
+            { "Toa Mata Combination - Magma": 2 },
+            { "Toa Mata Combination - Crystal": 2 },
+            { "Toa Mata Combination - Storm": 2 },
             { "Coming of the Toa": 2 },
+            { "Quest for the Masks": 1 },
             { "Suva Kaita": 2 },
             { "Akamai, Toa Kaita of Valor": 1 },
             { "Wairuha, Toa Kaita of Wisdom": 1 },
             { "Great Kanohi Aki": 2 },
             { "Great Kanohi Rua": 2 },
             { "Constellar Ptolemy M7": 2 },
-            { "Gauntlet Launcher": 3 }
+            { "Gauntlet Launcher": 2 },
+            [ "Toa Mata Tahu", "Toa Mata Gali" ],
+            [ "Toa Mata Onua", "Toa Mata Kopaka" ],
+            [ "Toa Mata Pohatu", "Toa Mata Lewa" ]
         ]
     },
     "bohrokBase": {
@@ -109,8 +114,12 @@
             { "...You Wake Them All": 1 },
             { "Premature Bohrok Beacon": 2 },
             { "Tindangle Angel": 3 },
-            { "Gold Gadget": 3 },
-            { "Silver Gadget": 3 },
+            [ "Bohrok Tahnok", "Bohrok Tahnok Va" ],
+            [ "Bohrok Gahlok", "Bohrok Gahlok Va" ],
+            [ "Bohrok Nuhvok", "Bohrok Nuhvok Va" ],
+            [ "Bohrok Pahrak", "Bohrok Pahrak Va" ],
+            [ "Bohrok Kohrak", "Bohrok Kohrak Va" ],
+            [ "Bohrok Lehvak", "Bohrok Lehvak Va" ],
             { "Queen's Gambit": 1 }
         ],
         "shows": 40
@@ -124,12 +133,12 @@
             { "Bohrok Kohrak": 2 },
             { "Bohrok Lehvak": 2 },
             { "If You Wake One...": 1 },
-            { "...You Wake Them All": 2 },
+            { "...You Wake Them All": 1 },
             { "Bohrok Invasion": 1 },
+            { "Premature Bohrok Beacon": 1 },
             { "Gear Gigant X": 3 },
             { "Number 85: Crazy Box": 3 },
-            { "Number 103: Ragnazero": 3},
-            { "Diamond Dire Wolf": 3 }
+            { "Number 103: Ragnazero": 3 }
         ]
     },
     "krana": {
@@ -138,10 +147,10 @@
             { "Krana Su, Worker": 2 },
             { "Krana Ca, Clearance Worker": 2 },
             { "Krana Ja, Scout": 2 },
-            { "Bohrok Confrontation": 2 },
+            { "Bohrok Confrontation": 1 },
             { "Bohrok Servant": 3 },
             { "Matoran of the Swarm": 3 },
-            { "Toa of the Swarm": 2 }
+            { "Toa of the Swarm": 3 }
         ]
     },
     "bohrokVa": {
@@ -154,9 +163,8 @@
             { "Bohrok Lehvak Va": 2 },
             { "Hi-Speedroid Kendama": 2 },
             { "Penguin Brave": 2 },
-            { "Red Wyvern": 1 },
-            { "Scrap Archfiend": 2 },
-            { "Celestial Wolf Lord, Blue Sirius": 2 },
+            { "Red Wyvern": 2 },
+            { "Scrap Archfiend": 3 },
             { "Turbo-Tainted Hot Rod GT19": 3 }
         ]
     },
@@ -191,8 +199,10 @@
     },
     "bohrokKaita": {
         "card": [
-            { "Bohrok Kaita Ja": 3 },
-            { "Bohrok Kaita Za": 3 },
+            { "Bohrok Kaita Ja": 2 },
+            { "Bohrok Va Kaita Ja": 1 },
+            { "Bohrok Kaita Za": 2 },
+            { "Bohrok Va Kaita Za": 1 },
             { "Bohrok Swarm Fusion": 3 }
         ]
     },

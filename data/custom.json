@@ -566,6 +566,28 @@
         "credits": "The LEGO Group"
     },
     {
+        "name": "Bohrok Va Kaita Ja",
+        "type": "Fusion Tuner Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Machine",
+        "level": 2,
+        "atk": 1000,
+        "def": 1500,
+        "desc": "\"Bohrok Gahlok Va\" + \"Bohrok Kohrak Va\" + \"Bohrok Lehvak Va\"\n● If this card is used as Synchro Material, all other Synchro Materials must be \"Bohrok\" monsters.\n● During the Standby Phase: You can Tribute this Fusion Summoned card; Special Summon 1 \"Bohrok\" Fusion Monster from your Extra Deck.\n● During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can add 1 \"Bohrok\" or \"Krana\" card from your Deck to your hand. You can only use this effect of \"Bohrok Va Kaita Ja\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
+        "name": "Bohrok Va Kaita Za",
+        "type": "Fusion Tuner Effect Monster",
+        "attribute": "LIGHT",
+        "race": "Machine",
+        "level": 2,
+        "atk": 1000,
+        "def": 1500,
+        "desc": "\"Bohrok Tahnok Va\" + \"Bohrok Nuhvok Va\" + \"Bohrok Pahrak Va\"\n● If this card is used as Synchro Material, all other Synchro Materials must be \"Bohrok\" monsters.\n● During the Standby Phase: You can Tribute this Fusion Summoned card; Special Summon 1 \"Bohrok\" Fusion Monster from your Extra Deck.\n● During the End Phase, if this card is in the GY because it was sent there from the field this turn: You can Special Summon 1 \"Bohrok\" monster from your GY in face-down Defense Position, except \"Bohrok Va Kaita Za\". You can only use this effect of \"Bohrok Va Kaita Za\" once per turn.",
+        "credits": "The LEGO Group"
+    },
+    {
         "name": "Energized Protodermis Chamber",
         "type": "Effect Monster",
         "attribute": "LIGHT",
@@ -738,7 +760,7 @@
     {
         "name": "Bohrok-Kal Strategy",
         "type": "Spell",
-        "desc": "● When this card is activated: You can Special Summon 1 \"Bohrok\" monster from your hand.\nIf a \"Bohrok\" monster(s) is Special Summoned to your field (except during the Damage Step): You can activate 1 of these effects, or, if the Summon is an Xyz Summon, you can activate both, in sequence;\n● Target 1 other Spell\/Trap on the field; destroy it.\n● fAdd 1 \"Bohrok\" Spell\/Trap from your Deck to your hand, except \"Bohrok-Kal Strategy\".\nYou can only use this effect of \"Bohrok-Kal Strategy\" once per turn.",
+        "desc": "● When this card is activated: You can Special Summon 1 \"Bohrok\" monster from your hand.\nIf a \"Bohrok\" monster(s) is Special Summoned to your field (except during the Damage Step): You can activate 1 of these effects, or, if the Summon is an Xyz Summon, you can activate both, in sequence;\n● Target 1 other Spell\/Trap on the field; destroy it.\n● Add 1 \"Bohrok\" Spell\/Trap from your Deck to your hand, except \"Bohrok-Kal Strategy\".\nYou can only use this effect of \"Bohrok-Kal Strategy\" once per turn.",
         "credits": "The LEGO Group",
         "race": "Continuous"
     },
