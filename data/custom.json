@@ -114,7 +114,7 @@
         "level": 1,
         "atk": 0,
         "def": 0,
-        "desc": "● While in your hand, and while face-up on the field if you control a \"-Koro\" Field Spell, this card is also EARTH, WATER, FIRE, and WIND-Attribute.\n● Once per Chain (Quick Effect): You can pay 600 LP, then target 1 \"Toa\" monster you control; equip 1 \"Kanohi\" Equip Spell from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.\n● If you control a \"Toa\" monster: You can Special Summon this card from your GY.\nYou can only use this effect of \"Suva\" once per turn.",
+        "desc": "● While in your hand, this card is also EARTH, WATER, FIRE, and WIND-Attribute.\n● Once per Chain (Quick Effect): You can pay 600 LP, then target 1 \"Toa\" monster you control; equip 1 \"Kanohi\" Equip Spell from your hand or GY to that target, except a card that is in the GY because it was destroyed while face-up on the field and sent there this turn.\n● If you control a \"Toa\" monster: You can Special Summon this card from your GY.\nYou can only use this effect of \"Suva\" once per turn.",
         "credits": "The LEGO Group"
     },
     {
@@ -144,14 +144,14 @@
         "name": "Quest for the Masks",
         "type": "Spell",
         "race": "Continuous",
-        "desc": "● When a \"Toa\" monster is Normal Summoned: You can equip 1 \"Noble Kanohi\" or \"Great Kanohi\" Equip Spell from your Deck to it.\n● You can send any number of \"Kanohi\" Equip Spells from your hand to the GY; draw that many cards.\nYou can only use this effect of \"Quest for the Masks\" once per turn.\n● Once per turn, during the End Phase: You can target 1 of your banished monsters whose Level is less than or equal to the number of \"Kanohi\" Equip Spells with different names in your GY; Special Summon it, then destroy this card.",
+        "desc": "● When a \"Toa\" monster is Normal Summoned: You can equip 1 \"Great Kanohi\" Equip Spell from your Deck to it.\n● You can send any number of \"Kanohi\" Equip Spells from your hand to the GY; draw that many cards.\nYou can only use this effect of \"Quest for the Masks\" once per turn.\n● Once per turn, during the End Phase: You can target 1 of your banished monsters whose Level is less than or equal to the number of \"Kanohi\" Equip Spells with different names in your GY; Special Summon it, then destroy this card.",
         "credits": "The LEGO Group"
     },
     {
         "name": "Gift of the Shrine",
         "type": "Spell",
         "race": "Quick-Play",
-        "desc": "Target 1 face-up monster you control, then activate 1 of these effects;\n● Equip 1 \"Kanohi\" Equip Spell from your hand or GY to that target.\n● Banish 1 Level 1 Rock monster you control or in your GY with 0 ATK\/DEF, and if you do, equip 1 \"Noble Kanohi\" or \"Great Kanohi\" Equip Spell from your Deck to that target.",
+        "desc": "Target 1 face-up monster you control, then activate 1 of these effects;\n● Equip 1 \"Kanohi\" Equip Spell from your hand or GY to that target.\n● Banish 1 Level 1 Rock monster you control or in your GY with 0 ATK\/DEF, and if you do, equip 1 \"Great Kanohi\" Equip Spell from your Deck to that target.",
         "credits": "The LEGO Group"
     },
     {
@@ -313,7 +313,7 @@
         "level": 1,
         "atk": 0,
         "def": 0,
-        "desc": "● Once per turn (Quick Effect): You can target 1 Level 4 or higher \"Bohrok\" monster you control; equip this card from your hand to that target.\n● While this card is equipped to a \"Bohrok\" monster, the first time a \"Bohrok\" monster you control would be destroyed by battle each turn, it is not destroyed.\n● You can return this Normal Summoned\/Set card to the hand; Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.",
+        "desc": "● Once per turn (Quick Effect): You can target 1 Level 4 or higher \"Bohrok\" monster you control; equip this card from your hand to that target.\n● While this card is equipped to a \"Bohrok\" monster, the first time each \"Bohrok\" monster you control would be destroyed by battle each turn, it is not destroyed.\n● You can return this Normal Summoned\/Set card to the hand; Special Summon 1 Level 4 \"Bohrok\" monster from your Deck in face-up Attack Position, but it cannot attack or activate its effects this turn.",
         "credits": "The LEGO Group"
     },
     {
@@ -431,17 +431,6 @@
         "name": "...You Wake Them All",
         "type": "Trap",
         "desc": "(This card is always treated as a \"Bohrok\" card.)\nTarget 1 \"Bohrok\" monster you control; return that target to the hand, then change all face-down monsters you control to face-up Attack Position. You can only activate 1 \"...You Wake Them All\" per turn.",
-        "credits": "The LEGO Group"
-    },
-    {
-        "name": "C.C. Matoran Taipu",
-        "type": "Effect Monster",
-        "attribute": "EARTH",
-        "race": "Warrior",
-        "level": 2,
-        "atk": 1000,
-        "def": 500,
-        "desc": "● You can Special Summon this card (from your hand), but you cannot declare an attack for the rest of this turn, except with \"C.C. Matoran\" monsters. You can only Special Summon \"C.C. Matoran Taipu\" once per turn this way.\n● If this card is sent from the field to the GY: You can target 1 monster you control with less than 2000 ATK; it gains 1000 ATK\/DEF until the end of the next turn.",
         "credits": "The LEGO Group"
     },
     {
@@ -897,7 +886,7 @@
     {
         "name": "The Island of Mata Nui",
         "type": "Spell",
-        "desc": "● All Normal Summoned \"Toa Mata\" monsters gain 600 ATK\/DEF.\n● During your Main Phase: You can reveal 1 monster in your hand and add 1 \"-Koro\" Field Spell that mentions that monster's Attribute from your Deck to your hand. If you revealed a \"Toa Mata\" monster, you can add 1 \"The Great Temple, Kini-Nui\" instead.\n● If a card in your Field Zone, except \"The Island of Mata Nui\", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can only use each effect of \"The Island of Mata Nui\" once per turn.",
+        "desc": "● All Normal Summoned \"Toa Mata\" monsters gain 600 ATK\/DEF.\n● During your Main Phase: You can reveal 1 \"Toa Mata\" monster in your hand and add 1 \"The Great Temple, Kini-Nui\" from your Deck to your hand.\n● If a card in your Field Zone, except \"The Island of Mata Nui\", is destroyed while this card is in your GY: You can activate this card, but banish it when it leaves the field. You can only use each effect of \"The Island of Mata Nui\" once per turn.",
         "credits": "The LEGO Group",
         "race": "Field"
     },
