@@ -1077,7 +1077,7 @@
         "name": "Queen's Gambit",
         "type": "Boon",
         "attribute": "TRAP",
-        "desc": "If a monster(s) is Special Summoned to your field face-down, even during the Damage Step: Activate 1 of these effects.\n● Tribute 1 monster; change 1 monster on the field to face-down Defense Position.\n● Add 1 \"Krana\" monster from your Deck or banishment to your hand, then discard 1 card.",
+        "desc": "If a \"Bohrok\" monster(s) is Normal or Special Summoned to your field, or a monster(s) is Special Summoned to your field face-down, even during the Damage Step: Activate 1 of these effects.\n● Tribute 1 monster; banish 1 card on the field.\n● Add 1 \"Bohrok\" or \"Krana\" card from your Deck or banishment to your hand, then discard 1 card.",
         "credits": "The LEGO Group"
     }
 ]
