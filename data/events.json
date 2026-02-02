@@ -586,7 +586,7 @@
                 },
                 {
                     "char": "tut4", "src": "tutorialBohrokBoon.webp",
-                    "text": "Your special Boon \"Queen's Gambit\" lets you perform additional tricks when one of your Bohrok - or any other card - Special Summons a monster face-down. At this timing, the Trap can be activated directly from the Extra Deck to either Tribute a monster and flip something else face-down, or to grab a Krana from your Deck or banishment. You only get one, so use it wisely!"
+                    "text": "Your special Boon \"Queen's Gambit\" lets you perform additional tricks when Summoning Bohrok or face-down monsters. At this timing, the Trap can be activated directly from the Extra Deck to either Tribute a monster and banish something from the field, or to grab an archetypal card from your Deck or banishment. You only get one, so use it wisely!"
                 },
                 {
                     "char": "tut4", 
@@ -603,11 +603,11 @@
             "list": [
                 {
                     "name": "Toa",  "img": "Toa.webp", "chain": "text:toaIntro",
-                    "desc": "Defend Mata Nui against the threat of the Bohrok Swarms!\n- Warrior monsters and Equip Spells\n- Various synergies and build variants\n- More explosive, but less consistent"
+                    "desc": "Defend Mata Nui against the threat of the Bohrok Swarms!\n\nPowerful Warrior monsters with a wide range of build options - use multi-card combos for explosive plays that overwhelm your opponent's defenses."
                 },
                 {
                     "name": "Bohrok", "img": "Bohrok.webp", "chain": "text:bohrokIntro",
-                    "desc": "Clean it all. It must be cleaned.\n- Flip monsters and removal effects\n- Many tools in-archetype, few outside synergies\n- Consistent, but slow to set up"
+                    "desc": "Clean it all. It must be cleaned.\n\nStraightforward, consistent engine of Flip Monsters that natively provide swarming, removal, and recycling - slow to get going, but highly resilient once in motion."
                 }
             ]
         }
