@@ -1,33 +1,69 @@
 {
     "toaBase": {
         "card": [
+            { "Suva": 1 },
+            { "Suva Kaita": 1 },
+            { "Call of the Toa Stones": 1 },
+            { "Coming of the Toa": 1 },
+            { "Quest for the Masks": 1 },
+            { "The Great Temple, Kini-Nui": 2 },
+            { "The Island of Mata Nui": 1 },
+            [ "Toa Mata Combination - Magma", "Toa Mata Combination - Crystal", "Toa Mata Combination - Storm" ],
+            { "Heroes Assembled": 1 }
+        ],
+        "rares": [
+            {
+                "amount": 3,
+                "card": [
+                    { "Great Kanohi Hau": 1 },
+                    { "Great Kanohi Kaukau": 1 },
+                    { "Great Kanohi Pakari": 1 },
+                    { "Great Kanohi Kakama": 1 },
+                    { "Great Kanohi Akaku": 1 },
+                    { "Great Kanohi Miru": 1 }
+                ]
+            },
+            {
+                "amount": 3,
+                "card": [
+                    { "Toa Mata Tahu": 1 },
+                    { "Toa Mata Gali": 1 },
+                    { "Toa Mata Onua": 1 },
+                    { "Toa Mata Pohatu": 1 },
+                    { "Toa Mata Kopaka": 1 },
+                    { "Toa Mata Lewa": 1}
+                ]
+            }
+        ],
+        "shows": 16
+    },
+    "toaPlus": {
+        "card": [
+            { "Suva": 2 },
+            { "Suva Kaita": 2 },
+            { "Call of the Toa Stones": 2 },
+            { "Coming of the Toa": 2 },
+            { "The Great Temple, Kini-Nui": 1 },
+            { "The Island of Mata Nui": 2 },
+            { "Planet Pathfinder": 3 },
+            { "Green Ninja": 3 },
+            { "Matoran Legend Lhii": 3 },
+            { "Matoran Astrologer Nixie": 3 },
+            { "Quest for the Masks" : 2 },
+            { "Great Kanohi Hau": 2},
+            { "Great Kanohi Kaukau": 2},
+            { "Great Kanohi Pakari": 2},
+            { "Great Kanohi Kakama": 2},
+            { "Great Kanohi Akaku": 2},
+            { "Great Kanohi Miru": 2},
             { "Toa Mata Tahu": 2 },
             { "Toa Mata Gali": 2 },
             { "Toa Mata Onua": 2 },
             { "Toa Mata Pohatu": 2 },
             { "Toa Mata Kopaka": 2 },
-            { "Toa Mata Lewa": 2},
-            { "Great Kanohi Hau": 1},
-            { "Great Kanohi Kaukau": 1},
-            { "Great Kanohi Pakari": 1},
-            { "Great Kanohi Kakama": 1},
-            { "Great Kanohi Akaku": 1},
-            { "Great Kanohi Miru": 1},
-            { "Suva": 1 },
-            { "Suva Kaita": 1 },
-            { "Call of the Toa Stones": 3 },
-            { "Coming of the Toa": 1 },
-            { "The Island of Mata Nui": 2 },
-            { "The Great Temple, Kini-Nui": 3 },
-            { "Planet Pathfinder": 2 },
-            { "Green Ninja": 2 },
-            { "Matoran Legend Lhii": 2 },
-            { "Matoran Astrologer Nixie": 2 },
-            [ "Suva", "Suva Kaita", "Planet Pathfinder" ],
-            [ "Toa Mata Combination - Magma", "Toa Mata Combination - Crystal", "Toa Mata Combination - Storm" ],
-            { "Heroes Assembled": 1 }
+            { "Toa Mata Lewa": 2}
         ],
-        "shows": 40
+        "shows": 26
     },
     "charmers": {
         "card": [
@@ -51,7 +87,7 @@
             { "Suva": 2 },
             { "Quest for the Masks" : 2 },
             { "Power Tool Braver Dragon": 2 },
-            { "Power Tool Mecha Dragon": 1 },
+            { "The Great Temple, Kini-Nui": 1 },
             { "Foolish Burial Goods": 2 }
         ]
     },
@@ -75,13 +111,13 @@
             { "Toa Mata Combination - Crystal": 2 },
             { "Toa Mata Combination - Storm": 2 },
             { "Coming of the Toa": 2 },
-            { "Quest for the Masks": 1 },
+            { "Quest for the Masks": 2 },
             { "Suva Kaita": 2 },
             { "Akamai, Toa Kaita of Valor": 1 },
             { "Wairuha, Toa Kaita of Wisdom": 1 },
             { "Great Kanohi Aki": 2 },
             { "Great Kanohi Rua": 2 },
-            { "Constellar Ptolemy M7": 2 },
+            { "The Great Temple, Kini-Nui": 1 },
             { "Gauntlet Launcher": 2 },
             [ "Toa Mata Tahu", "Toa Mata Gali" ],
             [ "Toa Mata Onua", "Toa Mata Kopaka" ],
@@ -96,33 +132,54 @@
             { "Bohrok Pahrak": 1 },
             { "Bohrok Kohrak": 1 },
             { "Bohrok Lehvak": 1 },
-            { "Krana Vu, Surveyor": 1 },
-            { "Krana Su, Worker": 1 },
-            { "Krana Ca, Clearance Worker": 1 },
-            { "Krana Ja, Scout": 1 },
             { "Beware the Swarm": 3 },
-            { "Bohrok Tahnok Va": 1 },
-            { "Bohrok Gahlok Va": 1 },
-            { "Bohrok Nuhvok Va": 1 },
-            { "Bohrok Pahrak Va": 1 },
-            { "Bohrok Kohrak Va": 1 },
-            { "Bohrok Lehvak Va": 1 },
-            { "Bohrok Invasion": 2 },
-            { "Bohrok Nest": 2 },
-            { "Bohrok Confrontation": 2 },
-            { "If You Wake One...": 2 },
-            { "...You Wake Them All": 1 },
-            { "Premature Bohrok Beacon": 2 },
-            { "Tindangle Angel": 3 },
-            [ "Bohrok Tahnok", "Bohrok Tahnok Va" ],
-            [ "Bohrok Gahlok", "Bohrok Gahlok Va" ],
-            [ "Bohrok Nuhvok", "Bohrok Nuhvok Va" ],
-            [ "Bohrok Pahrak", "Bohrok Pahrak Va" ],
-            [ "Bohrok Kohrak", "Bohrok Kohrak Va" ],
-            [ "Bohrok Lehvak", "Bohrok Lehvak Va" ],
+            { "Bohrok Nest": 1 },
+            { "Premature Bohrok Beacon": 1 },
+            { "Bohrok Invasion": 1 },
             { "Queen's Gambit": 1 }
         ],
-        "shows": 40
+        "rares": [
+            {
+                "amount": 3,
+                "card": [
+                    { "Bohrok Tahnok Va": 1 },
+                    { "Bohrok Gahlok Va": 1 },
+                    { "Bohrok Nuhvok Va": 1 },
+                    { "Bohrok Pahrak Va": 1 },
+                    { "Bohrok Kohrak Va": 1 },
+                    { "Bohrok Lehvak Va": 1 }
+                ]
+            }
+        ],
+        "shows": 16
+    },
+    "bohrokPlus": {
+        "card": [
+            { "Bohrok Tahnok": 3 },
+            { "Bohrok Gahlok": 3 },
+            { "Bohrok Nuhvok": 3 },
+            { "Bohrok Pahrak": 3 },
+            { "Bohrok Kohrak": 3 },
+            { "Bohrok Lehvak": 3 },
+            { "Bohrok Tahnok Va": 2 },
+            { "Bohrok Gahlok Va": 2 },
+            { "Bohrok Nuhvok Va": 2 },
+            { "Bohrok Pahrak Va": 2 },
+            { "Bohrok Kohrak Va": 2 },
+            { "Bohrok Lehvak Va": 2 },
+            { "Bohrok Invasion": 2 },
+            { "Bohrok Confrontation": 3 },
+            { "If You Wake One...": 3 },
+            { "...You Wake Them All": 3 },
+            { "Bohrok Nest": 2 },
+            { "Premature Bohrok Beacon": 2 },
+            { "Tindangle Angel": 3 },
+            { "Krana Vu, Surveyor": 2 },
+            { "Krana Su, Worker": 2 },
+            { "Krana Ca, Clearance Worker": 2 },
+            { "Krana Ja, Scout": 2 }
+        ],
+        "shows": 26
     },
     "l4Bohrok": {
         "card": [
@@ -134,11 +191,11 @@
             { "Bohrok Lehvak": 2 },
             { "If You Wake One...": 1 },
             { "...You Wake Them All": 1 },
-            { "Bohrok Invasion": 1 },
-            { "Premature Bohrok Beacon": 1 },
+            { "Bohrok Invasion": 2 },
+            { "Premature Bohrok Beacon": 2 },
             { "Gear Gigant X": 3 },
-            { "Number 85: Crazy Box": 3 },
-            { "Number 103: Ragnazero": 3 }
+            { "Number 85: Crazy Box": 2 },
+            { "Number 101: Silent Honor ARK": 2 }
         ]
     },
     "krana": {

@@ -616,17 +616,33 @@
         "toaBase": {
             "micon": "toa.webp",
             "mdesc": "Pack: Toa Mata & Kanohi",
-            "chain": "text:toaTut",
+            "chain": "pack:toaPlus",
             "composes": [
                 "toaBase"
+            ]
+        },
+        "toaPlus": {
+            "micon": "toa.webp",
+            "mdesc": "Pack: Toa Mata & Kanohi",
+            "chain": "text:toaTut",
+            "composes": [
+                "toaPlus"
             ]
         },
         "bohrokBase": {
             "micon": "bohrok.webp",
             "mdesc": "Pack: Bohrok & Krana",
-            "chain": "text:bohrokTut",
+            "chain": "pack:bohrokPlus",
             "composes": [
                 "bohrokBase"
+            ]
+        },
+        "bohrokPlus": {
+            "micon": "bohrok.webp",
+            "mdesc": "Pack: Bohrok & Krana",
+            "chain": "text:bohrokTut",
+            "composes": [
+                "bohrokPlus"
             ]
         },
         "boxor": {
@@ -695,14 +711,11 @@
             "limit": 6,
             "removeRedundant": true,
             "composes": [
-                "toaBase",
+                "toaPlus",
                 "kanohi",
                 "bugs",
                 "toaKaita",
                 "charmers"
-            ],
-            "shrinkFromSearch": [
-                { "name": "Heroes Assembled" }
             ]
         },
         "toaSpecial": {
@@ -742,14 +755,11 @@
             "limit": 6,
             "removeRedundant": true,
             "composes": [
-                "bohrokBase",
+                "bohrokPlus",
                 "l4Bohrok",
                 "krana",      
                 "bohrokVa",
                 "charmers" 
-            ],
-            "shrinkFromSearch": [
-                { "name": "Queen's Gambit" }
             ]
         },
         "bohrokSpecial": {
