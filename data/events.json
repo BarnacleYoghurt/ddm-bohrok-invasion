@@ -586,7 +586,7 @@
                 },
                 {
                     "char": "tut4", "src": "tutorialBohrokBoon.webp",
-                    "text": "Your special Boon \"Queen's Gambit\" lets you perform additional tricks when Summoning Bohrok or face-down monsters. At this timing, the Trap can be activated directly from the Extra Deck to either Tribute a monster and banish something from the field, or to grab an archetypal card from your Deck or banishment. You only get one, so use it wisely!"
+                    "text": "Your special Boon \"Queen's Gambit\" secures your setup by retaliating against attempts to remove the swarms from your field - either banishing a card or searching for some backup. If you additionally Tribute a monster, you can even do both of these things, or keep the Boon around to defend against another attack on a future turn!"
                 },
                 {
                     "char": "tut4", 
@@ -777,7 +777,7 @@
             "micon": "trade.webp",
             "mdesc": "Toa Nuva Upgrades",
             "removeRedundant": true,
-            "showLimit": 6,
+            "showLimit": 9,
             "swapLimit": 3,
             "trades": [
                 { "Toa Mata Tahu": "Toa Nuva Tahu" },
@@ -787,17 +787,25 @@
                 { "Toa Mata Kopaka": "Toa Nuva Kopaka" },
                 { "Toa Mata Lewa": "Toa Nuva Lewa" },
                 { "Call of the Toa Stones": "Tales of the Nuva" },
+                { "Exo Autonomy": "Tales of the Nuva" },
+                { "Empty Bohrok Shell": "Tales of the Nuva" },
                 { "Quest for the Masks": "Nuva Emergence" },
+                { "Exo-Toa": "Nuva Emergence" },
+                { "The Boxor, Weapon of the Matoran": "Nuva Emergence" },
                 { "Coming of the Toa": "Nuva Overcharge" },
+                { "Exo Armaments": "Nuva Overcharge" },
+                { "Matoran Engineer Nuparu": "Nuva Overcharge" },
                 { "The Island of Mata Nui": "Energized Protodermis Chamber" },
-                { "The Great Temple, Kini-Nui": "Energized Protodermis Destiny" }
+                { "Suva": "Energized Protodermis Chamber" },
+                { "The Great Temple, Kini-Nui": "Energized Protodermis Destiny" },
+                { "Suva Kaita": "Energized Protodermis Destiny" }
             ]
         },
         "bohrok3": {
             "micon": "trade.webp",
             "mdesc": "Bohrok-Kal Upgrades",
             "removeRedundant": true,
-            "showLimit": 6,
+            "showLimit": 9,
             "swapLimit": 3,
             "trades": [
                 { "Bohrok Tahnok": "Bohrok Tahnok-Kal" },
@@ -811,8 +819,17 @@
                 { "Krana Ja, Scout": "Krana Bo-Kal, Visionary" },
                 { "Krana Su, Worker": "Krana Za-Kal, Overseer" },
                 { "Bohrok Invasion": "Bohrok-Kal Strategy" },
+                { "Queens' Illusion": "Bohrok-Kal Strategy" },
+                { "Bohrok Swarm Fusion": "Bohrok-Kal Strategy" },
                 { "If You Wake One...": "Bohrok Kalifornication" },
-                { "...You Wake Them All": "Bohrok Counterattack" }
+                { "As It Was in the Before-Time": "Bohrok Kalifornication" },
+                { "Bohrok Kaita Ja": "Bohrok Kalifornication" },
+                { "Bahrag Gahdok, Queen of the Bohrok": "Bohrok Kalifornication" },
+                { "...You Wake Them All": "Bohrok Counterattack" },
+                { "Bohrok Kaita Za": "Bohrok Counterattack" },
+                { "Bahrag Cahdok, Queen of the Bohrok": "Bohrok Counterattack" },
+                { "Bohrok Va Kaita Za": "Bahrag Gahdok, Queen of the Bohrok" },
+                { "Bohrok Va Kaita Ja": "Bahrag Cahdok, Queen of the Bohrok" }
             ]
         }
     },
