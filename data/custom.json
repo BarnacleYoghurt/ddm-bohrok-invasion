@@ -1059,7 +1059,7 @@
         "name": "Heroes Assembled",
         "type": "Boon",
         "attribute": "SPELL",
-        "desc": "If only your opponent controls a monster: Discard 1 \"Toa Mata\" monster or 1 \"Kanohi\" Equip Spell; add 2 \"Toa Mata\" monsters and/or \"Kanohi\" Equip Spells from your Deck and/or banishment to your hand, including a card that either mentions, or is mentioned on, the discarded card, then discard 1 card.\nYou can only activate 1 \"Heroes Assembled\" per turn.",
+        "desc": "If only your opponent controls a monster: Discard 1 \"Toa Mata\" monster or 1 \"Kanohi\" Equip Spell; add 2 \"Toa Mata\" monsters and/or \"Kanohi\" Equip Spells from your Deck and/or banishment to your hand, including a card that either mentions, or is mentioned on, the discarded card, then discard 2 cards.\nYou can only activate 1 \"Heroes Assembled\" per turn.",
         "credits": "The LEGO Group"
     },
     {
