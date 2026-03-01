@@ -528,9 +528,6 @@
                     "name": "Tutorial"
                 },
                 {
-                    "text": "A brief overview on the key features of the Toa Mata archetype."
-                },
-                {
                     "char": "tut1", "src": "tutorialToaMata.webp",
                     "text": "All six main monsters are Level 6 Warriors spread over the FIRE, WATER, EARTH, and WIND Attributes. Despite their Level, they can be Normal Summoned even on an empty field, by Tributing another monster in your hand that either matches in Attribute or is also a Toa Mata."
                 },
@@ -564,9 +561,6 @@
             "parts": [
                 {
                     "name": "Tutorial"
-                },
-                {
-                    "text": "A brief overview on the key features of the Bohrok archetype."
                 },
                 {
                     "char": "tut1", "src": "tutorialBohrok.webp",
@@ -610,6 +604,32 @@
                     "desc": "Clean it all. It must be cleaned.\n\nStraightforward, consistent engine of Flip Monsters that natively provide swarming, removal, and recycling - slow to get going, but highly resilient once in motion."
                 }
             ]
+        },
+        "toaTut": {
+            "title": "Would you like a brief overview on the key features of the Toa Mata archetype?",
+            "list": [
+                {
+                    "name": "Yes", "img": "AkakuYes.webp", "chain": "text:toaTut",
+                    "desc": "Yes, give me the tutorial."
+                },
+                {
+                    "name": "No", "img": "KakamaSkip.webp",
+                    "desc": "No, skip it."
+                }
+            ]
+        },
+        "bohrokTut": {
+            "title": "Would you like a brief overview on the key features of the Bohrok archetype?",
+            "list": [
+                {
+                    "name": "Yes", "img": "XaYes.webp", "chain": "text:bohrokTut",
+                    "desc": "Yes, give me the tutorial."
+                },
+                {
+                    "name": "No", "img": "VuSkip.webp",
+                    "desc": "No, skip it."
+                }
+            ]
         }
     },
     "pack": {
@@ -624,7 +644,7 @@
         "toaPlus": {
             "micon": "toa.webp",
             "mdesc": "Pack: Toa Mata & Kanohi",
-            "chain": "text:toaTut",
+            "chain": "choice:toaTut",
             "composes": [
                 "toaPlus"
             ]
@@ -640,7 +660,7 @@
         "bohrokPlus": {
             "micon": "bohrok.webp",
             "mdesc": "Pack: Bohrok & Krana",
-            "chain": "text:bohrokTut",
+            "chain": "choice:bohrokTut",
             "composes": [
                 "bohrokPlus"
             ]
