@@ -65,14 +65,6 @@
         ],
         "shows": 26
     },
-    "charmers": {
-        "card": [
-            { "Wynn the Wind Charmer, Verdant": 1 },
-            { "Hiita the Fire Charmer, Ablaze": 1 },
-            { "Eria the Water Charmer, Gentle": 1 },
-            { "Aussa the Earth Charmer, Immovable": 1 }
-        ]
-    },
     "kanohi": {
         "card": [
             { "Great Kanohi Hau": 1},
