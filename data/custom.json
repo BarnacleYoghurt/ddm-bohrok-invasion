@@ -1059,14 +1059,14 @@
         "name": "Heroes Assembled",
         "type": "Boon",
         "attribute": "SPELL",
-        "desc": "If only your opponent controls a monster: Discard 1 \"Toa Mata\" monster or 1 \"Kanohi\" Equip Spell; add 2 \"Toa Mata\" monsters and/or \"Kanohi\" Equip Spells from your Deck and/or banishment to your hand, including a card that either mentions, or is mentioned on, the discarded card, then discard 2 cards.\nYou can only activate 1 \"Heroes Assembled\" per turn.",
+        "desc": "If your opponent controls more monsters than you do: Send 1 \"Toa Mata\" monster or 1 \"Kanohi\" Equip Spell from your hand or field to the GY; add 2 \"Toa Mata\" monsters and/or \"Kanohi\" Equip Spells from your Deck and/or banishment to your hand, including a card that either mentions, or is mentioned on, the sent card, then discard 2 cards.\nYou can only activate 1 \"Heroes Assembled\" per turn.",
         "credits": "The LEGO Group"
     },
     {
         "name": "Queen's Gambit",
         "type": "Boon",
         "attribute": "TRAP",
-        "desc": "If a \"Bohrok\" monster or a face-down monster you control is destroyed by battle, or leaves the field because of an opponent's card effect: Activate 1 of these effects, or you can Tribute 1 \"Bohrok\" monster from your hand or field and activate 2, in sequence; \n● Banish 1 card on the field.\n● Add 1 \"Bohrok\" or \"Krana\" card from your Deck or banishment to your hand.\n● Return this card to the Extra Deck.\nYou can only activate 1 \"Queen's Gambit\" per turn.",
+        "desc": "If a face-down monster you control leaves the field because of an opponent's card effect, while your opponent controls more monsters than you do: Activate 1 of these effects, or you can Tribute 1 \"Bohrok\" monster from your hand or field and activate 2, in sequence; \n● Send 1 card on the field to the GY.\n● Add 1 \"Bohrok\" or \"Krana\" card from your Deck or banishment to your hand.\n● Return this card to the Extra Deck.\nYou can only activate 1 \"Queen's Gambit\" per turn.",
         "credits": "The LEGO Group"
     }
 ]
